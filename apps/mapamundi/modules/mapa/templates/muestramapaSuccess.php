@@ -72,7 +72,7 @@ function latlon($pais){
         });
         
         var marker<?php echo $pais->getIdPais();?> = new google.maps.Marker({
-            position: new google.maps.LatLng(<?php echo latlon($pais->getIdPais())?>),
+            position: new google.maps.LatLng(<?php echo latlon($pais->getPais())?>),
                 map: map,
                 title:"<?php echo $pais->getPais();?>",
                 icon: 'http://imageshack.us/a/img18/5693/telesur.png'
