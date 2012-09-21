@@ -24,9 +24,9 @@ all:
     class:        sfPropelDatabase
     param:
       classname:  PropelPDO
-      dsn:        pgsql:dbname=marditasea;host=localhost
-      username:   marditasea
-      password:   marditasea
+      dsn:        pgsql:dbname=Telesur;host=localhost
+      username:   postgres
+      password:   ..*t3l35ur*..
       encoding:   utf8
       persistent: true
       pooling:    true
