@@ -17,7 +17,7 @@ class usuariosActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-      $this->setLayout('layout_limpio');
+     // $this->setLayout('layout_limpio');
   }
   
   public function executeFormulario_ingreso(sfWebRequest $request)
