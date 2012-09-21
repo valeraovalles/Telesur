@@ -1,0 +1,4 @@
+*.php~
+*.yml~
+config/schema.yml
+cache
