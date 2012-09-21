@@ -10,7 +10,7 @@
                         <li><a href="<?php echo url_for('ubicaciones/index')?>"><span>Ubicaciones</span></a></li>
                         <?php if ($sf_user->isSuperAdmin()){?>
                         <li><a href="<?php echo url_for('equiposdetransmision/index')?>"><span>Equipos Transmisión</span></a></li>                    
-                    <?php }}?>
+                        <?php }?>
            
                  </ul></div>
             </li>
