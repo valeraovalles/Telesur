@@ -79,7 +79,7 @@ function latlon($pais){
         });
 
         google.maps.event.addListener(marker<?php echo $pais->getIdPais();?>,'click', function() {
-                infowindow<?php echo $pais->getIdPais();?>.open(map,marker<?php echo $pais->getPais();?>);
+                infowindow<?php echo $pais->getIdPais();?>.open(map,marker<?php echo $pais->getIdPais();?>);
         });
 
     <?php }?>
