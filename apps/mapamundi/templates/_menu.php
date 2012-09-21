@@ -3,7 +3,7 @@
         <li><a href="<?php echo url_for('mapa/inicio')?>"><span>INICIO</span></a></li>
         <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
         
-        <?php if($sf_user->hasCredential('admin_mapa')){?>
+        <?php if($sf_user->hasCredential('mapa_admin')){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
                 <div><ul>
                     <?php if($sf_user->isSuperAdmin()){ ?>
