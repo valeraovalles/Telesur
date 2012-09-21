@@ -1,6 +1,6 @@
 <div id="menu">
     <ul class="menu">
-        <li><a href="<?php echo url_for('solicitud/index')?>"><span>INICIO</span></a></li>
+        <li><a href="<?php echo url_for('prestaciones/index')?>"><span>INICIO</span></a></li>
         <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
         
         <?php if($sf_user->hasCredential('transporte_gestion_tr') || $sf_user->hasCredential('transporte_gestion_co') || $sf_user->isSuperAdmin()){?>
