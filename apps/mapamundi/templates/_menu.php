@@ -6,7 +6,7 @@
         <?php if($sf_user->hasCredential('mapa_admin')){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
                 <div><ul>
-                    <?php if($sf_user->isSuperAdmin()){ ?>
+                
                         <li><a href="<?php echo url_for('ubicaciones/index')?>"><span>Ubicaciones</span></a></li>
                         <?php if ($sf_user->isSuperAdmin()){?>
                         <li><a href="<?php echo url_for('equiposdetransmision/index')?>"><span>Equipos Transmisión</span></a></li>                    
