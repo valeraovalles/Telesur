@@ -1,5 +1,8 @@
+
+
+
 <table class="crud_form select200" cellpadding="10px">
-    <?php if($datos==1){?>
+    <?php if($datos==1){ ?>
         <tr>
             <th>Asignar ticket</th>
             <td>

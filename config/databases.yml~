@@ -24,9 +24,9 @@ all:
     class:        sfPropelDatabase
     param:
       classname:  PropelPDO
-      dsn:        pgsql:dbname=Telesur;host=localhost
-      username:   postgres
-      password:   postgres
+      dsn:        mysql:dbname=Telesur;host=localhost
+      username:   root
+      password:   
       encoding:   utf8
       persistent: true
       pooling:    true
