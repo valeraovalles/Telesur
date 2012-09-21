@@ -1,4 +1,6 @@
 *.php~
 *.yml~
 config/schema.yml
+config/propel.ini
+config/databases.yml
 cache
