@@ -1,7 +1,5 @@
 *.php~
 *.yml~
-config/schema.yml
-config/propel.ini
-config/databases.yml
+config/*
 log/*
 cache/*
