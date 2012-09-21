@@ -59,11 +59,9 @@
 		<a href="/Telesur/web/estudios.php">Pautas de estudios<br><img src="<?php echo image_path("estudios/estudio.jpg")?>"></a><br>
 	</div>
     
-        <?php if($sf_user->hasCredential('app_mapamundi')){?>
     	<div class="listado_aplicaciones">
 		<a href="/Telesur/web/mapamundi.php">MapaMundi<br><img src="<?php echo image_path("mapamundi/mapamundi.jpg")?>"></a><br>
 	</div>
-        <?php }?>
     
         <!--
         <?php //if($sf_user->hasCredential('app_personal')){?>
