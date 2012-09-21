@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="EN" target-language="ES" datatype="plaintext">
+    <header />
+    <body>
+      <!-- Actions -->
+      <trans-unit>
+        <source>New</source>
+        <target>Nuevo</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Edit</source>
+        <target>Editar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Delete</source>
+        <target>Borrar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>List</source>
+        <target>Listado</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Save and add</source>
+        <target>Guardar y crear otro</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Cancel</source>
+        <target>Cancelar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Choose an action</source>
+        <target>Elija uno</target>
+      </trans-unit>
+      <trans-unit>
+        <source>go</source>
+        <target>Aplicar</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Show</source>
+        <target>Ver</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Name</source>
+        <target>Nombre</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Permission list</source>
+        <target>Lista de Permisos</target>
+      </trans-unit>
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Filters -->
+      <trans-unit>
+        <source>Reset</source>
+        <target>Restablecer</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Filter</source>
+        <target>Filtrar</target>
+      </trans-unit>
+
+      <!-- List -->
+      <trans-unit>
+        <source>No result</source>
+        <target>Sin resultados</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Actions</source>
+        <target>Acciones</target>
+      </trans-unit>
+      <trans-unit>
+        <source>(page %%page%%/%%nb_pages%%)</source>
+        <target>(página %%page%%/%%nb_pages%%)</target>
+      </trans-unit>
+      <trans-unit>
+        <source>asc</source>
+        <target>asc</target>
+      </trans-unit>
+      <trans-unit>
+        <source>desc</source>
+        <target>desc</target>
+      </trans-unit>
+
+      <!-- Pagination -->
+      <trans-unit>
+        <source>First page</source>
+        <target>Primera página</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Previous page</source>
+        <target>Página anterior</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Next page</source>
+        <target>Página siguiente</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Last page</source>
+        <target>Última página</target>
+      </trans-unit>
+      <trans-unit>
+        <source>results</source>
+        <target>resultados</target>
+      </trans-unit>
+      <trans-unit>
+        <source>result</source>
+        <target>resultado</target>
+      </trans-unit>
+
+      <!-- Form -->
+      <trans-unit>
+        <source>The item was created successfully.</source>
+        <target>El elemento se ha creado correctamente.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was updated successfully.</source>
+        <target>El elemento se ha actualizado correctamente.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was created successfully. You can add another one below.</source>
+        <target>El elemento se ha creado correctamente y ahora puedes crear otro elemento.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was updated successfully. You can add another one below.</source>
+        <target>El elemento se ha actualizado correctamente y ahora puedes crear otro elemento.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The item has not been saved due to some errors.</source>
+        <target>El elemento no se ha guardado porque se ha producido algún error.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>The item was deleted successfully.</source>
+        <target>El elemento se ha borrado correctamente.</target>
+      </trans-unit>
+      <trans-unit>
+      	<source>Filters</source>
+      	<target>Buscar</target></trans-unit>
+      <trans-unit>
+      	<source>Actions</source>
+      	<target>Acciones</target></trans-unit>
+      <trans-unit>
+      	<source>Filter</source>
+      	<target>Buscar</target></trans-unit>
+      <trans-unit>
+      	<source>Reset</source>
+      	<target>Reestablecer</target></trans-unit>      	
+      <trans-unit>
+      	<source>Choose one</source>
+      	<target>Seleccione uno</target></trans-unit>
+      <trans-unit>
+      	<source>yes</source>
+      	<target>sí</target></trans-unit>
+      <trans-unit>
+      	<source>yes or no</source>
+      	<target>sí o no</target></trans-unit>
+      <trans-unit>
+        <source>Are you sure?</source>
+        <target>¿Estás seguro?</target></trans-unit>
+      <trans-unit>
+        <source>Back to List</source>
+        <target>Volver</target></trans-unit>
+	<trans-unit>
+	  <source>The username and/or password is invalid.</source>
+        <target>Nombre de usuario o contraseña inválido</target></trans-unit>
+	<trans-unit>
+        <source>Required.</source>
+        <target>Campo requerido</target></trans-unit>
+	<trans-unit>
+        <source>sign in</source>
+        <target>iniciar sesión</target></trans-unit>
+	<trans-unit>
+        <source>is empty </source>
+        <target>vacio</target></trans-unit> 
+        
+     <trans-unit>
+        <source>Permission list</source>
+        <target>Lista de Permisos</target>
+      </trans-unit>
+      
+      <trans-unit>
+        <source>New Permission</source>
+        <target>Nuevo Permiso</target>
+      </trans-unit>    	
+    </body>
+  </file>
+</xliff>

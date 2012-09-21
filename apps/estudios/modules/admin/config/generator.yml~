@@ -1,0 +1,46 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_propel_route:     1
+
+    config:
+      fields:
+        password: { label: "Clave" }
+        password_again: { label: "Clave (nuevamente)" }
+        username: { label: "Nombre de usuario"}
+        created_at: {label:"Creado"}
+        last_login: { label: "Ultimo acceso"}
+        is_active: { label: "Esta activo" }
+        is_super_admin:  { label: "Administrador"}
+        sf_guard_user_permission_list: { label: "Permisos"}
+        sf_guard_user_group_list: { label: "Grupos"}
+
+      list:
+        title:   Lista de Usuarios
+        display: [=username, last_login]
+        max_per_page: 10
+
+      form:
+        class: sfGuardUserAdminForm
+        display:
+          "NONE":              [username,password,password_again,nombre1,nombre2,apellido1,apellido2,cedula,id_cargo,id_dependencia,sexo,nacionalidad,fecha_nacimiento,extension,hora_entrada,hora_salida]
+          "Permisos y Grupos": [is_active, is_super_admin, sf_guard_user_group_list]
+      
+      filter:
+        display: [username,is_super_admin,sf_guard_user_permission_list,sf_guard_user_group_list]
+
+      edit:
+        title: Editando Usuario "%%username%%"
+      
+      new:
+        title: Nuevo Usuario
+
+
+

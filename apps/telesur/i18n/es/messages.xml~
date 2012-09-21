@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2008-12-31T00:23:04Z" product-name="messages.es">
+    <header/>
+    <body>
+	<trans-unit>
+        <source>Username</source>
+        <target>Usuario</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>Password</source>
+        <target>Clave</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>Remember</source>
+        <target>Recordar</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>Required.</source>
+        <target>Campo requerido</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>Invalid.</source>
+        <target>Inválido</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>The username and/or password is invalid.</source>
+        <target>El usuario o clave son incorrectos</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>You don't have the required permission to access this page.</source>
+        <target>NO TIENE PERMISOS PARA ACCEDER A ESTE MODULO</target>
+	</trans-unit>
+
+	<trans-unit>
+        <source>csrf token: CSRF attack detected.</source>
+        <target>Ataque detectado</target>
+	</trans-unit>
+
+    </body>
+  </file>
+</xliff>

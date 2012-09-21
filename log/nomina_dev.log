@@ -1,0 +1,1041 @@
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:45:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:45:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:45:04 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:45:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:45:04 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:45:04 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:45:04 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:45:04 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:45:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:45:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:45:04 symfony [info] {sfWebDebugLogger} Configuration 275.82 ms (9)
+jul 11 09:45:04 symfony [info] {sfWebDebugLogger} Factories 212.45 ms (1)
+jul 11 09:45:04 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.36 ms (1)
+jul 11 09:45:04 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 14.14 ms (1)
+jul 11 09:45:04 symfony [info] {sfWebResponse} Send content (42683 o)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:45:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:45:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:45:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:45:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:45:14 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:45:14 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:45:14 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:45:14 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:45:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:45:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:45:14 symfony [info] {sfWebDebugLogger} Configuration 273.26 ms (9)
+jul 11 09:45:14 symfony [info] {sfWebDebugLogger} Factories 113.44 ms (1)
+jul 11 09:45:14 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.16 ms (1)
+jul 11 09:45:14 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 10.28 ms (1)
+jul 11 09:45:14 symfony [info] {sfWebResponse} Send content (42715 o)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:53:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:53:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:53:03 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:53:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:53:03 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:53:03 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:53:14 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:53:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:53:14 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:53:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:53:14 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:53:14 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:53:14 symfony [notice] {sfWebDebugLogger}  Notice at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php on line 10 (Undefined variable: i)
+jul 11 09:53:14 symfony [notice] {sfWebDebugLogger}  Notice at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php on line 10 (Undefined variable: i)
+jul 11 09:53:14 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:53:14 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:53:14 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:53:14 symfony [debug] {sfPropelLogger} time:  0.005 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:53:14 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:53:14 symfony [debug] {sfPropelLogger} time:  0.008 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:53:14 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:53:14 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:53:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:53:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:53:14 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+jul 11 09:53:14 symfony [info] {sfWebDebugLogger} Factories 34.71 ms (1)
+jul 11 09:53:14 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.18 ms (1)
+jul 11 09:53:14 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 208.17 ms (1)
+jul 11 09:53:14 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 16.12 ms (1)
+jul 11 09:53:14 symfony [info] {sfWebResponse} Send content (56487 o)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:53:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:53:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:53:42 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:53:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:53:42 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:53:42 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:53:42 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:53:42 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:53:42 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:53:42 symfony [debug] {sfPropelLogger} time:  0.005 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:53:42 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:53:42 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:53:42 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:53:42 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:53:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:53:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:53:42 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+jul 11 09:53:42 symfony [info] {sfWebDebugLogger} Factories 50.64 ms (1)
+jul 11 09:53:42 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.44 ms (1)
+jul 11 09:53:42 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 193.31 ms (1)
+jul 11 09:53:42 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 9.36 ms (1)
+jul 11 09:53:42 symfony [info] {sfWebResponse} Send content (56182 o)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:54:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:54:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:54:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:54:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:54:01 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:54:01 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:54:01 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:01 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:01 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:54:01 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:54:01 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:54:01 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:54:01 symfony [debug] {sfPropelLogger} time:  0.006 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:54:01 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:54:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:54:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:54:01 symfony [info] {sfWebDebugLogger} Configuration 1.64 ms (9)
+jul 11 09:54:01 symfony [info] {sfWebDebugLogger} Factories 32.55 ms (1)
+jul 11 09:54:01 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.19 ms (1)
+jul 11 09:54:01 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 205.78 ms (1)
+jul 11 09:54:01 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 24.53 ms (1)
+jul 11 09:54:01 symfony [info] {sfWebResponse} Send content (56171 o)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:54:17 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:54:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:54:17 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:54:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:54:17 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:54:17 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:54:17 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:17 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:17 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:54:17 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:54:17 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:54:17 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:54:17 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:54:17 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:54:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:54:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:54:17 symfony [info] {sfWebDebugLogger} Configuration 1.81 ms (9)
+jul 11 09:54:17 symfony [info] {sfWebDebugLogger} Factories 36.80 ms (1)
+jul 11 09:54:17 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.17 ms (1)
+jul 11 09:54:17 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 180.28 ms (1)
+jul 11 09:54:17 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 14.86 ms (1)
+jul 11 09:54:17 symfony [info] {sfWebResponse} Send content (56221 o)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:54:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:54:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:54:40 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:54:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:54:40 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:54:40 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:54:40 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:40 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:54:40 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:54:40 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:54:40 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:54:40 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:54:40 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:54:40 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:54:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:54:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:54:40 symfony [info] {sfWebDebugLogger} Configuration 1.56 ms (9)
+jul 11 09:54:40 symfony [info] {sfWebDebugLogger} Factories 32.51 ms (1)
+jul 11 09:54:40 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.20 ms (1)
+jul 11 09:54:40 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 250.94 ms (1)
+jul 11 09:54:40 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 8.45 ms (1)
+jul 11 09:54:40 symfony [info] {sfWebResponse} Send content (56540 o)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:55:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:55:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:55:01 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:55:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:55:01 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:55:01 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:55:01 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:55:01 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:55:01 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:55:01 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:55:01 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:55:01 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:55:01 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:55:01 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:55:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:55:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:55:01 symfony [info] {sfWebDebugLogger} Configuration 1.39 ms (9)
+jul 11 09:55:01 symfony [info] {sfWebDebugLogger} Factories 73.82 ms (1)
+jul 11 09:55:01 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.18 ms (1)
+jul 11 09:55:01 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 213.48 ms (1)
+jul 11 09:55:01 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 7.65 ms (1)
+jul 11 09:55:01 symfony [info] {sfWebResponse} Send content (56587 o)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:55:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:55:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:55:43 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:55:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:55:43 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:55:43 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:55:43 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:55:43 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:55:44 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:55:44 symfony [debug] {sfPropelLogger} time:  0.005 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:55:44 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:55:44 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:55:44 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:55:44 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:55:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:55:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:55:44 symfony [info] {sfWebDebugLogger} Configuration 2.06 ms (9)
+jul 11 09:55:44 symfony [info] {sfWebDebugLogger} Factories 36.34 ms (1)
+jul 11 09:55:44 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.29 ms (1)
+jul 11 09:55:44 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 171.66 ms (1)
+jul 11 09:55:44 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 9.41 ms (1)
+jul 11 09:55:44 symfony [info] {sfWebResponse} Send content (56621 o)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:56:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:56:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:56:05 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:56:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:56:05 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:56:05 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:56:05 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:05 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:05 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:56:05 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:56:05 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:56:05 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:56:06 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:56:06 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:56:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:56:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:56:06 symfony [info] {sfWebDebugLogger} Configuration 1.57 ms (9)
+jul 11 09:56:06 symfony [info] {sfWebDebugLogger} Factories 34.15 ms (1)
+jul 11 09:56:06 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.31 ms (1)
+jul 11 09:56:06 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 176.57 ms (1)
+jul 11 09:56:06 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 13.18 ms (1)
+jul 11 09:56:06 symfony [info] {sfWebResponse} Send content (56641 o)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:56:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:56:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:56:19 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:56:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:56:19 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:56:19 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:56:19 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:19 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:19 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:56:19 symfony [debug] {sfPropelLogger} time:  0.008 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:56:19 symfony [debug] {sfPropelLogger} time:  0.010 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:56:19 symfony [debug] {sfPropelLogger} time:  0.009 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:56:19 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:56:19 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:56:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:56:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:56:19 symfony [info] {sfWebDebugLogger} Configuration 1.63 ms (9)
+jul 11 09:56:19 symfony [info] {sfWebDebugLogger} Factories 41.97 ms (1)
+jul 11 09:56:19 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.18 ms (1)
+jul 11 09:56:19 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 233.18 ms (1)
+jul 11 09:56:19 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 11.41 ms (1)
+jul 11 09:56:19 symfony [info] {sfWebResponse} Send content (56641 o)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:56:29 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:56:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:56:29 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:56:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:56:29 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:56:29 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:56:29 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:29 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:56:29 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:56:29 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:56:29 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:56:29 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:56:29 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:56:29 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:56:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:56:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:56:29 symfony [info] {sfWebDebugLogger} Configuration 19.95 ms (9)
+jul 11 09:56:29 symfony [info] {sfWebDebugLogger} Factories 51.79 ms (1)
+jul 11 09:56:29 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.16 ms (1)
+jul 11 09:56:29 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 245.68 ms (1)
+jul 11 09:56:29 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 7.27 ms (1)
+jul 11 09:56:29 symfony [info] {sfWebResponse} Send content (56641 o)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:58:26 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:58:26 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:58:26 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:58:26 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:58:26 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:58:26 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:58:26 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:58:26 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:58:26 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:58:26 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:58:26 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:58:26 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:58:26 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:58:26 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:58:26 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:58:26 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:58:26 symfony [info] {sfWebDebugLogger} Configuration 1.69 ms (9)
+jul 11 09:58:26 symfony [info] {sfWebDebugLogger} Factories 40.08 ms (1)
+jul 11 09:58:26 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.16 ms (1)
+jul 11 09:58:26 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 176.86 ms (1)
+jul 11 09:58:26 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 15.81 ms (1)
+jul 11 09:58:26 symfony [info] {sfWebResponse} Send content (57146 o)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 11 09:59:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 11 09:59:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 11 09:59:52 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 11 09:59:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 11 09:59:52 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 11 09:59:52 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 11 09:59:52 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:59:52 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 11 09:59:52 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 11 09:59:52 symfony [debug] {sfPropelLogger} time:  0.008 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 11 09:59:52 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 11 09:59:52 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 11 09:59:52 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 11 09:59:52 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 11 09:59:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 11 09:59:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 11 09:59:52 symfony [info] {sfWebDebugLogger} Configuration 1.46 ms (9)
+jul 11 09:59:52 symfony [info] {sfWebDebugLogger} Factories 34.06 ms (1)
+jul 11 09:59:52 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.15 ms (1)
+jul 11 09:59:52 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 208.38 ms (1)
+jul 11 09:59:52 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 7.19 ms (1)
+jul 11 09:59:52 symfony [info] {sfWebResponse} Send content (57248 o)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:07:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /prestaciones/generartxt with parameters array (  'module' => 'prestaciones',  'action' => 'generartxt',)
+jul 13 11:07:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:07:28 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:07:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:07:28 symfony [info] {prestacionesActions} Call "prestacionesActions->executeGenerartxt()"
+jul 13 11:07:28 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php"
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:07:42 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /prestaciones/generartxt with parameters array (  'module' => 'prestaciones',  'action' => 'generartxt',)
+jul 13 11:07:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:07:42 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:07:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:07:42 symfony [info] {prestacionesActions} Call "prestacionesActions->executeGenerartxt()"
+jul 13 11:07:42 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php"
+jul 13 11:07:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 42 (oci_execute(): ORA-00936: falta una expresion)
+jul 13 11:07:42 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 48 (oci_fetch_array(): ORA-24374: definicion no realizada antes de recuperar o de ejecutar y recuperar)
+jul 13 11:07:42 symfony [notice] {sfWebDebugLogger}  Notice at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 173 (Undefined variable: nombre_archivo)
+jul 13 11:07:42 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:07:42 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:07:43 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 13 11:07:43 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 13 11:07:43 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 13 11:07:43 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 13 11:07:43 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 13 11:07:43 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 13 11:07:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 13 11:07:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 13 11:07:43 symfony [info] {sfWebDebugLogger} Configuration 1.84 ms (9)
+jul 13 11:07:43 symfony [info] {sfWebDebugLogger} Factories 127.03 ms (1)
+jul 13 11:07:43 symfony [info] {sfWebDebugLogger} Action "prestaciones/generartxt" 0.32 ms (1)
+jul 13 11:07:43 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/generartxt" 1028.77 ms (1)
+jul 13 11:07:43 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 6.59 ms (1)
+jul 13 11:07:43 symfony [info] {sfWebResponse} Send content (56667 o)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:08:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /prestaciones/generartxt with parameters array (  'module' => 'prestaciones',  'action' => 'generartxt',)
+jul 13 11:08:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:08:02 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:08:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:08:02 symfony [info] {prestacionesActions} Call "prestacionesActions->executeGenerartxt()"
+jul 13 11:08:02 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php"
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:08:08 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /prestaciones/generartxt with parameters array (  'module' => 'prestaciones',  'action' => 'generartxt',)
+jul 13 11:08:08 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:08:08 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:08:08 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:08:08 symfony [info] {prestacionesActions} Call "prestacionesActions->executeGenerartxt()"
+jul 13 11:08:08 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php"
+jul 13 11:08:08 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 42 (oci_execute(): ORA-00936: falta una expresion)
+jul 13 11:08:08 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 48 (oci_fetch_array(): ORA-24374: definicion no realizada antes de recuperar o de ejecutar y recuperar)
+jul 13 11:08:08 symfony [notice] {sfWebDebugLogger}  Notice at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 173 (Undefined variable: nombre_archivo)
+jul 13 11:08:08 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:08:08 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:08:09 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 13 11:08:09 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 13 11:08:09 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 13 11:08:09 symfony [debug] {sfPropelLogger} time:  0.005 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 13 11:08:09 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 13 11:08:09 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 13 11:08:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 13 11:08:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 13 11:08:09 symfony [info] {sfWebDebugLogger} Configuration 1.48 ms (9)
+jul 13 11:08:09 symfony [info] {sfWebDebugLogger} Factories 42.48 ms (1)
+jul 13 11:08:09 symfony [info] {sfWebDebugLogger} Action "prestaciones/generartxt" 0.39 ms (1)
+jul 13 11:08:09 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/generartxt" 1024.00 ms (1)
+jul 13 11:08:09 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 9.39 ms (1)
+jul 13 11:08:09 symfony [info] {sfWebResponse} Send content (56666 o)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:08:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /prestaciones/generartxt with parameters array (  'module' => 'prestaciones',  'action' => 'generartxt',)
+jul 13 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:08:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:08:36 symfony [info] {prestacionesActions} Call "prestacionesActions->executeGenerartxt()"
+jul 13 11:08:36 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php"
+jul 13 11:08:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 42 (oci_execute(): ORA-00936: falta una expresion)
+jul 13 11:08:37 symfony [warning] {sfWebDebugLogger}  Warning at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 48 (oci_fetch_array(): ORA-24374: definicion no realizada antes de recuperar o de ejecutar y recuperar)
+jul 13 11:08:37 symfony [notice] {sfWebDebugLogger}  Notice at /home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/generartxtSuccess.php on line 173 (Undefined variable: nombre_archivo)
+jul 13 11:08:37 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:08:37 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:08:37 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 13 11:08:37 symfony [debug] {sfPropelLogger} time:  0.004 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 13 11:08:37 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 13 11:08:37 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 13 11:08:37 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 13 11:08:37 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 13 11:08:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 13 11:08:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 13 11:08:37 symfony [info] {sfWebDebugLogger} Configuration 1.41 ms (9)
+jul 13 11:08:37 symfony [info] {sfWebDebugLogger} Factories 91.92 ms (1)
+jul 13 11:08:37 symfony [info] {sfWebDebugLogger} Action "prestaciones/generartxt" 0.23 ms (1)
+jul 13 11:08:37 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/generartxt" 1209.33 ms (1)
+jul 13 11:08:37 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 6.81 ms (1)
+jul 13 11:08:37 symfony [info] {sfWebResponse} Send content (56666 o)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+Jul 13 11:20:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'prestaciones',  'action' => 'index',)
+jul 13 11:20:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+jul 13 11:20:23 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+jul 13 11:20:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+jul 13 11:20:23 symfony [info] {prestacionesActions} Call "prestacionesActions->executeIndex()"
+jul 13 11:20:23 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/modules/prestaciones/templates/indexSuccess.php"
+jul 13 11:20:23 symfony [info] {sfPHPView} Decorate content with "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:20:23 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/layout.php"
+jul 13 11:20:23 symfony [debug] {sfPropelLogger} time:  0.001 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SET NAMES 'utf8'
+jul 13 11:20:23 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    2.8 MB | mempeak:    2.8 MB | memdelta:      0.0 B | SELECT sf_guard_user.ID, sf_guard_user.USERNAME, sf_guard_user.ALGORITHM, sf_guard_user.SALT, sf_guard_user.PASSWORD, sf_guard_user.CREATED_AT, sf_guard_user.LAST_LOGIN, sf_guard_user.IS_ACTIVE, sf_guard_user.IS_SUPER_ADMIN FROM sf_guard_user WHERE sf_guard_user.ID=395
+jul 13 11:20:23 symfony [debug] {sfPropelLogger} time:  0.003 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT sf_guard_user_profile.USER_ID, sf_guard_user_profile.ID_DEPENDENCIA, sf_guard_user_profile.ID_CARGO, sf_guard_user_profile.NOMBRE1, sf_guard_user_profile.NOMBRE2, sf_guard_user_profile.APELLIDO1, sf_guard_user_profile.APELLIDO2, sf_guard_user_profile.CEDULA, sf_guard_user_profile.SEXO, sf_guard_user_profile.NACIONALIDAD, sf_guard_user_profile.FECHA_NACIMIENTO, sf_guard_user_profile.EXTENSION, sf_guard_user_profile.FECHA_INGRESO, sf_guard_user_profile.HORA_ENTRADA, sf_guard_user_profile.HORA_SALIDA FROM sf_guard_user_profile WHERE sf_guard_user_profile.USER_ID=395 LIMIT 1
+jul 13 11:20:23 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.0 MB | mempeak:    3.0 MB | memdelta:      0.0 B | SELECT tsur_cargos.ID_CARGO, tsur_cargos.DESCRIPCION FROM tsur_cargos WHERE tsur_cargos.ID_CARGO=586
+jul 13 11:20:23 symfony [debug] {sfPropelLogger} time:  0.002 sec | slow:  NO | mem:    3.3 MB | mempeak:    3.3 MB | memdelta:      0.0 B | SELECT tsur_dependencias.ID_DEPENDENCIA, tsur_dependencias.DESCRIPCION FROM tsur_dependencias WHERE tsur_dependencias.ID_DEPENDENCIA=22
+jul 13 11:20:23 symfony [info] {sfPartialView} Render "/home/jhoan/www/Telesur/apps/nomina/templates/_menu.php"
+jul 13 11:20:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+jul 13 11:20:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+jul 13 11:20:23 symfony [info] {sfWebDebugLogger} Configuration 1.76 ms (9)
+jul 13 11:20:23 symfony [info] {sfWebDebugLogger} Factories 45.73 ms (1)
+jul 13 11:20:23 symfony [info] {sfWebDebugLogger} Action "prestaciones/index" 0.32 ms (1)
+jul 13 11:20:23 symfony [info] {sfWebDebugLogger} View "Success" for "prestaciones/index" 161.10 ms (1)
+jul 13 11:20:23 symfony [info] {sfWebDebugLogger} Partial "global/_menu" 8.07 ms (1)
+jul 13 11:20:23 symfony [info] {sfWebResponse} Send content (57932 o)

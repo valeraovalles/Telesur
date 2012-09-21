@@ -1,0 +1,66 @@
+/*TABLA PRINCIPAL LISTA*/
+
+.tabla_list{
+width: 800px;
+font-size: 12px;
+border: 1px solid #DDDDDD;
+text-align: left;
+}
+
+.tabla_list tr td{
+border:0;
+border-top: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+}
+
+.tabla_list th{
+text-align: left;
+background-color: #E7EEF6;
+}
+
+
+/*PAGINACION*/
+
+.crud_pagina{
+width:80%;
+background-color: #E7EEF6;
+font-weight: bold;
+}
+
+
+
+/*FORMULARIO PARA EDITAR Y ELIMINAR*/
+
+.crud_form{
+font-size: 12px;
+border: 1px solid #DDDDDD;
+}
+
+.crud_form .caja{
+width: 80%;
+}
+
+.crud_form th{
+text-align: right;
+border:0;
+border-top: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+background-color: #E7EEF6;
+width: 40%;
+}
+
+.crud_form tr td{
+border:0;
+border-top: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+text-align: left;
+}
+
+
+.crud_filter th{
+text-align: right;
+font-size: 12px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/general.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/menu.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/crud.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/tcal.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/licencias.css" />
+    <script type="text/javascript" src="/Telesur/web/js/jquery.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/menu.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/funciones.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/tcal.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/ajax.js"></script>
+    <link rel="shortcut icon" href="/principal/web/favicon.ico" />
+  </head>
+  <body>
+  	<div align="center">
+  		<div class="contenedor">
+  			<div class="banner"></div>
+                    		
+  			<div style="color: #494949;font-weight: bold;">
+                                <marquee>
+                                    Ingresa con el mismo usuario y clave de tu correo electronico Zimbra &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Se recomienda el uso de Mozilla Firefox
+                                </marquee>
+                        </div>
+  			
+  			<br></br>
+  					
+  			<div class="contenido"><form action="/Telesur/web/licencias.php/login" method="post">
+  <table class="login" id="notif" cellpadding=5 cellspacing=1 width="300px">
+   	<tr><td colspan="2" class="titulo">INGRESE USUARIO Y CLAVE</td></tr>
+    <tr>
+  <th><label for="signin_username">Usuario</label></th>
+  <td><input type="text" name="signin[username]" id="signin_username" /></td>
+</tr>
+<tr>
+  <th><label for="signin_password">Clave</label></th>
+  <td><input type="password" name="signin[password]" id="signin_password" /><input type="hidden" name="signin[_csrf_token]" value="0dce6a12c8669d4c5fe5597c3a94a01a" id="signin__csrf_token" /></td>
+</tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" class="boton" value="Ingresar" style="width: 120px;"/>
+            </td>
+        </tr>
+  </table> 
+
+<br>
+<div style="height: 150px;text-align: top;">
+
+	
+	
+</div>
+
+</form>
+
+<script>
+        $(document).ready(function () {
+            //$('input#signin_username').gips({ 'theme': 'yellow', autoHide: true, placement: 'right' });
+            $('table#notif').gips({ 'theme': 'yellow', autoHide: false, placement: 'right' });
+            
+        });
+</script></div>
+  			<div class="pie">                      
+    			La Nueva Televisión del Sur C.A. (TVSUR) TeleSUR © | Todo el contenido de esta página es exclusivo para el uso interno del canal. RIF. G-20004500-0 
+    		</div>
+    	</div>
+    </div>
+    
+    <div id="nav" style="display:none;"></div>
+  </body>
+</html>
+
+

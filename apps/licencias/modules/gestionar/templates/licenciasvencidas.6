@@ -1,0 +1,576 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/general.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/menu.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/crud.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/tcal.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="/Telesur/web/css/licencias.css" />
+    <script type="text/javascript" src="/Telesur/web/js/jquery.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/menu.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/funciones.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/tcal.js"></script>
+<script type="text/javascript" src="/Telesur/web/js/ajax.js"></script>
+    <link rel="shortcut icon" href="/principal/web/favicon.ico" />
+  <style type="text/css">#sfWebDebug {   padding: 0;   margin: 0;   font-family: Arial, sans-serif;   font-size: 12px;   color: #333;   text-align: left;   line-height: 12px; }  #sfWebDebug a, #sfWebDebug a:hover {   text-decoration: none;   border: none;   background-color: transparent;   color: #000; }  #sfWebDebug img {   float: none;   margin: 0;   border: 0;   display: inline; }  #sfWebDebugBar {   position: absolute;   margin: 0;   padding: 1px 0;   right: 0px;   top: 0px;   opacity: 0.80;   filter: alpha(opacity:80);   z-index: 10000;   white-space: nowrap;   background-color: #ddd; }  #sfWebDebugBar[id] {   position: fixed; }  #sfWebDebugBar img {   vertical-align: middle; }  #sfWebDebugBar .sfWebDebugMenu {   padding: 5px;   padding-left: 0;   display: inline;   margin: 0; }  #sfWebDebugBar .sfWebDebugMenu li {   display: inline;   list-style: none;   margin: 0;   padding: 0 6px; }  #sfWebDebugBar .sfWebDebugMenu li.last {   margin: 0;   padding: 0;   border: 0; }  #sfWebDebugDatabaseDetails li {   margin: 0;   margin-left: 30px;   padding: 5px 0; }  #sfWebDebugShortMessages li {   margin-bottom: 10px;   padding: 5px;   background-color: #ddd; }  #sfWebDebugShortMessages li {   list-style: none; }  #sfWebDebugDetails {   margin-right: 7px; }  #sfWebDebug pre {   line-height: 1.3;   margin-bottom: 10px; }  #sfWebDebug h1 {   font-size: 16px;   font-weight: bold;   margin: 20px 0;   padding: 0;   border: 0px;   background-color: #eee; }  #sfWebDebug h2 {   font-size: 14px;   font-weight: bold;   margin: 10px 0;   padding: 0;   border: 0px;   background: none; }  #sfWebDebug h3 {   font-size: 12px;   font-weight: bold;   margin: 10px 0;   padding: 0;   border: 0px;   background: none; }  #sfWebDebug .sfWebDebugTop {   position: absolute;   left: 0px;   top: 0px;   width: 98%;   padding: 0 1%;   margin: 0;   z-index: 9999;   background-color: #efefef;   border-bottom: 1px solid #aaa; }  #sfWebDebugLog {   margin: 0;   padding: 3px;   font-size: 11px; }  #sfWebDebugLogMenu {   margin-bottom: 5px; }  #sfWebDebugLogMenu li {   display: inline;   list-style: none;   margin: 0;   padding: 0 5px;   border-right: 1px solid #aaa; }  #sfWebDebugConfigSummary {   display: inline;   padding: 5px;   background-color: #ddd;   border: 1px solid #aaa;   margin: 20px 0; }  #sfWebDebugConfigSummary li {   list-style: none;   display: inline;   margin: 0;   padding: 0 5px; }  #sfWebDebugConfigSummary li.last {   border: 0; }  .sfWebDebugInfo, .sfWebDebugInfo td {   background-color: #ddd; }  .sfWebDebugWarning, .sfWebDebugWarning td {   background-color: orange !important; }  .sfWebDebugError, .sfWebDebugError td {   background-color: #f99 !important; }  .sfWebDebugLogNumber {   width: 1%; }  .sfWebDebugLogType {   width: 1%;   white-space: nowrap; }  .sfWebDebugLogType, #sfWebDebug .sfWebDebugLogType a {   color: darkgreen; }  #sfWebDebug .sfWebDebugLogType a:hover {   text-decoration: underline; }  .sfWebDebugLogInfo {   color: blue; }  .ison {   color: #3f3;   margin-right: 5px; }  .isoff {   color: #f33;   margin-right: 5px;   text-decoration: line-through; }  .sfWebDebugLogs {   padding: 0;   margin: 0;   border: 1px solid #999;   font-family: Arial;   font-size: 11px; }  .sfWebDebugLogs tr {   padding: 0;   margin: 0;   border: 0; }  .sfWebDebugLogs td {   margin: 0;   border: 0;   padding: 1px 3px;   vertical-align: top; }  .sfWebDebugLogs th {   margin: 0;   border: 0;   padding: 3px 5px;   vertical-align: top;   background-color: #999;   color: #eee;   white-space: nowrap; }  .sfWebDebugDebugInfo {   color: #999;   font-size: 11px;   margin: 5px 0 5px 10px;   padding: 2px 0 2px 5px;   border-left: 1px solid #aaa;   line-height: 1.25em; }  .sfWebDebugDebugInfo .sfWebDebugLogInfo, .sfWebDebugDebugInfo a.sfWebDebugFileLink {   color: #333 !important; }  .sfWebDebugCache {   padding: 0;   margin: 0;   font-family: Arial;   position: absolute;   overflow: hidden;   z-index: 995;   font-size: 9px;   padding: 2px;   filter:alpha(opacity=85);   -moz-opacity:0.85;   opacity: 0.85; }  #sfWebDebugSymfonyVersion {   margin-left: 0;   padding: 1px 4px;   background-color: #666;   color: #fff; }  #sfWebDebugviewDetails ul {   padding-left: 2em;   margin: .5em 0;   list-style: none; }  #sfWebDebugviewDetails li {   margin-bottom: .5em; }  #sfWebDebug .sfWebDebugDataType, #sfWebDebug .sfWebDebugDataType a {   color: #666;   font-style: italic; }  #sfWebDebug .sfWebDebugDataType a:hover {   text-decoration: underline; }  #sfWebDebugDatabaseLogs {   margin-bottom: 10px; }  #sfWebDebugDatabaseLogs ol {   margin: 0;   padding: 0;   margin-left: 20px;   list-style: number; }  #sfWebDebugDatabaseLogs li {   padding: 6px; }  #sfWebDebugDatabaseLogs li:nth-child(odd) {   background-color: #CCC; }  .sfWebDebugDatabaseQuery {   margin-bottom: .5em;   margin-top: 0; }  .sfWebDebugDatabaseLogInfo {   color: #666;   font-size: 11px; }  .sfWebDebugDatabaseQuery .sfWebDebugLogInfo {   color: #909;   font-weight: bold; }  .sfWebDebugHighlight {   background: #FFC; }</style></head>
+  <body>
+  	<div align="center">
+  		<div class="contenedor">
+  			<div class="banner"></div>
+                    		
+  			<div style="color: #494949;font-weight: bold;">
+                                <marquee>
+                                    Ingresa con el mismo usuario y clave de tu correo electronico Zimbra &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Se recomienda el uso de Mozilla Firefox
+                                </marquee>
+                        </div>
+  			
+  			<br></br>
+  					
+  			<div class="contenido"><form action="/Telesur/web/licencias_dev.php/login" method="post">
+  <table class="login" id="notif" cellpadding=5 cellspacing=1 width="300px">
+   	<tr><td colspan="2" class="titulo">INGRESE USUARIO Y CLAVE</td></tr>
+    <tr>
+  <th><label for="signin_username">Usuario</label></th>
+  <td><input type="text" name="signin[username]" id="signin_username" /></td>
+</tr>
+<tr>
+  <th><label for="signin_password">Clave</label></th>
+  <td><input type="password" name="signin[password]" id="signin_password" /><input type="hidden" name="signin[_csrf_token]" value="f00f029b150f8299991b35f205bc1d0c" id="signin__csrf_token" /></td>
+</tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" class="boton" value="Ingresar" style="width: 120px;"/>
+            </td>
+        </tr>
+  </table> 
+
+<br>
+<div style="height: 150px;text-align: top;">
+
+	
+	
+</div>
+
+</form>
+
+<script>
+        $(document).ready(function () {
+            //$('input#signin_username').gips({ 'theme': 'yellow', autoHide: true, placement: 'right' });
+            $('table#notif').gips({ 'theme': 'yellow', autoHide: false, placement: 'right' });
+            
+        });
+</script></div>
+  			<div class="pie">                      
+    			La Nueva Televisión del Sur C.A. (TVSUR) TeleSUR © | Todo el contenido de esta página es exclusivo para el uso interno del canal. RIF. G-20004500-0 
+    		</div>
+    	</div>
+    </div>
+    
+    <div id="nav" style="display:none;"></div>
+  <script type="text/javascript">/* <![CDATA[ */
+function sfWebDebugGetElementsByClassName(strClass, strTag, objContElm)
+{
+  // http://muffinresearch.co.uk/archives/2006/04/29/getelementsbyclassname-deluxe-edition/
+  strTag = strTag || "*";
+  objContElm = objContElm || document;
+  var objColl = (strTag == '*' && document.all) ? document.all : objContElm.getElementsByTagName(strTag);
+  var arr = new Array();
+  var delim = strClass.indexOf('|') != -1  ? '|' : ' ';
+  var arrClass = strClass.split(delim);
+  var j = objColl.length;
+  for (var i = 0; i < j; i++) {
+    if(objColl[i].className == undefined) continue;
+    var arrObjClass = objColl[i].className.split ? objColl[i].className.split(' ') : [];
+    if (delim == ' ' && arrClass.length > arrObjClass.length) continue;
+    var c = 0;
+    comparisonLoop:
+    {
+      var l = arrObjClass.length;
+      for (var k = 0; k < l; k++) {
+        var n = arrClass.length;
+        for (var m = 0; m < n; m++) {
+          if (arrClass[m] == arrObjClass[k]) c++;
+          if (( delim == '|' && c == 1) || (delim == ' ' && c == arrClass.length)) {
+            arr.push(objColl[i]);
+            break comparisonLoop;
+          }
+        }
+      }
+    }
+  }
+  return arr;
+}
+
+function sfWebDebugToggleMenu()
+{
+  var element = document.getElementById('sfWebDebugDetails');
+
+  var cacheElements = sfWebDebugGetElementsByClassName('sfWebDebugCache');
+  var mainCacheElements = sfWebDebugGetElementsByClassName('sfWebDebugActionCache');
+  var panelElements = sfWebDebugGetElementsByClassName('sfWebDebugTop');
+
+  if (element.style.display != 'none')
+  {
+    for (var i = 0; i < panelElements.length; ++i)
+    {
+      panelElements[i].style.display = 'none';
+    }
+
+    // hide all cache information
+    for (var i = 0; i < cacheElements.length; ++i)
+    {
+      cacheElements[i].style.display = 'none';
+    }
+    for (var i = 0; i < mainCacheElements.length; ++i)
+    {
+      mainCacheElements[i].style.border = 'none';
+    }
+  }
+  else
+  {
+    for (var i = 0; i < cacheElements.length; ++i)
+    {
+      cacheElements[i].style.display = '';
+    }
+    for (var i = 0; i < mainCacheElements.length; ++i)
+    {
+      mainCacheElements[i].style.border = '1px solid #f00';
+    }
+  }
+
+  sfWebDebugToggle('sfWebDebugDetails');
+  sfWebDebugToggle('sfWebDebugShowMenu');
+  sfWebDebugToggle('sfWebDebugHideMenu');
+}
+
+function sfWebDebugShowDetailsFor(element)
+{
+  if (typeof element == 'string')
+    element = document.getElementById(element);
+
+  var panelElements = sfWebDebugGetElementsByClassName('sfWebDebugTop');
+  for (var i = 0; i < panelElements.length; ++i)
+  {
+    if (panelElements[i] != element)
+    {
+      panelElements[i].style.display = 'none';
+    }
+  }
+
+  sfWebDebugToggle(element);
+}
+
+function sfWebDebugToggle(element)
+{
+  if (typeof element == 'string')
+    element = document.getElementById(element);
+
+  if (element)
+    element.style.display = element.style.display == 'none' ? '' : 'none';
+}
+
+function sfWebDebugToggleMessages(klass)
+{
+  var elements = sfWebDebugGetElementsByClassName(klass);
+
+  var x = elements.length;
+  for (var i = 0; i < x; ++i)
+  {
+    sfWebDebugToggle(elements[i]);
+  }
+}
+
+function sfWebDebugToggleAllLogLines(show, klass)
+{
+  var elements = sfWebDebugGetElementsByClassName(klass);
+  var x = elements.length;
+  for (var i = 0; i < x; ++i)
+  {
+    elements[i].style.display = show ? '' : 'none';
+  }
+}
+
+function sfWebDebugShowOnlyLogLines(type)
+{
+  var types = new Array();
+  types[0] = 'info';
+  types[1] = 'warning';
+  types[2] = 'error';
+  for (klass in types)
+  {
+    var elements = sfWebDebugGetElementsByClassName('sfWebDebug' + types[klass].substring(0, 1).toUpperCase() + types[klass].substring(1, types[klass].length));
+    var x = elements.length;
+    for (var i = 0; i < x; ++i)
+    {
+      if ('tr' == elements[i].tagName.toLowerCase())
+      {
+        elements[i].style.display = (type == types[klass]) ? '' : 'none';
+      }
+    }
+  }
+}
+/* ]]> */</script>
+      <div id="sfWebDebug">
+        <div id="sfWebDebugBar">
+          <a href="#" onclick="sfWebDebugToggleMenu(); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/sf.png" alt="Debug toolbar" /></a>
+
+          <ul id="sfWebDebugDetails" class="sfWebDebugMenu">
+            <li><span id="sfWebDebugSymfonyVersion">1.4.12</span></li>
+<li class="sfWebDebugInfo"><a title="Configuration" href="#" onclick="sfWebDebugShowDetailsFor('sfWebDebugconfigDetails'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/config.png" alt="Config" /> config</a></li>
+<li class="sfWebDebugInfo"><a title="View Layer" href="#" onclick="sfWebDebugShowDetailsFor('sfWebDebugviewDetails'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/view.png" alt="View Layer" /> view</a></li>
+<li class="sfWebDebugInfo"><a title="Logs" href="#" onclick="sfWebDebugShowDetailsFor('sfWebDebuglogsDetails'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/log.png" alt="Log" /> logs</a></li>
+<li><img src="/Telesur/web/sf/sf_web_debug/images/memory.png" alt="Memory" /> 3072.0 KB</li>
+<li class="sfWebDebugInfo"><a title="Timers" href="#" onclick="sfWebDebugShowDetailsFor('sfWebDebugtimeDetails'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/time.png" alt="Time" /> 79 ms</a></li>
+            <li class="last">
+              <a href="#" onclick="document.getElementById('sfWebDebug').style.display='none'; return false;"><img src="/Telesur/web/sf/sf_web_debug/images/close.png" alt="Close" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="sfWebDebugconfigDetails" class="sfWebDebugTop" style="display:none"><h1>Configuration</h1><ul id="sfWebDebugConfigSummary"><li class="ison">debug</li><li class="isoff">xdebug</li><li class="ison">logging</li><li class="isoff">cache</li><li class="isoff">compression</li><li class="ison">tokenizer</li><li class="isoff">eaccelerator</li><li class="ison">apc</li><li class="isoff last">xcache</li></ul>
+    <h2>Request <a href="#" onclick="sfWebDebugToggle('sfWebDebugRequest'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugRequest" style="display: none"><pre>options:
+  path_info_key: PATH_INFO
+  path_info_array: SERVER
+  http_port: null
+  https_port: null
+  default_format: null
+  logging: &#039;1&#039;
+  relative_url_root: null
+  formats: { txt: text/plain, js: [application/javascript, application/x-javascript, text/javascript], css: text/css, json: [application/json, application/x-json], xml: [text/xml, application/xml, application/x-xml], rdf: application/rdf+xml, atom: application/atom+xml }
+  no_script_name: false
+parameterHolder:
+  action: licenciasvencidas
+  module: gestionar
+attributeHolder:
+  sf_route: &#039;sfRoute Object()&#039;
+</pre></div>
+    
+    <h2>Response <a href="#" onclick="sfWebDebugToggle('sfWebDebugResponse'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugResponse" style="display: none"><pre>status:
+  code: 200
+  text: OK
+options:
+  http_protocol: HTTP/1.1
+  logging: &#039;1&#039;
+  charset: utf-8
+  send_http_headers: false
+  content_type: &#039;text/html; charset=utf-8&#039;
+cookies: {  }
+httpHeaders:
+  Content-Type: &#039;text/html; charset=utf-8&#039;
+javascripts:
+  jquery.js: {  }
+  menu.js: {  }
+  funciones.js: {  }
+  tcal.js: {  }
+  ajax.js: {  }
+stylesheets:
+  general.css: {  }
+  menu.css: {  }
+  crud.css: {  }
+  tcal.css: {  }
+  licencias.css: {  }
+metas: {  }
+httpMetas:
+  Content-Type: &#039;text/html; charset=utf-8&#039;
+</pre></div>
+    
+    <h2>User <a href="#" onclick="sfWebDebugToggle('sfWebDebugUser'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugUser" style="display: none"><pre>options:
+  auto_shutdown: false
+  culture: null
+  default_culture: es_ES
+  use_flash: true
+  logging: &#039;1&#039;
+  timeout: 1800
+attributeHolder:
+  symfony/user/sfUser/attributes: { referer: &#039;http://localhost/Telesur/web/licencias_dev.php/gestionar/licenciasvencidas&#039; }
+culture: es_ES
+authenticated: false
+credentials: {  }
+lastRequest: 1347295701
+</pre></div>
+    
+    <h2>Settings <a href="#" onclick="sfWebDebugToggle('sfWebDebugSettings'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugSettings" style="display: none"><pre>app_sf_guard_plugin_check_password_callable:
+  - ldap
+  - checkPassword
+app_sf_guard_plugin_profile_class: sfGuardUserProfile
+app_sf_guard_plugin_profile_field_name: user_id
+mod_gestionar_enabled: true
+mod_gestionar_view_class: sfPHP
+mod_sfguardauth_enabled: true
+mod_sfguardauth_view_class: sfPHP
+sf_admin_module_web_dir: /sfPropelPlugin
+sf_admin_web_dir: /sf/sf_admin
+sf_app: licencias
+sf_app_base_cache_dir: /home/jhoan/www/Telesur/cache/licencias
+sf_app_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev
+sf_app_config_dir: /home/jhoan/www/Telesur/apps/licencias/config
+sf_app_dir: /home/jhoan/www/Telesur/apps/licencias
+sf_app_i18n_dir: /home/jhoan/www/Telesur/apps/licencias/i18n
+sf_app_lib_dir: /home/jhoan/www/Telesur/apps/licencias/lib
+sf_app_module_dir: /home/jhoan/www/Telesur/apps/licencias/modules
+sf_app_template_dir: /home/jhoan/www/Telesur/apps/licencias/templates
+sf_apps_dir: /home/jhoan/www/Telesur/apps
+sf_cache: false
+sf_cache_dir: /home/jhoan/www/Telesur/cache
+sf_charset: utf-8
+sf_check_lock: false
+sf_compressed: false
+sf_config_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev/config
+sf_config_dir: /home/jhoan/www/Telesur/config
+sf_csrf_secret: 2908f44edfacbd7c456b799e460f175c8032f341
+sf_data_dir: /home/jhoan/www/Telesur/data
+sf_debug: true
+sf_default_culture: es_ES
+sf_enabled_modules:
+  - default
+  - sfGuardGroup
+  - sfGuardUser
+  - sfGuardPermission
+  - sfGuardAuth
+sf_environment: dev
+sf_error_404_action: error404
+sf_error_404_module: default
+sf_error_reporting: 32767
+sf_escaping_method: ESC_SPECIALCHARS
+sf_escaping_strategy: true
+sf_etag: false
+sf_file_link_format: null
+sf_i18n: true
+sf_i18n_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev/i18n
+sf_lib_dir: /home/jhoan/www/Telesur/lib
+sf_log_dir: /home/jhoan/www/Telesur/log
+sf_logging_enabled: true
+sf_login_action: signin
+sf_login_module: sfGuardAuth
+sf_module_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev/modules
+sf_module_disabled_action: disabled
+sf_module_disabled_module: default
+sf_no_script_name: false
+sf_orm: propel
+sf_plugins_dir: /home/jhoan/www/Telesur/plugins
+sf_root_dir: /home/jhoan/www/Telesur
+sf_secure_action: secure
+sf_secure_module: sfGuardAuth
+sf_standard_helpers:
+  - Partial
+  - Cache
+sf_symfony_lib_dir: /home/jhoan/www/Telesur/lib/vendor/symfony/lib
+sf_template_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev/template
+sf_test_cache_dir: /home/jhoan/www/Telesur/cache/licencias/dev/test
+sf_test_dir: /home/jhoan/www/Telesur/test
+sf_upload_dir: /home/jhoan/www/Telesur/web/uploads
+sf_use_database: true
+sf_web_debug: true
+sf_web_debug_web_dir: /sf/sf_web_debug
+sf_web_dir: /home/jhoan/www/Telesur/web
+symfony.asset.javascripts_included: true
+symfony.asset.stylesheets_included: true
+symfony.view.sfGuardAuth_signin_layout: layout_login
+</pre></div>
+    
+    <h2>Globals <a href="#" onclick="sfWebDebugToggle('sfWebDebugGlobals'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugGlobals" style="display: none"><pre>cookie: {  }
+env: {  }
+files: {  }
+get: {  }
+post: {  }
+server:
+  DOCUMENT_ROOT: /home/jhoan/www
+  GATEWAY_INTERFACE: CGI/1.1
+  HTTP_ACCEPT: &#039;*/*&#039;
+  HTTP_CONNECTION: Keep-Alive
+  HTTP_HOST: localhost
+  HTTP_USER_AGENT: &#039;Wget/1.13.4 (linux-gnu)&#039;
+  PATH: &#039;/usr/local/bin:/usr/bin:/bin&#039;
+  PATH_INFO: /gestionar/licenciasvencidas
+  PATH_TRANSLATED: /home/jhoan/www/gestionar/licenciasvencidas
+  PHP_SELF: /Telesur/web/licencias_dev.php/gestionar/licenciasvencidas
+  QUERY_STRING: &#039;&#039;
+  REMOTE_ADDR: 127.0.0.1
+  REMOTE_PORT: &#039;38588&#039;
+  REQUEST_METHOD: GET
+  REQUEST_TIME: 1347295700
+  REQUEST_URI: /Telesur/web/licencias_dev.php/gestionar/licenciasvencidas
+  SCRIPT_FILENAME: /home/jhoan/www/Telesur/web/licencias_dev.php
+  SCRIPT_NAME: /Telesur/web/licencias_dev.php
+  SERVER_ADDR: 127.0.0.1
+  SERVER_ADMIN: webmaster@localhost
+  SERVER_NAME: localhost
+  SERVER_PORT: &#039;80&#039;
+  SERVER_PROTOCOL: HTTP/1.1
+  SERVER_SIGNATURE: &quot;&lt;address&gt;Apache/2.2.22 (Ubuntu) Server at localhost Port 80&lt;/address&gt;\n&quot;
+  SERVER_SOFTWARE: &#039;Apache/2.2.22 (Ubuntu)&#039;
+session: {  }
+</pre></div>
+    
+    <h2>Php <a href="#" onclick="sfWebDebugToggle('sfWebDebugPhp'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugPhp" style="display: none"><pre>php: 5.3.10-1ubuntu3.2
+os: &#039;Linux jhoan-pc 3.2.0-27-generic #43-Ubuntu SMP Fri Jul 6 14:46:35 UTC 2012 i686&#039;
+extensions:
+  41: apache2handler
+  22: &#039;apc (3.1.7)&#039;
+  7: bcmath
+  8: bz2
+  9: calendar
+  0: &#039;Core (5.3.10-1ubuntu3.2)&#039;
+  10: ctype
+  43: curl
+  1: &#039;date (5.3.10-1ubuntu3.2)&#039;
+  11: dba
+  12: &#039;dom (20031129)&#039;
+  2: ereg
+  31: &#039;exif (1.4 $Id: exif.c 321634 2012-01-01 13:15:04Z felipe $)&#039;
+  14: &#039;fileinfo (1.0.5-dev)&#039;
+  15: &#039;filter (0.11.0)&#039;
+  16: ftp
+  44: gd
+  17: gettext
+  13: &#039;hash (1.0)&#039;
+  19: iconv
+  45: &#039;imagick (3.1.0RC1)&#039;
+  20: &#039;json (1.2.1)&#039;
+  46: ldap
+  3: libxml
+  21: mbstring
+  47: mcrypt
+  48: &#039;memcache (3.0.6)&#039;
+  62: mhash
+  49: mssql
+  50: &#039;mysql (1.0)&#039;
+  51: &#039;mysqli (0.1)&#039;
+  52: &#039;oci8 (1.4.5)&#039;
+  4: openssl
+  5: pcre
+  53: &#039;PDO (1.0.4dev)&#039;
+  54: &#039;pdo_dblib (1.0.1)&#039;
+  55: &#039;pdo_mysql (1.0.2)&#039;
+  56: &#039;pdo_pgsql (1.0.2)&#039;
+  57: &#039;pdo_sqlite (1.0.1)&#039;
+  58: pgsql
+  42: &#039;Phar (2.0.1)&#039;
+  23: posix
+  24: &#039;Reflection ($Revision: 321634 $)&#039;
+  25: session
+  26: shmop
+  27: &#039;SimpleXML (0.1)&#039;
+  28: soap
+  29: sockets
+  18: &#039;SPL (0.2)&#039;
+  59: &#039;sqlite3 (0.7-dev)&#039;
+  30: &#039;standard (5.3.10-1ubuntu3.2)&#039;
+  32: sysvmsg
+  33: sysvsem
+  34: sysvshm
+  35: &#039;tokenizer (0.1)&#039;
+  36: wddx
+  37: xml
+  38: &#039;xmlreader (0.1)&#039;
+  60: &#039;xmlrpc (0.51)&#039;
+  39: &#039;xmlwriter (0.1)&#039;
+  61: &#039;xsl (0.1)&#039;
+  40: &#039;zip (1.9.1)&#039;
+  6: &#039;zlib (1.1)&#039;
+</pre></div>
+    
+    <h2>Symfony <a href="#" onclick="sfWebDebugToggle('sfWebDebugSymfony'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+    <div id="sfWebDebugSymfony" style="display: none"><pre>version: 1.4.12
+path: /home/jhoan/www/Telesur/lib/vendor/symfony/lib
+</pre></div>
+    </div>
+<div id="sfWebDebugviewDetails" class="sfWebDebugTop" style="display:none"><h1>View Layer</h1><h2>Template: <span title="SF_ROOT_DIR/plugins/sfGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php">sfGuardAuth&nbsp;&hellip;&nbsp;signinSuccess.php</span> <a href="#" onclick="sfWebDebugToggle('sfWebDebugViewTemplate1'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a></h2>
+<div id="sfWebDebugViewTemplate1" style="display:block">
+<p>Parameters:</p>
+<ul>
+<li><code>$form</code> <span class="sfWebDebugDataType">(<span title="SF_ROOT_DIR/plugins/sfGuardPlugin/lib/form/sfGuardFormSignin.class.php">sfGuardFormSignin</span>)</span>
+<a href="#" onclick="sfWebDebugToggle('sfWebDebugViewForm1'); return false;" title="Toggle details"><img src="/Telesur/web/sf/sf_web_debug/images/toggle.gif" alt="Toggle details"/></a>
+<div id="sfWebDebugViewForm1" style="display:none">
+<ul><li>
+<code>$form['username']</code> <span class="sfWebDebugDataType">(<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/widget/sfWidgetFormInput.class.php">sfWidgetFormInput</span>)</span>
+</li>
+<li>
+<code>$form['password']</code> <span class="sfWebDebugDataType">(<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/widget/sfWidgetFormInput.class.php">sfWidgetFormInput</span>)</span>
+</li>
+<li>
+<code>$form['_csrf_token']</code> <span class="sfWebDebugDataType">(<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/widget/sfWidgetFormInputHidden.class.php">sfWidgetFormInputHidden</span>)</span>
+</li></ul>
+</div></li>
+</ul>
+</div></div>
+<div id="sfWebDebuglogsDetails" class="sfWebDebugTop" style="display:none"><h1>Logs</h1>
+      <ul id="sfWebDebugLogMenu">
+        <li><a href="#" onclick="sfWebDebugToggleAllLogLines(true, 'sfWebDebugLogLine'); return false;">[all]</a></li>
+        <li><a href="#" onclick="sfWebDebugToggleAllLogLines(false, 'sfWebDebugLogLine'); return false;">[none]</a></li>
+        <li><a href="#" onclick="sfWebDebugShowOnlyLogLines('info'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Show only infos" /></a></li>
+        <li><a href="#" onclick="sfWebDebugShowOnlyLogLines('warning'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/warning.png" alt="Show only warnings" /></a></li>
+        <li><a href="#" onclick="sfWebDebugShowOnlyLogLines('error'); return false;"><img src="/Telesur/web/sf/sf_web_debug/images/error.png" alt="Show only errors" /></a></li>
+        <li><a href="#" onclick="sfWebDebugToggleMessages('sfBasicSecurityFilter'); return false;">sfBasicSecurityFilter</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfFilterChain'); return false;">sfFilterChain</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfGuardAuthActions'); return false;">sfGuardAuthActions</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfPHPView'); return false;">sfPHPView</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfPatternRouting'); return false;">sfPatternRouting</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfWebDebugLogger'); return false;">sfWebDebugLogger</a></li>
+<li><a href="#" onclick="sfWebDebugToggleMessages('sfWebResponse'); return false;">sfWebResponse</a></li>
+      </ul>
+      <div id="sfWebDebugLogLines"><table class="sfWebDebugLogs">
+      <tr>
+        <th>#</th>
+        <th>type</th>
+        <th>message</th>
+      </tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">1</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfRoute "<span class="sfWebDebugLogInfo">sf_guard_signin</span>" (/login) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">2</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfRoute "<span class="sfWebDebugLogInfo">sf_guard_signout</span>" (/logout) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">3</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfRoute "<span class="sfWebDebugLogInfo">sf_guard_password</span>" (/request_password) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">4</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user</span>" (/sf_guard_user.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">5</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_new</span>" (/sf_guard_user/new.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">6</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_create</span>" (/sf_guard_user.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">7</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_edit</span>" (/sf_guard_user/:id/edit.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">8</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_update</span>" (/sf_guard_user/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">9</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_delete</span>" (/sf_guard_user/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">10</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_show</span>" (/sf_guard_user/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">11</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_object</span>" (/sf_guard_user/:id/:action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">12</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_user_collection</span>" (/sf_guard_user/:action/action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">13</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group</span>" (/sf_guard_group.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">14</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_new</span>" (/sf_guard_group/new.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">15</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_create</span>" (/sf_guard_group.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">16</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_edit</span>" (/sf_guard_group/:id/edit.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">17</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_update</span>" (/sf_guard_group/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">18</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_delete</span>" (/sf_guard_group/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">19</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_show</span>" (/sf_guard_group/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">20</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_object</span>" (/sf_guard_group/:id/:action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">21</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_group_collection</span>" (/sf_guard_group/:action/action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">22</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission</span>" (/sf_guard_permission.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">23</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_new</span>" (/sf_guard_permission/new.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">24</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_create</span>" (/sf_guard_permission.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">25</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_edit</span>" (/sf_guard_permission/:id/edit.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">26</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_update</span>" (/sf_guard_permission/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">27</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_delete</span>" (/sf_guard_permission/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">28</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_show</span>" (/sf_guard_permission/:id.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">29</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_object</span>" (/sf_guard_permission/:id/:action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">30</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Connect sfPropelRoute "<span class="sfWebDebugLogInfo">sf_guard_permission_collection</span>" (/sf_guard_permission/:action/action.:sf_format) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPatternRouting'><td class="sfWebDebugLogNumber">31</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/routing/sfPatternRouting.class.php">sfPatternRouting</span></td><td>Match route "<span class="sfWebDebugLogInfo">default</span>" (/:module/:action/*) for /gestionar/licenciasvencidas with parameters array (  &#039;module&#039; =&gt; &#039;gestionar&#039;,  &#039;action&#039; =&gt; &#039;licenciasvencidas&#039;,) </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfFilterChain'><td class="sfWebDebugLogNumber">32</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/filter/sfFilterChain.class.php">sfFilterChain</span></td><td>Executing filter "<span class="sfWebDebugLogInfo">sfRenderingFilter</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfFilterChain'><td class="sfWebDebugLogNumber">33</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/filter/sfFilterChain.class.php">sfFilterChain</span></td><td>Executing filter "<span class="sfWebDebugLogInfo">sfBasicSecurityFilter</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfBasicSecurityFilter'><td class="sfWebDebugLogNumber">34</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/filter/sfBasicSecurityFilter.class.php">sfBasicSecurityFilter</span></td><td>Action "<span class="sfWebDebugLogInfo">gestionar/licenciasvencidas</span>" requires authentication, forwarding to "<span class="sfWebDebugLogInfo">sfGuardAuth/signin</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfFilterChain'><td class="sfWebDebugLogNumber">35</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/filter/sfFilterChain.class.php">sfFilterChain</span></td><td>Executing filter "<span class="sfWebDebugLogInfo">sfRenderingFilter</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfFilterChain'><td class="sfWebDebugLogNumber">36</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/filter/sfFilterChain.class.php">sfFilterChain</span></td><td>Executing filter "<span class="sfWebDebugLogInfo">sfExecutionFilter</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfGuardAuthActions'><td class="sfWebDebugLogNumber">37</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/plugins/sfGuardPlugin/modules/sfGuardAuth/actions/actions.class.php">sfGuardAuthActions</span></td><td>Call "<span class="sfWebDebugLogInfo">sfGuardAuthActions-&gt;executeSignin()</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfGuardAuthActions'><td class="sfWebDebugLogNumber">38</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/plugins/sfGuardPlugin/modules/sfGuardAuth/actions/actions.class.php">sfGuardAuthActions</span></td><td>Change layout to "<span class="sfWebDebugLogInfo">layout_login</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPHPView'><td class="sfWebDebugLogNumber">39</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/view/sfPHPView.class.php">sfPHPView</span></td><td>Render "<span class="sfWebDebugLogInfo">sf_root_dir/plugins/sfGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPHPView'><td class="sfWebDebugLogNumber">40</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/view/sfPHPView.class.php">sfPHPView</span></td><td>Decorate content with "<span class="sfWebDebugLogInfo">sf_app_dir/templates/layout_login.php</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfPHPView'><td class="sfWebDebugLogNumber">41</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/view/sfPHPView.class.php">sfPHPView</span></td><td>Render "<span class="sfWebDebugLogInfo">sf_app_dir/templates/layout_login.php</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfWebResponse'><td class="sfWebDebugLogNumber">42</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/response/sfWebResponse.class.php">sfWebResponse</span></td><td>Send status "<span class="sfWebDebugLogInfo">HTTP/1.1 200 OK</span>" </td></tr>
+<tr class='sfWebDebugLogLine sfWebDebugInfo sfWebResponse'><td class="sfWebDebugLogNumber">43</td><td class="sfWebDebugLogType"><img src="/Telesur/web/sf/sf_web_debug/images/info.png" alt="Info"/>&nbsp;<span title="SF_ROOT_DIR/lib/vendor/symfony/lib/response/sfWebResponse.class.php">sfWebResponse</span></td><td>Send header "<span class="sfWebDebugLogInfo">Content-Type: text/html; charset=utf-8</span>" </td></tr>
+</table></div>
+    </div>
+<div id="sfWebDebugtimeDetails" class="sfWebDebugTop" style="display:none"><h1>Timers</h1><table class="sfWebDebugLogs" style="width: 300px"><tr><th>type</th><th>calls</th><th>time (ms)</th><th>time (%)</th></tr><tr><td class="sfWebDebugLogType">Configuration</td><td class="sfWebDebugLogNumber" style="text-align: right">12</td><td style="text-align: right">1.79</td><td style="text-align: right">2</td></tr><tr><td class="sfWebDebugLogType">Factories</td><td class="sfWebDebugLogNumber" style="text-align: right">1</td><td style="text-align: right">34.56</td><td style="text-align: right">43</td></tr><tr><td class="sfWebDebugLogType">Action "sfGuardAuth/signin"</td><td class="sfWebDebugLogNumber" style="text-align: right">1</td><td style="text-align: right">2.83</td><td style="text-align: right">3</td></tr><tr><td class="sfWebDebugLogType">View "Success" for "sfGuardAuth/signin"</td><td class="sfWebDebugLogNumber" style="text-align: right">1</td><td style="text-align: right">7.34</td><td style="text-align: right">9</td></tr></table></div>
+      </div>
+    </body>
+</html>
+
+

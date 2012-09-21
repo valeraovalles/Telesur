@@ -1,0 +1,14 @@
+/* 
+    Document   : constancia.css
+    Created on : 14/05/2012, 05:27:49 PM
+    Author     : jhoan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.banner_constancia{    
+    	width:                          900px;
+	height:                         128px;
+	background:                     url("../images/constancia/banner_constancia.jpg");
+}
+

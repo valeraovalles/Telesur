@@ -1,0 +1,230 @@
+/*CUERPO DE LA PAGINA*/
+body{
+	font-size: 			12px;
+	font-family:			Verdana;
+	background: 			url("../images/fondo.jpg") repeat-x;
+	margin:                         0;
+        color:                          #494949;
+}
+
+/*TAMAÑO DE LA PAGINA*/
+.contenedor{
+	background-color:		white;
+	width: 				900px;
+	height: 			auto;
+}
+
+.contenido{
+    
+    padding-top:                        20px;
+    
+}
+
+/*BANNER*/
+.banner{
+	width:                          900px;
+	height:                         128px;
+	background:                     url("../images/banner_telesur.jpg");
+}
+
+/*MENU*/
+.menu_menu{
+    background:                         transparent url(../images/menu/menu_m.png) repeat-x;
+    padding-bottom:                     16px;
+    height:                             16px;
+    background-color:                   #191919;
+}
+
+.borde_menu{
+    background:                         url(../images/menu/border.png);
+    height:                             10px;
+}
+
+
+/*PIE DE PAGINA*/
+.pie{    
+    background-color:                   #2A4C81;
+    color:                              white;
+    width:                              898px;
+    height:                             13px;
+    font-size:                          10px;
+    font-weight:                        bold;
+    padding-top:                        0px;
+}
+
+
+/*ERRORES*/
+.error_list{
+	padding:                        0;
+	margin:                         0;
+}
+
+.error_list li{
+	list-style:                     none;
+	font-size:                      10px;
+	color:                          red;
+}
+
+
+/*TABLA LOGIN*/
+.login{
+	background-color:               #4A88B8;
+	margin-top:                     90px;
+}
+
+.login th{
+	text-align:                     right;
+	width:                          30%;
+}
+
+
+.login td{
+	text-align:                     left;
+}
+
+
+.login tr{
+	background-color:               white;
+}
+
+
+.login input{
+	width:                          90%;
+}
+
+.login .titulo{
+	font-weight:                    bold;
+	background-color:               #2A4C81;
+	color:                          white;
+        text-align:                     center;
+}
+
+.titulo_modulo{
+    font-weight:                        bold;
+    font-size:                          18px;    
+    padding:                            0 0 20px 0;
+}
+
+/*LISTADO DE APLICACIONES*/
+.listado_aplicaciones{
+    float:                              left;
+    width:                              200px;
+    height:                             130px;
+    text-align:                         center;
+    margin-left:                        73px;
+}
+
+.listado_aplicaciones:hover{
+    float:                              left;
+    width:                              200px;
+    height:                             130px;
+    text-align:                         center;
+    margin-left:                        73px;
+    background-color:                   #F4F7FC;
+}
+
+.listado_aplicaciones:hover img{
+    height:                             90px;
+}
+
+.listado_aplicaciones img{
+    height:                             75px;
+}
+
+.listado_aplicaciones a{
+    color:                              #154E8A;
+    font-size:                          16px;
+}
+
+a{
+    text-decoration:                    none;
+    color:                              black;
+}
+
+
+.select150 select{
+    width: 150px;    
+}
+
+.select200 select{
+    width: 205px;    
+}
+
+.select250 select{
+    width: 250px;    
+}
+
+.input150 input{
+    width: 150px;    
+}
+
+.input200 input{
+    width: 200px;    
+}
+
+.input250 input{
+    width: 250px;    
+}
+
+.textarea150 textarea{
+    width: 150px;    
+}
+
+.textarea200 textarea{
+    width: 200px;    
+}
+
+.textarea250 textarea{
+    width: 250px;    
+}
+
+.sms{
+	color:red;
+	background-color: #fffec4;
+	margin:0 0 10px 0;
+}
+
+.iconos{
+    
+    margin: 30px 0 20px 0;
+}
+
+.leyenda{
+    
+    margin: 20px 0 20px 0;
+}
+
+/*BOTONES*/
+#boton{
+    
+    background-color:                   #ECECEC;
+    color:                              #494949; 
+    border:                             outset;  
+    font-weight: bold;
+    width: 90px;
+
+}
+
+#boton:hover{
+    font-weight:normal;
+}
+
+
+img{
+	border:0;
+}
+
+h1{
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.datos_usuario{
+        
+    text-align: left;
+    margin-left: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+

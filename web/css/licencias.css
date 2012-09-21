@@ -1,0 +1,22 @@
+
+/*APLICACION LICENCIAS*/
+
+body{
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+.banner_licencias{
+	width: 900px;
+	height: 128px;
+	background: url("../images/licencias/banner_licencias.jpg");
+}
+
+.vence{
+	width: 800px;
+}
+
+.vence a{
+	color: red;
+	font-weight: bold;
+}

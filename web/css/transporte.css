@@ -1,0 +1,32 @@
+.ajaxlist{
+    width:450px;
+    height:70px;
+    overflow-y:scroll;
+    font-weight:bold;
+    
+}
+
+.tablaajaxlist{
+width: 430px;
+font-size: 12px;
+border: 1px solid #DDDDDD;
+text-align: left;
+}
+
+.tablaajaxlist tr td{
+border:0;
+border-top: 1px;
+border-style: solid;
+border-color: #DDDDDD;
+}
+
+.tablaajaxlist th{
+text-align: left;
+background-color: #E7EEF6;
+}
+
+.banner_transporte{    
+    	width:                          900px;
+	height:                         128px;
+	background:                     url("../images/transporte/banner_transporte.jpg");
+}

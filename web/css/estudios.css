@@ -1,0 +1,31 @@
+.banner_transporte{    
+    	width:                          900px;
+	height:                         128px;
+	background:                     url("../images/estudios/banner_controlpautas.jpg");
+}
+
+.tablaapartado{
+    
+    background-color: gray;
+    width: 800px;
+    
+}
+
+.tablaapartado tr{
+    
+    background-color: white;
+    
+}
+
+.tablaapartado th{
+    
+    background-color: #000E6F;
+    color: white;
+    text-align: center;
+}
+
+.tablaapartado td{
+    
+    font-weight: bold;
+    color: black;
+}
