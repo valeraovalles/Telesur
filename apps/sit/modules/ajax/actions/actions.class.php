@@ -23,7 +23,7 @@ class ajaxActions extends sfActions
       $this->datos=$_GET['datos'];
       $this->opc=$_GET['opc'];
   	
-  	
+
       //busco los tecnicos del departamento al cual pertenece el usuario actual
       $idu=$this->getUser()->getGuardUser()->getId();
   	
@@ -35,7 +35,7 @@ class ajaxActions extends sfActions
         $a = new Criteria();
 	$a->add(SitUsuariosUnidadesPeer::ID_UNIDAD,$idunidad);
 	$a->addjoin(SfGuardUserProfilePeer::USER_ID,SitUsuariosUnidadesPeer::ID_USUARIO);
-        $a->addjoin(SfGuardUserPeer::USER_ID,SitUsuariosUnidadesPeer::ID_USUARIO);
+        $a->addjoin(SfGuardUserProfilePeer::USER_ID,SitUsuariosUnidadesPeer::ID_USUARIO);
         
 	$this->tecnico_unidad=SfGuardUserProfilePeer::doSelect($a);
       }

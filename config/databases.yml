@@ -26,7 +26,11 @@ all:
       classname:  PropelPDO
       dsn:        pgsql:dbname=Telesur;host=localhost
       username:   postgres
+<<<<<<< HEAD
       password:   ..*t3l35ur*..
+=======
+      password:   postgres
+>>>>>>> 05d24b769d6b5ca10d8157023554f1b0bc7bf025
       encoding:   utf8
       persistent: true
       pooling:    true

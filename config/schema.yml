@@ -24,6 +24,29 @@ propel:
     motivo: { phpName: Motivo, type: VARCHAR, size: '500', required: true }
     dirigido_a: { phpName: DirigidoA, type: VARCHAR, size: '100', required: true }
     estatus: { phpName: Estatus, type: VARCHAR, size: '1', required: true }
+<<<<<<< HEAD
+=======
+  est_horas:
+    _attributes: { phpName: EstHoras }
+    hora: { phpName: Hora, type: TIME, required: true }
+    id_hora: { phpName: IdHora, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+  est_productos:
+    _attributes: { phpName: EstProductos }
+    id_producto: { phpName: IdProducto, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '200', required: false }
+  est_solicitudes:
+    _attributes: { phpName: EstSolicitudes }
+    id_solicitud: { phpName: IdSolicitud, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    hora_desde: { phpName: HoraDesde, type: TIME, required: true }
+    hora_hasta: { phpName: HoraHasta, type: TIME, required: true }
+    estudio: { phpName: Estudio, type: VARCHAR, size: '5', required: true }
+    fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: false }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: false, foreignTable: est_productos, foreignReference: id_producto }
+    observaciones: { phpName: Observaciones, type: VARCHAR, size: '500', required: false }
+    estatus: { phpName: Estatus, type: CHAR, size: '1', required: false }
+    dia_transmision: { phpName: DiaTransmision, type: VARCHAR, required: false }
+>>>>>>> 05d24b769d6b5ca10d8157023554f1b0bc7bf025
   lc_licencias:
     _attributes: { phpName: LcLicencias }
     id_licencia: { phpName: IdLicencia, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
@@ -35,6 +58,25 @@ propel:
     descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
     bandera_correo: { phpName: BanderaCorreo, type: INTEGER, required: true, defaultValue: '0' }
     tipo: { phpName: Tipo, type: VARCHAR, size: '1', required: true }
+<<<<<<< HEAD
+=======
+  mm_equipos_transmision:
+    _attributes: { phpName: MmEquiposTransmision }
+    id_equipo_transmision: { phpName: IdEquipoTransmision, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion_equipo_transmision: { phpName: DescripcionEquipoTransmision, type: VARCHAR, size: '100', required: false }
+  mm_paises:
+    _attributes: { phpName: MmPaises }
+    id_pais: { phpName: IdPais, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    pais: { phpName: Pais, type: VARCHAR, size: '100', required: false }
+  mm_ubicaciones:
+    _attributes: { phpName: MmUbicaciones }
+    id_ubicacion: { phpName: IdUbicacion, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_pais: { phpName: IdPais, type: INTEGER, required: false, foreignTable: mm_paises, foreignReference: id_pais }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: false }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '500', required: false }
+    tipo_producto: { phpName: TipoProducto, type: VARCHAR, size: '10', required: false }
+    cantidad: { phpName: Cantidad, type: INTEGER, required: false }
+>>>>>>> 05d24b769d6b5ca10d8157023554f1b0bc7bf025
   sf_guard_user_profile:
     _attributes: { phpName: SfGuardUserProfile }
     user_id: { phpName: UserId, type: INTEGER, primaryKey: true, required: true, foreignTable: sf_guard_user, foreignReference: id }
@@ -126,8 +168,13 @@ propel:
     id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
     asistentes: { phpName: Asistentes, type: VARCHAR, size: '100', required: false }
     fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: true }
+<<<<<<< HEAD
     fecha_salida: { phpName: FechaSalida, type: DATE, required: true }
     hora_salida: { phpName: HoraSalida, type: TIME, required: true }
+=======
+    fecha_salida: { phpName: FechaSalida, type: DATE, required: false }
+    hora_salida: { phpName: HoraSalida, type: TIME, required: false }
+>>>>>>> 05d24b769d6b5ca10d8157023554f1b0bc7bf025
     direccion_traslado: { phpName: DireccionTraslado, type: VARCHAR, size: '500', required: true }
     descripcion_equipos: { phpName: DescripcionEquipos, type: VARCHAR, size: '500', required: false }
     datos_interes_razon: { phpName: DatosInteresRazon, type: VARCHAR, size: '500', required: false }
