@@ -85,7 +85,17 @@ class ubicacionesActions extends sfActions
           
             if ($this->form->isValid())
           {
-              
+              $a=new Criteria();
+              $a->add(MmUbicacionesPeer::ID_PAIS,$datos['id_pais']);
+              $a->add(MmUbicacionesPeer::ID_PRODUCTO,$datos['id_producto']);
+              $verifica=MmUbicacionesPeer::doSelect($a);
+                
+              if(!empty($verifica)){
+                  
+                 $this->getUser()->setFlash('sms',sprintf("Ya existe una ubicación con el país y producto."));
+                 return;
+              }
+                
               $sms=MmUbicacionesPeer::guarda_ubicacion($datos);
               
               $this->getUser()->setFlash('sms',sprintf($sms));
