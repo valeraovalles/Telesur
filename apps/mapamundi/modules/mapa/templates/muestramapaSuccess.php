@@ -70,21 +70,16 @@ function latlon($pais){
         var infowindow<?php echo $pais->getIdPais();?> = new google.maps.InfoWindow({
             content: contentString<?php echo $pais->getIdPais();?>
         });
-        
-        var marker<?php echo $pais->getIdPais();?> = new google.maps.Marker({
-            position: new google.maps.LatLng(<?php echo latlon($pais->getPais())?>),
-                map: map,
-                title:"<?php echo $pais->getPais();?>",
-                icon: 'http://imageshack.us/a/img18/5693/telesur.png'
-        });
+
+        var marker<?php echo $pais->getIdPais();?> = new google.maps.Marker({position: new google.maps.LatLng(<?php echo latlon($pais->getPais())?>),title:"<?php echo $pais->getPais();?>"});
 
         google.maps.event.addListener(marker<?php echo $pais->getIdPais();?>,'click', function() {
-                infowindow<?php echo $pais->getIdPais();?>.open(map,marker<?php echo $pais->getIdPais();?>);
+               infowindow<?php echo $pais->getIdPais();?>.open(map,marker<?php echo $pais->getIdPais();?>);
         });
+        
+        marker<?php echo $pais->getIdPais();?>.setMap(map);
 
     <?php }?>
-
-
 
     //FIN MARCADORES
 
