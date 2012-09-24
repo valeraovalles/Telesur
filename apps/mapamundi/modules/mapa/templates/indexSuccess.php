@@ -1,6 +1,4 @@
 <div class="titulo_modulo">SELECCIONE EL TIPO DE PRODUCTO</div>
-<h4 style="color:red;">INTERNET EXPLORER NO MUESTRA LAS UBICACIONES, SE RECOMIENDA FIREFOX</h4>
-
 
 <div style="width:400px;">
     
