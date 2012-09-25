@@ -62,8 +62,8 @@
    
    if($tipo_nomina=='CONTRATADOS'){
                             
-      $sicont=" bajo la figura de contratado(a)";
-      
+      //$sicont=" bajo la figura de contratado(a)";
+      $sicont="";
    } else $sicont="";
     
 
