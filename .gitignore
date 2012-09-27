@@ -3,3 +3,5 @@
 config/*
 log/*
 cache/*
+lib/misclases/ConexionDirecta.php
+web/images/graficos/*
