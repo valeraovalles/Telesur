@@ -118,6 +118,7 @@ class administracionActions extends sfActions
   {
         $this->setLayout("layout_limpio");
         $idu=$this->getUser()->getGuardUser()->getId();
+        
   	$idc=$this->getRequestParameter('idc');
 
   	$a=new Criteria();

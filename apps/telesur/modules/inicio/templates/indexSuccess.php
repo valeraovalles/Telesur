@@ -5,7 +5,7 @@
 <div class="jquery" align="left">
 
 	<div class="listado_aplicaciones">
-		<a href="/principal/web/neto.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
+		<a href="/Telesur/web/neto_infocent.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
 	</div>
 	
 	
