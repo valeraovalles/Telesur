@@ -24,7 +24,7 @@
  
  <form name="detalle" action="<?php echo url_for("neto/procesa")?>" method="POST">
      
-     <table cellpadding="10" border="0" class="crud_form">
+     <table cellpadding="10" border="0" class="crud_form select150">
 	     	<tr>
 	     		<th width="100px">Proceso:</th>
 	     		<td width="150px">

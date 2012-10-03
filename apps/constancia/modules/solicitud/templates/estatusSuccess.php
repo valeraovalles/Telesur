@@ -30,8 +30,8 @@
 				
 	if($cs->getEstatus()=='n')$estatus=image_tag("enviado.gif",array('size' => '20x20'));
 	else if($cs->getEstatus()=='v')$estatus=image_tag("busca.png",array('size' => '20x20'));
-	else if($cs->getEstatus()=='c ')$estatus=image_tag("cerrado.png");
-				
+	else if($cs->getEstatus()=='c')$estatus=image_tag("cerrado.png");
+
     ?>
 
         <tr>
