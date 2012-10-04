@@ -1,6 +1,10 @@
 <?php
 
-    $conexion=new ConexionDirecta();
+
+/////////////////////////////////////////////////////
+           //INICIO QUERY SIGEFIRRHH
+/////////////////////////////////////////////////////
+    /*$conexion=new ConexionDirecta();
     $postgresql_sigefirrhh=$conexion->postgresql_sigefirrhh();
     
     $fc=new funciones;
@@ -49,7 +53,7 @@
         }
         
     }//number_format($cesta, 2, ",", ".");
-    
+
    $s_basico=$sueldo;
    $s_normal=$sueldo+$suma_conceptos;
    $s_integral=($s_normal/30)*41.25;   
@@ -64,8 +68,156 @@
                             
       //$sicont=" bajo la figura de contratado(a)";
       $sicont="";
-   } else $sicont="";
+   } else $sicont="";*/
+   
+/////////////////////////////////////////////////////
+           //FIN QUERY SIGEFIRRHH
+/////////////////////////////////////////////////////   
+
+
+
+
+/////////////////////////////////////////////////////
+           //INICIO QUERY INFOCENT
+/////////////////////////////////////////////////////
+$fc=new funciones();
+$ora=new ConexionDirecta();
+$db=$ora->oracle();
+
+$query=" select fictra from nmm001 where cedula like '%".$cedula."%'";
+$rs = oci_parse($db,$query);
+oci_execute($rs);
+$row = oci_fetch_array($rs, OCI_ASSOC); 
+$fictra_usuario= $row['FICTRA'];
+
+$concepto=0;
+
+if($db){
     
+   //verificar si tiene conceptos fijos
+   $existe=0;
+   
+   $query="
+       select * from nmm002 where trab_fictra like '%".$fictra_usuario."%' and nmm002.cto_codcto < 1000 
+   " ;   
+    
+   $rs = oci_parse($db,$query);
+   oci_execute($rs);
+   while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
+       
+       if($row['CTO_CODCTO']!=''){
+        $existe=1;
+        break;
+       }
+   }
+
+   if($existe==1){
+   
+        $query="
+
+        select  nmm024.cto_codcto, (nmm024.moncto*2) as mmconcepto, (nmm001.sueld1*30) as sueldo, nmm001.tnom_tipnom
+
+        from  nmm001,  nmm024, nmm002
+
+        where
+
+            nmm001.fictra like '%".$fictra_usuario."%' and
+
+            nmm024.trab_fictra  = nmm001.fictra and
+            nmm024.fpro_anocal  = (select max(nmm024.fpro_anocal) from nmm024) and
+            nmm024.mescal  = (select max(nmm024.mescal) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.proc_tippro  = 1 and
+            nmm024.cto_codcto < 1000 and  nmm024.cto_codcto <> 20 and
+            nmm002.trab_fictra = nmm024.trab_fictra and
+            nmm002.cto_codcto = nmm024.cto_codcto 
+
+        ";
+   } else if($existe==0){
+        $query="
+
+        select  nmm024.cto_codcto, (0) as mmconcepto, (nmm001.sueld1*30) as sueldo, nmm001.tnom_tipnom
+
+        from  nmm001, nmm024
+
+        where
+
+            nmm001.fictra like '%".$fictra_usuario."%' and
+
+            nmm024.trab_fictra  = nmm001.fictra and
+            nmm024.fpro_anocal  = (select max(nmm024.fpro_anocal) from nmm024) and
+            nmm024.mescal  = (select max(nmm024.mescal) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.cto_codcto < 1000 and
+            nmm024.proc_tippro  = 1
+
+
+        ";
+   }
+    
+   $rs = oci_parse($db,$query);
+   
+   if ( oci_execute($rs) ){
+                $suma_conceptos=0;
+   		while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
+                            
+                    
+                          //dueldo diario
+                          $sueld=$row['SUELDO'];
+			  $sueldo=str_replace(",", ".", $sueld);
+                          $suma_conceptos += $row['MMCONCEPTO'];
+                          $tnom_tipnom = $row['TNOM_TIPNOM'];
+                          
+                       
+              
+                }   
+
+                
+                        $s_basico=$sueldo;
+                        $s_normal=$sueldo+$suma_conceptos;
+                        $s_integral=($s_normal/30)*41.25;   
+        		$s_anual_integral= $s_integral * 12;
+			$s_anual_basico=$s_basico*12;
+			$s_anual_normal=$s_normal * 12;
+                        
+                        if($tipo_nomina=='CONT'){
+                            
+                                $sicont=" bajo la figura de contratado(a)";
+                        } else $sicont="";
+
+   }	
+            
+
+   $select="
+     select  nmm024.moncto
+        from nmm024
+        where
+            nmm024.trab_fictra like '%".$fictra_usuario."%' and
+            nmm024.fpro_anocal  = (select max(nmm024.fpro_anocal) from nmm024) and
+            nmm024.cto_codcto = 570 and 
+            nmm024.proc_tippro  = 53
+            GROUP BY nmm024.cto_codcto, nmm024.moncto
+    ";
+   $rs = oci_parse($db,$select);
+   
+   if ( oci_execute($rs) ){
+   	
+   		$cont=0;
+   		while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
+   			
+   			if($cont==1) break;
+   			$cesta=$row['MONCTO'];   			
+   			
+   			$cont++;
+   		}
+   }
+   
+   $cesta = number_format($cesta, 2, ",", ".");   
+}
+
+/////////////////////////////////////////////////////
+           //FIN QUERY INFOCENT
+/////////////////////////////////////////////////////
 
  
     if($constancia[0]->getTipoConstancia()=='sb'){
