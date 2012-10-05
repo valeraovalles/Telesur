@@ -13,6 +13,7 @@
                         </ul></div>
                     </li>
                     <li><a href="<?php echo url_for('sincronizar/index')?>"><span>Sincronizar BD</span></a></li>
+                    <li><a href="<?php echo url_for('sincronizar/datospersonales')?>"><span>Datos Personales</span></a></li>
                  </ul></div>
         </li>
         <?php }?>
