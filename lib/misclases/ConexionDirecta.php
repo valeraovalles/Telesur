@@ -35,7 +35,7 @@ class ConexionDirecta {
         
         public function postgresql_local(){
             
-                return pg_connect("host=localhost dbname=Telesur user=postgres password=postgres");
+                return pg_connect("host=localhost dbname=Telesur user=postgres password=..*t3l35ur*..");
                 
         }
         
