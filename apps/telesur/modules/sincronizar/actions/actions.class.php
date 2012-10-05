@@ -20,4 +20,17 @@ class sincronizarActions extends sfActions
 
   }
   
+    public function executeDatospersonales(sfWebRequest $request)
+  {
+      $this->cedula='';
+      if ($request->isMethod('post'))
+      { 
+          $cedula = $request->getParameter('cedula'); 
+          
+          $this->cedula=$cedula;
+
+      }
+
+  }
+  
 }

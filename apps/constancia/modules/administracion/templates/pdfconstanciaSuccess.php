@@ -32,7 +32,7 @@
 
         hq.anio=(select max(anio) from historicoquincena) and
         hq.mes=(select max(mes-1) from historicoquincena where anio = (select max(anio) from historicoquincena)) and
-        hq.semana_quincena=(select max(semana_quincena) from historicoquincena where anio=(select max(anio) from historicoquincena) and mes = (select max(mes) from historicoquincena where anio = (select max(anio) from historicoquincena)))
+        hq.semana_quincena=(select max(semana_quincena-1) from historicoquincena where anio=(select max(anio) from historicoquincena) and mes = (select max(mes) from historicoquincena where anio = (select max(anio) from historicoquincena)))
 
 
     ";   
