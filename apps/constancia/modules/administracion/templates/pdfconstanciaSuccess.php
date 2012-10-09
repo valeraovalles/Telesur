@@ -168,11 +168,10 @@ if($db){
                           $suma_conceptos += $row['MMCONCEPTO'];
                           $tnom_tipnom = $row['TNOM_TIPNOM'];
                           
-                       
+
               
                 }   
 
-                
                         $s_basico=$sueldo;
                         $s_normal=$sueldo+$suma_conceptos;
                         $s_integral=($s_normal/30)*41.25;   
@@ -180,10 +179,16 @@ if($db){
 			$s_anual_basico=$s_basico*12;
 			$s_anual_normal=$s_normal * 12;
                         
+                        
+                        
                         if($tipo_nomina=='CONT'){
                             
                                 $sicont=" bajo la figura de contratado(a)";
                         } else $sicont="";
+        
+
+                       // echo $tnom_tipnom.' '.$sicont;
+                       // exit(0);
 
    }	
             
