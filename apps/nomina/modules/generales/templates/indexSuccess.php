@@ -213,7 +213,7 @@
 //////////////////////////////////////////////////////////////////////
 //TXT DE ALIMENTACION
 //////////////////////////////////////////////////////////////////////
-
+$tipo='JUBP';
 $query="
     select nmm001.nactra, TRIM(nmm001.cedula) as cedula, sum(nmm024.moncto) as moncto  from nmm001, nmm024 
     where
@@ -221,13 +221,16 @@ $query="
         
     nmm024.proc_tippro = 54 and
     nmm024.fpro_anocal =  2012 and
-    nmm024.tnom_tipnom = 'CONT' and
+    nmm024.tnom_tipnom = '".$tipo."' and
          
-    nmm024.fpro_numper = 8
+    nmm024.fpro_numper = 10
+    
     
     group by nmm001.nactra, cedula order by nmm001.nactra DESC
 ";
-	
+
+
+
 $rs = oci_parse($db,$query);
 oci_execute($rs);
 
@@ -282,7 +285,7 @@ while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
     }
     else $monto_x = $monto;
 		
-    $cadena .= $nac.$cedula.$monto_x."<br>";
+    $cadena .= $nac.$cedula.$monto_x."\r\n";
     
     $cont++;
 }					
@@ -317,11 +320,15 @@ if($cant!=0){
     $total = $ceros.$total_monto;
 }
    
-$encabezado="ATMCCBDE900061".$empleados.$total."20120730<br>";
+$encabezado="ATMCCBDE900061".$empleados.$total."20121030\r\n";
 
 $cadena_final =$encabezado.$cadena;
 
-echo $cadena_final;
+//echo $cadena_final;
+
+$archivo = fopen("/home/jhoan/www/Telesur/web/uploads/nomina/".$tipo.".txt", "w+");
+fwrite($archivo, $cadena_final);
+fclose($archivo);
 	
 ?>
   

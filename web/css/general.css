@@ -7,6 +7,7 @@ body{
         color:                          #494949;
 }
 
+
 /*TAMAÑO DE LA PAGINA*/
 .contenedor{
 	background-color:		white;
@@ -25,6 +26,11 @@ body{
 	width:                          900px;
 	height:                         128px;
 	background:                     url("../images/banner_telesur.jpg");
+}
+
+.fondo{
+    
+    background: 			url("../images/fondo.png");
 }
 
 /*MENU*/

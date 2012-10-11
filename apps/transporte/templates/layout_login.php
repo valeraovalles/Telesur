@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/principal/web/favicon.ico" />
   </head>
   <body>
-  	<div align="center">
+      <div align="center">
   		<div class="contenedor">
   			<div class="banner"></div>
                     		
@@ -21,7 +21,7 @@
   			
   			<br></br>
   					
-  			<div class="contenido"><?php echo $sf_content ?></div>
+  			<div class="contenido fondo"><?php echo $sf_content ?></div>
   			<div class="pie">                      
     			La Nueva Televisión del Sur C.A. (TVSUR) TeleSUR © | Todo el contenido de esta página es exclusivo para el uso interno del canal. RIF. G-20004500-0 
     		</div>
