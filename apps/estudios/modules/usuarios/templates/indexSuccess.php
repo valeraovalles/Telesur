@@ -109,40 +109,40 @@
         
         <td <?php if($calendario['Domingo'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Domingo'][$i]))echo $calendario['Domingo'][$i];?>
-            <?php if(isset($calendario['Domingo'][$i]) && $calendario['Domingo'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Domingo'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Domingo'][$i]) && $calendario['Domingo'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Domingo'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         
         
         <td <?php if($calendario['Lunes'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Lunes'][$i]))echo $calendario['Lunes'][$i];?>
-            <?php if(isset($calendario['Lunes'][$i]) && $calendario['Lunes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Lunes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Lunes'][$i]) && $calendario['Lunes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Lunes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         
         <td <?php if($calendario['Martes'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Martes'][$i]))echo $calendario['Martes'][$i];?>
-            <?php if(isset($calendario['Martes'][$i]) && $calendario['Martes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Martes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Martes'][$i]) && $calendario['Martes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Martes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         <td <?php if($calendario['Miercoles'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Miercoles'][$i]))echo $calendario['Miercoles'][$i];?>
-            <?php if(isset($calendario['Miercoles'][$i]) && $calendario['Miercoles'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Miercoles'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Miercoles'][$i]) && $calendario['Miercoles'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Miercoles'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         <td <?php if($calendario['Jueves'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Jueves'][$i]))echo $calendario['Jueves'][$i];?>
-            <?php if(isset($calendario['Jueves'][$i]) && $calendario['Jueves'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Jueves'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Jueves'][$i]) && $calendario['Jueves'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Jueves'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         <td <?php if($calendario['Viernes'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Viernes'][$i]))echo $calendario['Viernes'][$i];?>
-            <?php if(isset($calendario['Viernes'][$i]) && $calendario['Viernes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Viernes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Viernes'][$i]) && $calendario['Viernes'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Viernes'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
         
         <td <?php if($calendario['Sabado'][$i]=='')echo "style=background-color:#E8E8E8;"?>>
             <?php if(isset($calendario['Sabado'][$i]))echo $calendario['Sabado'][$i];?>
-            <?php if(isset($calendario['Sabado'][$i]) && $calendario['Sabado'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Sabado'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("aprobado.jpg",array('size' => '25x25'))?></a></div><?php }?>
+            <?php if(isset($calendario['Sabado'][$i]) && $calendario['Sabado'][$i]!=''){?><br><br><div style="text-align: center;"><a href="<?php echo url_for('usuarios/solicitud?fecha='.$calendario['Sabado'][$i].'-'.$mes.'-'.$anio)?>"><?php echo image_tag("busca.png",array('size' => '25x25'))?></a></div><?php }?>
         </td>
 
     </tr>   
@@ -153,8 +153,8 @@
 <div class="leyenda">
     <table width="300px" border="0"  cellspacing="0">
         <tr align="center">
-            <td width="150px"><?php echo image_tag("aprobado.jpg",array('size' => '35x35'))?>&nbsp;Disponible</td>
-            <td width="150px"><?php echo image_tag("mal.jpeg",array('size' => '35x35'))?>&nbsp;No disponible</td>
+            <td width="150px"><?php echo image_tag("busca.png",array('size' => '25x25'))?>&nbsp;Ver</td>
+            <!--<td width="150px"><?php echo image_tag("mal.jpeg",array('size' => '35x35'))?>&nbsp;No disponible</td>-->
         </tr>
     </table>
 </div>

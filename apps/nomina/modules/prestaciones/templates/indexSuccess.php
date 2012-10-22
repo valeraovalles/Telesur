@@ -34,6 +34,12 @@
         </tr>
         
         <tr>
+            <th>Periodos</th>
+            <td><input type="text" name="nidesde"></td>
+        </tr>
+        
+        <!--
+        <tr>
             <th>N.I Desde</th>
             <td><input type="text" name="nidesde" class="tcal"></td>
         </tr>
@@ -42,7 +48,7 @@
             <th>N.I Hasta</th>
             <td><input type="text" name="nihasta" class="tcal"></td>
         </tr>
-        
+        -->
         <tr>
             <td style="text-align: center;" colspan="2">
                 <input id="boton" type="button" value="Generar" onclick="enviar_formulario('Generar TXT')">

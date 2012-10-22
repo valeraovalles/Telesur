@@ -30,7 +30,7 @@ body{
 
 .fondo{
     
-    background: 			url("../images/fondo.png");
+        background: 			url("../images/fondo.png") repeat-x;
 }
 
 /*MENU*/

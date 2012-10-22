@@ -5,16 +5,16 @@
 <div class="jquery" align="left">
 
 	<div class="listado_aplicaciones">
-		<a href="/Telesur/web/neto_infocent.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
+            <a title="Permite consultar tus recibos de pago" href="/Telesur/web/neto_infocent.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
 	</div>
 	
 	
 	<div class="listado_aplicaciones">
-		<a href="/Telesur/web/constancia.php">Constancia de Trabajo<br><img src="<?php echo image_path("constancia/constancia.jpeg")?>"></a><br>
+		<a title="Permite solicitar constancias de trabajo" href="/Telesur/web/constancia.php">Constancia de Trabajo<br><img src="<?php echo image_path("constancia/constancia.jpeg")?>"></a><br>
 	</div>
 
 	<div class="listado_aplicaciones">
-		<a href="/Telesur/web/sit.php">SIT<br><img src="<?php echo image_path("sit/sit.jpg")?>"></a><br>
+		<a title="Permite enviar solicitudes a la direccion de sistemas informáticos" href="/Telesur/web/sit.php">SIT<br><img src="<?php echo image_path("sit/sit.jpg")?>"></a><br>
 	</div>
     
         <?php if($sf_user->hasCredential('app_nomina')){?>
@@ -63,6 +63,10 @@
 		<a href="/Telesur/web/mapamundi.php">MapaMundi<br><img src="<?php echo image_path("mapamundi/mapamundi.jpg")?>"></a><br>
 	</div>
     
+        <div class="listado_aplicaciones">
+		<a title="Permite mantener un registro de actividades" href="/Telesur/web/mapamundi.php">Bitacora<br><img src="<?php echo image_path("bitacora/bitacora.jpg")?>"></a><br>
+	</div>
+    
         <!--
         <?php //if($sf_user->hasCredential('app_personal')){?>
 	<div class="listado_aplicaciones">
@@ -79,12 +83,12 @@
     
 	<?php if($sf_user->hasCredential('app_txt')){?>
 	<div class="listado_aplicaciones">
-		<a href="/principal/web/faov.php">Archivos FAOV<br><img src="<?php //echo image_path("fju/txt.png")?>"></a><br>
+		<a href="/principal/web/faov.php">Archivos FAOV<br><img src="<?php echo image_path("txt.jpg")?>"></a><br>
 	</div>
 	
 	
 	<div class="listado_aplicaciones">
-		<a href="/principal/web/fju.php">Archivos FJU<br><img src="<?php //echo image_path("fju/txt.png")?>"></a><br>
+		<a href="/principal/web/fju.php">Archivos FJU<br><img src="<?php echo image_path("txt.jpg")?>"></a><br>
 	</div>
         
 	<?php }?>
