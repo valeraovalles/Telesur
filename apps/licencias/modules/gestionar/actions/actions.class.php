@@ -288,7 +288,7 @@ public function executeConsultar(sfWebRequest $request)
 
      		$inicio="<div align=center><table style='font-size:12px;' width=850px border=0 bgcolor='gray' cellpadding=5>
 	     				<tr bgcolor='white'>
-	     					<td colspan=6 align=center style='font-weight:bold'>LICENCIAS &Oacute; SERVICIOS A MENOS DE ".$d." D&Iacute;AS DE SU FECHA DE EXPIRACI&Oacute;N</td>  					
+	     					<td colspan=6 align=center style='font-weight:bold'>LICENCIAS POR VENCER</td>  					
 	     						
 	     				</tr>
 	     						
