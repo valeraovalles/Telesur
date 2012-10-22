@@ -175,7 +175,7 @@ public function executeConsultar(sfWebRequest $request)
 		     					<td align=center>".$lvc->getFechaCompra("d-m-Y")."</td>
 		     					<td align=center>".$lvc->getFechaVencimiento("d-m-Y")."</td>
 		     					<td>".$lvc->getDescripcion()."</td>
-		     					<td>".$this->respponsable[$c]."</td>
+		     					<td>".$this->responsable[$c]."</td>
 		     					<td>".$t."</td>
 		     				</tr>
 		     	";
