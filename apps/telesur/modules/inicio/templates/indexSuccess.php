@@ -63,9 +63,11 @@
 		<a href="/Telesur/web/mapamundi.php">MapaMundi<br><img src="<?php echo image_path("mapamundi/mapamundi.jpg")?>"></a><br>
 	</div>
     
+        <?php if($sf_user->hasCredential('app_personal')){?>
         <div class="listado_aplicaciones">
 		<a title="Permite mantener un registro de actividades" href="/Telesur/web/mapamundi.php">Bitacora<br><img src="<?php echo image_path("bitacora/bitacora.jpg")?>"></a><br>
 	</div>
+        <?php }?>
     
         <!--
         <?php //if($sf_user->hasCredential('app_personal')){?>
