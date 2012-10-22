@@ -1,14 +1,14 @@
 <?php
 
 /**
- * bitacora actions.
+ * reportes actions.
  *
  * @package    Telesur
- * @subpackage bitacora
+ * @subpackage reportes
  * @author     Your name here
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */
-class bitacoraActions extends sfActions
+class reportesActions extends sfActions
 {
  /**
   * Executes index action
@@ -17,6 +17,6 @@ class bitacoraActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-      
+    $this->forward('default', 'module');
   }
 }

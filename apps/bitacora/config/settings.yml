@@ -24,6 +24,13 @@ test:
 
 all:
   .settings:
+    
+    enabled_modules:      [default, sfGuardGroup, sfGuardUser, sfGuardPermission, sfGuardAuth]
+    login_module:         sfGuardAuth
+    login_action:         signin
+    secure_module:        sfGuardAuth
+    secure_action:        secure
+    
     # Form security secret (CSRF protection)
     csrf_secret:            3e308e0cc74bb773eee6d5a20a19514d1e7ebc62
 
@@ -33,3 +40,5 @@ all:
 
     # Enable the database manager
     use_database:           true
+    i18n:                   true       # Enable interface translation. Set to off if your application should not be translated.
+    default_culture:        es_ES      # Default user culture

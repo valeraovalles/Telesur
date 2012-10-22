@@ -6,15 +6,15 @@ default:
     content-type: text/html
 
   metas:
-    #title:        symfony project
+    title:        Bitácora
     #description:  symfony project
     #keywords:     symfony, project
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [main.css]
+  stylesheets:    [general.css,menu.css,crud.css,tcal.css,transporte.css]
 
-  javascripts:    []
+  javascripts:    [jquery.js,menu.js,funciones.js,tcal.js,ajax.js]
 
   has_layout:     true
   layout:         layout

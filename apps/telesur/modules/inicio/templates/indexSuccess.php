@@ -65,7 +65,7 @@
     
         <?php if($sf_user->hasCredential('app_personal')){?>
         <div class="listado_aplicaciones">
-		<a title="Permite mantener un registro de actividades" href="/Telesur/web/mapamundi.php">Bitacora<br><img src="<?php echo image_path("bitacora/bitacora.jpg")?>"></a><br>
+		<a title="Permite mantener un registro de actividades" href="/Telesur/web/bitacora.php">Bitacora<br><img src="<?php echo image_path("bitacora/bitacora.jpg")?>"></a><br>
 	</div>
         <?php }?>
     
