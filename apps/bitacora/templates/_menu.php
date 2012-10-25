@@ -1,21 +1,14 @@
 <div id="menu">
     <ul class="menu">
-        <li><a href="<?php echo url_for('solicitud/index')?>"><span>INICIO</span></a></li>
+        <li><a href="<?php echo url_for('bitacora/index')?>"><span>INICIO</span></a></li>
         <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
         
         <?php if($sf_user->hasCredential('transporte_gestion_tr') || $sf_user->hasCredential('transporte_gestion_co') || $sf_user->isSuperAdmin()){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
                 <div><ul>
                     <?php if($sf_user->isSuperAdmin()){ ?>
-                    <li><a href="<?php echo url_for('vehiculos/index')?>"><span>Vehículos</span></a></li>                    
-                    <li><a href="<?php echo url_for('externos/index')?>"><span>Externos</span></a></li>
-                    <?php }?>
-                    <?php if($sf_user->hasCredential('transporte_gestion_tr')){?>
-                    <li><a href="<?php echo url_for('gestion/transportetr')?>"><span>Transporte Tr</span></a></li>
-                    <?php }?>
-                    <?php if($sf_user->hasCredential('transporte_gestion_co')){?>
-                    <li><a href="<?php echo url_for('gestion/transporteco')?>"><span>Transporte Co</span></a></li>
-                    <li><a href="<?php echo url_for('gestion/correspondencia')?>"><span>Correspondencia</span></a></li>                    
+                    <li><a href="<?php echo url_for('categorias/index')?>"><span>Categorias</span></a></li>                    
+                    <li><a href="<?php echo url_for('externos/index')?>"><span>Reportes</span></a></li>
                     <?php }?>
                  </ul></div>
             </li>

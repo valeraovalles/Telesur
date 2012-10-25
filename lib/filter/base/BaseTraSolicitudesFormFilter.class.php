@@ -14,7 +14,7 @@ abstract class BaseTraSolicitudesFormFilter extends BaseFormFilterPropel
     $this->setWidgets(array(
       'id_solicitante'        => new sfWidgetFormPropelChoice(array('model' => 'SfGuardUserProfile', 'add_empty' => true)),
       'asistentes'            => new sfWidgetFormFilterInput(),
-      'fecha_solicitud'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
+      'fecha_solicitud'       => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'fecha_salida'          => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'hora_salida'           => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate())),
       'direccion_traslado'    => new sfWidgetFormFilterInput(array('with_empty' => false)),

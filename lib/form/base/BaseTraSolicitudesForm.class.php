@@ -33,7 +33,7 @@ abstract class BaseTraSolicitudesForm extends BaseFormPropel
       'id_solicitud'          => new sfValidatorChoice(array('choices' => array($this->getObject()->getIdSolicitud()), 'empty_value' => $this->getObject()->getIdSolicitud(), 'required' => false)),
       'id_solicitante'        => new sfValidatorPropelChoice(array('model' => 'SfGuardUserProfile', 'column' => 'user_id')),
       'asistentes'            => new sfValidatorString(array('max_length' => 100, 'required' => false)),
-      'fecha_solicitud'       => new sfValidatorDate(),
+      'fecha_solicitud'       => new sfValidatorDate(array('required' => false)),
       'fecha_salida'          => new sfValidatorDate(array('required' => false)),
       'hora_salida'           => new sfValidatorTime(array('required' => false)),
       'direccion_traslado'    => new sfValidatorString(array('max_length' => 500)),
@@ -42,7 +42,7 @@ abstract class BaseTraSolicitudesForm extends BaseFormPropel
       'tipo_transporte'       => new sfValidatorString(array('max_length' => 1)),
       'tipo_solicitud'        => new sfValidatorString(array('max_length' => 1)),
       'estatus'               => new sfValidatorString(array('max_length' => 2)),
-      'justificacion_rechazo' => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'justificacion_rechazo' => new sfValidatorString(array('max_length' => 500, 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('tra_solicitudes[%s]');
