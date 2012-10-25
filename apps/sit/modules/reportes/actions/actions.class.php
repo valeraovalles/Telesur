@@ -87,7 +87,7 @@ class reportesActions extends sfActions
               $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$this->funciones->voltea_fecha($this->datos['hasta']),Criteria::LESS_EQUAL);
           
           if($this->datos['id_usuario']!='')
-              $a->addAnd(SitTicketsPeer::ID_SOLICITANTE,$this->datos['id_solicitante']);
+              $a->addAnd(SitTicketsPeer::ID_SOLICITANTE,$this->datos['id_usuario']);
                    
                     
                     
