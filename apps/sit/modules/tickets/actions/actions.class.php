@@ -80,10 +80,10 @@ class ticketsActions extends sfActions
                
 	
 		if($filtro['fecha_desde']!='')
-			$a->add(SitTicketsPeer::FECHA_SOLICITUD,$f->voltea_fecha($filtro['fecha_desde']),Criteria::GREATER_EQUAL);
+			$a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$f->voltea_fecha($filtro['fecha_desde']),Criteria::GREATER_EQUAL);
 
 		if($filtro['fecha_hasta']!='')
-			$a->add(SitTicketsPeer::FECHA_SOLICITUD,$f->voltea_fecha($filtro['fecha_hasta']),Criteria::LESS_EQUAL);
+			$a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$f->voltea_fecha($filtro['fecha_hasta']),Criteria::LESS_EQUAL);
 		
 		if($filtro['id_categoria']!='')
 			$a->add(SitTicketsPeer::ID_CATEGORIA,$filtro['id_categoria']);

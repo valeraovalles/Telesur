@@ -46,7 +46,7 @@ class reportesActions extends sfActions
   
   public function executePdfinformegestion(sfWebRequest $request)
   {
-      $this->setLayout("layout_limpio");
+      //$this->setLayout("layout_limpio");
       $this->funciones=new funciones;
       
       if ($request->isMethod('post'))
@@ -87,10 +87,10 @@ class reportesActions extends sfActions
               $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$this->funciones->voltea_fecha($this->datos['hasta']),Criteria::LESS_EQUAL);
           
           if($this->datos['id_usuario']!='')
-              $a->addAnd(SitTicketsPeer::ID_SOLICITANTE,$this->datos['id_usuario']);
+              $a->addAnd(SitTicketsUsuariosPeer::ID_USUARIO,$this->datos['id_usuario']);
                    
                     
-                    
+          $a->addjoin(SitTicketsUsuariosPeer::ID_TICKET,  SitTicketsPeer::ID_TICKET);
           $a->add(SitTicketsPeer::ID_UNIDAD,$this->datos['id_unidad']);
           $a->add(SitTicketsPeer::ESTATUS,'c');
           $a->addJoin(SitCategoriasPeer::ID_CATEGORIA,SitTicketsPeer::ID_CATEGORIA);          
