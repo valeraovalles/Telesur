@@ -49,20 +49,25 @@
 
 <br><br>
 
+
+
 <table class="tabla_list" style="width: 850px;">
        
     <tr>
-        <th style="text-align: center;">TICKETS NUEVOS</th>
-        <th style="text-align: center;">TICKETS ASIGNADOS</th>
-        <th style="text-align: center;">TICKETS CERRADOS</th>
+        <th style="text-align: center;width: 283px;">TICKETS NUEVOS</th>
+        <th style="text-align: center;width: 283px;">TICKETS ASIGNADOS</th>
+        <th style="text-align: center;width: 283px;">TICKETS CERRADOS</th>
     </tr>
-    
+   
     <tr style="text-align: center;">
         <td><?php echo $cantidadnuevos?></td>
         <td><?php echo $cantidadasignados?></td>
         <td><?php echo $cantidadcerrados?></td>
     </tr>
 
+        <tr>
+        <th colspan="3" style="text-align: center;">AÑO <?php echo date("Y")?></th>
+    </tr>
 </table>
 
 <br><br>

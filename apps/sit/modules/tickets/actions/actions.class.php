@@ -43,19 +43,28 @@ class ticketsActions extends sfActions
   	$this->form_filter=new SitTicketsFormFilter();	
  
         //CUENTO LOS TICKETS NUEVOS CERRADOS Y ASIGNADOS////////////////////////
+        $d1=date("Y")."-01-01";
+        $d2=date("Y")."-12-31";
+         
         $a = new Criteria();
         $a->add(SitTicketsPeer::ID_UNIDAD,$this->idunidadusuario);
         $a->add(SitTicketsPeer::ESTATUS,'n');
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d1,  Criteria::GREATER_EQUAL);
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d2,  Criteria::LESS_EQUAL);
         $this->cantidadnuevos=SitTicketsPeer::doCount($a);
         
         $a = new Criteria();
         $a->add(SitTicketsPeer::ID_UNIDAD,$this->idunidadusuario);
         $a->add(SitTicketsPeer::ESTATUS,'a');
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d1,  Criteria::GREATER_EQUAL);
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d2,  Criteria::LESS_EQUAL);
         $this->cantidadasignados=SitTicketsPeer::doCount($a);
         
         $a = new Criteria();
         $a->add(SitTicketsPeer::ID_UNIDAD,$this->idunidadusuario);
         $a->add(SitTicketsPeer::ESTATUS,'c');
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d1,  Criteria::GREATER_EQUAL);
+        $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$d2,  Criteria::LESS_EQUAL);
         $this->cantidadcerrados=SitTicketsPeer::doCount($a);
         ////////////////////////////////////////////////////////////////////////
 
