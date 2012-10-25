@@ -22,19 +22,23 @@ class reportesActions extends sfActions
       if ($request->isMethod('post'))
       {
           $datos=$request->getParameter("reporteig");
+          $accion=$request->getParameter("accion");
+          
           $this->form->setDatos($datos);
           
-          $this->form->bind($datos);
+          if($accion!='unidad'){
+            $this->form->bind($datos);
 
-          if ($this->form->isValid())
-          {
-                 $tipo_archivo=$request->getParameter("ta");
-                 if($tipo_archivo=='p')
-                 $this->forward("reportes","pdfinformegestion");
-                 else
-                 if($tipo_archivo=='r')
-                 $this->forward("reportes","rtfinformegestion");
-          } 
+            if ($this->form->isValid())
+            {
+                    $tipo_archivo=$request->getParameter("ta");
+                    if($tipo_archivo=='p')
+                    $this->forward("reportes","pdfinformegestion");
+                    else
+                    if($tipo_archivo=='r')
+                    $this->forward("reportes","rtfinformegestion");
+            } 
+          }
           
       }
       
@@ -48,6 +52,7 @@ class reportesActions extends sfActions
       if ($request->isMethod('post'))
       {
           $this->datos=$request->getParameter("reporteig");   
+          
        
 
           //ENCABEZADO//////////////////////////////////////////////////////////
@@ -80,6 +85,10 @@ class reportesActions extends sfActions
           
           if($this->datos['hasta']!='')
               $a->addAnd(SitTicketsPeer::FECHA_SOLICITUD,$this->funciones->voltea_fecha($this->datos['hasta']),Criteria::LESS_EQUAL);
+          
+          if($this->datos['id_usuario']!='')
+              $a->addAnd(SitTicketsPeer::ID_SOLICITANTE,$this->datos['id_solicitante']);
+                   
                     
                     
           $a->add(SitTicketsPeer::ID_UNIDAD,$this->datos['id_unidad']);

@@ -11,10 +11,10 @@
         <td><?php echo $form['id_unidad']->renderError();?><?php echo $form['id_unidad']?></td>
     </tr>
     
-    <!--<tr>
+    <tr>
         <th>Personal:</th>
-        <td><?php //echo $form['id_usuario']?><br><?php //echo $form['id_usuario']->renderError();?></td>
-    </tr>-->
+        <td><?php echo $form['id_usuario']?><br><?php echo $form['id_usuario']->renderError();?></td>
+    </tr>
     
     <tr>
         <th>Fecha Desde:</th>
