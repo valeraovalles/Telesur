@@ -20,6 +20,11 @@ class bitacoraActions extends sfActions
       
   }
   
+  public function executeReportes(sfWebRequest $request)
+  {
+      
+  }
+  
   public function executeListado(sfWebRequest $request)
   {
       

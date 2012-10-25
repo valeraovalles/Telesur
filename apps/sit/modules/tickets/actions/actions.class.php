@@ -174,6 +174,7 @@ class ticketsActions extends sfActions
                     
                         $this->getUser()->setFlash('sms',sprintf($sms));
                         $this->redirect("tickets/index?id=".$this->idtk); 
+                        
                 } else {$this->getUser()->setFlash('sms',sprintf("Ha ocurrido un error"));return;}
                 
                 

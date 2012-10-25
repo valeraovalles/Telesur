@@ -102,7 +102,7 @@ foreach ($categorias as $cat) {
           $leyenda = $array_categorias;
 
           //Se define el grafico
-          $this->grafico = new PieGraph(450,300);
+          $this->grafico = new PieGraph(800,500);
 
           //Definimos el titulo
           $this->grafico->title->Set("Informe de Gestion (".$unidad->getDescripcion().")");
