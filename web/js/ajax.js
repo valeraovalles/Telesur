@@ -28,6 +28,7 @@ function ajax(url,div,datos,opc){
 		if(xmlHttp.readyState==4){
 
 			var cadena=xmlHttp.responseText.split("::");
+                        alert(cadena[1])
 			if(cadena[1]=='envia')
 				document.form.submit()
 	
