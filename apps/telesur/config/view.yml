@@ -12,9 +12,9 @@ default:
     #language:     en
     #robots:       index, follow
 
-  stylesheets:    [general.css,menu.css,gips.css]
+  stylesheets:    [general.css,menu.css,gips.css,crud.css]
 
-  javascripts:    [jquery.js,menu.js,gips.js]
+  javascripts:    [jquery.js,menu.js,gips.js,ajax.js]
 
   has_layout:     true
   layout:         layout
