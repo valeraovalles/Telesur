@@ -20,7 +20,7 @@
 <div class="titulo_modulo">CAMBIO DE CLAVE</div>
 
 
-<div id="valida"><?php echo $sf_user->getFlash('notice')?></div>
+<div id="valida"><?php echo "<div class='sms'>".$sf_user->getFlash('notice'); echo $sms."</div>"?></div>
 
 <br>
 <form action="<?php echo url_for("cambio_clave/index")?>" method="post" name="form">
@@ -41,7 +41,7 @@
 	</tr>
 	
 	<tr>
-            <td colspan="2" style="text-align:center;"><input id="boton" type="button" value="Cambiar" onclick="validar();"></td>
+            <td colspan="2" style="text-align:center;"><input id="boton" type="submit" value="Cambiar" ></td>
 	</tr>
 
 </table>

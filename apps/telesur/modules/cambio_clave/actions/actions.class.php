@@ -18,9 +18,30 @@ class cambio_claveActions extends sfActions
 	
   public function executeIndex(sfWebRequest $request)
   {
+      $this->sms='';
   	
-  	  	if ($request->isMethod('post'))
-	  	{
+    if ($request->isMethod('post'))
+    {
+                    
+        $datos=$request->getParameter("datos");
+	$actual=$datos['actual'];
+	$nueva=$datos['nueva'];
+	$confi=$datos['confirmar'];
+
+  		if($actual=='' || $nueva=='' || $confi=='')
+  			$this->sms='Debe llenar todos los campos';
+  			
+  		else if($this->getUser()->checkPassword($actual)!=1)
+  			$this->sms='La clave actual no coincide';
+  			
+  		else if(strlen($nueva)<6)
+  			$this->sms='La clave debe tener al menos 6 caracteres';
+  			
+  		else if($nueva!=$confi)
+  			$this->sms='Las claves deben ser iguales';
+
+  		else  {
+
 		  	$datos=$request->getParameter("datos");
 		  	
 		  	$password = new PluginsfGuardUser();
@@ -36,46 +57,18 @@ class cambio_claveActions extends sfActions
 			sfGuardUserPeer::doUpdate($a);
 			
 			$this->getUser()->setFlash('notice',sprintf('Operacion realizada con exito'));
-
+                        $this->redirect("cambio_clave/index");
+                }
 		  	
-	  	}
+	 }
 
   }
   
     public function executeValida(sfWebRequest $request)
   {
   	
-  	$this->setLayout("layout_limpio");
   	
-  	$modulo=$_GET['opc'];
-  	$datos=$_GET['datos'];
   	
-	
-  	if($modulo=="cambio_clave"){
-  		
-  		$array=explode(",",$datos);
-  		
-  		$actual=$array[0];
-  		$nueva=$array[1];
-  		$confi=$array[2];
-  		
-
-  		if($actual=='' || $nueva=='' || $confi=='')
-  			echo "<div class='sms'>Debe llenar todos los campos</div>";
-  			
-  		else if($this->getUser()->checkPassword($actual)!=1)
-  			echo "<div class='sms'>La clave actual no coincide</div>";
-  			
-  		else if(strlen($nueva)<6)
-  			echo "<div class='sms'>La clave debe tener al menos 6 caracteres</div>";
-  			
-  		else if($nueva!=$confi)
-  			echo "<div class='sms'>Las claves deben ser iguales</div>";
-
-  		else echo "::envia::";
-
-  	
-  	}
   		
   	
   }
