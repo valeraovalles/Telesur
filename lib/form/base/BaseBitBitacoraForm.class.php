@@ -20,6 +20,7 @@ abstract class BaseBitBitacoraForm extends BaseFormPropel
       'descripcion'     => new sfWidgetFormInputText(),
       'id_subcategoria' => new sfWidgetFormPropelChoice(array('model' => 'BitSubcategorias', 'add_empty' => true)),
       'id_usuario'      => new sfWidgetFormPropelChoice(array('model' => 'SfGuardUserProfile', 'add_empty' => true)),
+      'id_unidad'       => new sfWidgetFormPropelChoice(array('model' => 'SitUnidades', 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
@@ -29,6 +30,7 @@ abstract class BaseBitBitacoraForm extends BaseFormPropel
       'descripcion'     => new sfValidatorString(array('max_length' => 500, 'required' => false)),
       'id_subcategoria' => new sfValidatorPropelChoice(array('model' => 'BitSubcategorias', 'column' => 'id_subcategoria', 'required' => false)),
       'id_usuario'      => new sfValidatorPropelChoice(array('model' => 'SfGuardUserProfile', 'column' => 'user_id', 'required' => false)),
+      'id_unidad'       => new sfValidatorPropelChoice(array('model' => 'SitUnidades', 'column' => 'id_unidad', 'required' => false)),
     ));
 
     $this->widgetSchema->setNameFormat('bit_bitacora[%s]');

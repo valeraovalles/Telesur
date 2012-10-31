@@ -14,7 +14,7 @@ default:
 
   stylesheets:    [general.css,menu.css,crud.css,tcal.css,transporte.css]
 
-  javascripts:    [jquery.js,menu.js,funciones.js,tcal.js,ajax.js,ajax_refresh.js]
+  javascripts:    [jquery.js,menu.js,funciones.js,tcal.js,ajax.js,jquery.js,ajax_refresh.js]
 
   has_layout:     true
   layout:         layout

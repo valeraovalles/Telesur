@@ -18,7 +18,7 @@
  */
 class BitBitacoraPeer extends BaseBitBitacoraPeer {
 
-    static public function guardar($idu, $datos){
+    static public function guardar($idu, $datos, $idunidad){
         
         $a=new BitBitacora;
         $a->setIdUsuario($idu);
@@ -26,6 +26,7 @@ class BitBitacoraPeer extends BaseBitBitacoraPeer {
         $a->setDescripcion($datos['observaciones']);
         $a->setFecha($datos['fecha']);
         $a->setHora($datos['hora']['hour'].":".$datos['hora']['minute']);
+        $a->setIdUnidad($idunidad);
         if($a->save()) return "Datos Guardados";
         else return false;
         

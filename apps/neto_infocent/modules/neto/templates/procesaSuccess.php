@@ -25,8 +25,6 @@
 	 if($proceso=="01")
 	  {
       $query="
-	
-	
 		select nmm001.cedula, nmm001.fictra, nmm001.nombr1, nmm001.apell1, nmm001.sueld1, nmm001.fecing, 
 		nmm024.tnom_tipnom, nmm024.cto_codcto, nmm024.moncto, nmm024.functo, nmm024.cancto, nmm024.suecal, 
 		nmt027.descto, nmt004.descar, nmt019.desdep, nmt033.fecini,nmt033.fecfin
@@ -167,9 +165,7 @@
 	$f2=str_replace("/", "", $row['FECFIN']);
 	$fec=$f1."-Hasta-".$f2;
 
-	
-	
-	
+
 	$cedula= $row['CEDULA'];
 	$fictra= $row['FICTRA'];
 	   

@@ -1,81 +1,34 @@
-<?php
-/*
-function marditasea($var){
-    $variable=$var;
-    $variable=str_replace("Ã³", "ó", $variable);
-    $variable=str_replace("Ã©", "é", $variable);
-    
-     
-     return $variable;
-}
-    
-    $a=new ConexionDirecta();
-    $a->mysql_60();    
-    
-    
-    $query="select * from visitas, usuarios where visitas.cedula_visitante=usuarios.cedula order by visitas.id_visita ASC";
-    $rs=mysql_query($query);
+<div class="titulo_modulo">ELIJA LA ACCIÓN QUE DESEA REALIZAR</div>
+<script> 
+         var seconds = 1; 
 
-    $htmlx="
-        <div>REPORTE DE VISITANTES</div><BR>
-        <table class='tabla_list'>
-        <tr>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Cedula</th>
-            <th>Fecha E.</th>
-            <th>Hora E.</th>
-            <th>Fecha S.</th>
-            <th>Hora S.</th>
-            <th>Contacto</th>
-            <th>Observ.</th>
-            <th>Foto</th>
-        </tr>        
-    ";
-   
-    while ($row=mysql_fetch_array($rs)){
-        
-        
-        $htmlx .="
-        <tr>
-            <td>".marditasea($row['nombres'])."</td>
-            <td>".marditasea($row['apellidos'])."</td>
-            <td>".$row['cedula']."</td>
-            <td>".$row['fecha_entrada']."</td>
-            <td>".$row['hora_entrada']."</td>
-            <td>".$row['fecha_salida']."</td>
-            <td>".$row['hora_salida']."</td>
-            <td>".marditasea($row['contacto'])."</td>
-            <td>".marditasea($row['observaciones'])."</td>
-            <td><img width='80px' src='http://192.168.3.60/ControlDeVisitantes/fotografias/".$row['cedula'].".jpg'></td>
-        </tr>     
-        ";
+        var divid = "contenido"; 
+        var url = "/Telesur/web/index.php/ajax/hora?idtk=0";
 
-    }
-    
-    $htmlx .="</table>";
-    
-
-  //==============================================================
-  //==============================================================
-  //==============================================================
-
-        include("../../Telesur/web/MPDF/mpdf.php");
-
-        $mpdf=new mPDF('c'); 
-
-        $mpdf->SetDisplayMode('fullpage');
-
-        // LOAD a stylesheet
-        $stylesheet = file_get_contents('css/crud.css');
-        $mpdf->WriteHTML($stylesheet,1);	// The parameter 1 tells that this is css/style only and no body/html/text
-
-        $mpdf->WriteHTML($htmlx);
-
-        $mpdf->Output("reporte.pdf","D");
-        
-   //==============================================================
-   //==============================================================
-   //==============================================================
-*/
-?>
+        window.onload = function(){
+                refreshdiv(); // corremos inmediatamente la funcion
+        }
+</script>
+       <div id='contenido' style="font-size:50px; font-family:Georgia; font-style:italic; color:red;"></div>
+	<table border="0" width="500px" cellpadding="15px">
+		<tr align="center">
+                    <td><a href="<?php echo url_for("visitas/form_ingreso")?>"><img src="<?php echo image_path("visitas/access.png")?>" width="80px"><br>REGISTRAR VISITAS</a></td>
+                    <td><a href="<?php echo url_for("solicitud/formulariocorrespondencia")?>"><img src="<?php echo image_path("visitas/search.png")?>" width="80px"><br>CONSULTAR VISITAS</a></td>
+                        
+		</tr>
+                
+                
+                <tr align="center">
+                    <td><a href="<?php echo url_for("visitas/registrarsalida")?>"><img src="<?php echo image_path("visitas/salida.png")?>" width="80px"><br>REGISTRAR SALIDA</a></td>
+                    <td><a href="<?php echo url_for("usuarios_admin/index")?>"><img src="<?php echo image_path("visitas/trabajador.png")?>" width="80px"><br>LISTADO VISITANTES</a></td>
+                    
+		</tr>  
+                
+                 <tr align="center">
+                    
+                     <td colspan="2" aling="center"><a href="<?php echo url_for("solicitud/formulariocorrespondencia")?>"><img src="<?php echo image_path("visitas/graph.png")?>" width="50px"><br>REPORTES</a></td>                    
+		</tr>                   
+	</table>
+<div class="iconos">
+    <a href="/principal/web"><?php echo image_tag('volver.jpg')?>&nbsp;&nbsp;Volver</a>
+</div>

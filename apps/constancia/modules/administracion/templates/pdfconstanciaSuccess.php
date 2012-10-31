@@ -84,6 +84,26 @@ $fc=new funciones();
 $ora=new ConexionDirecta();
 $db=$ora->oracle();
 
+//fictra
+$query=" select fictra from nmm001 where cedula like '%".$cedula."%'";
+$rs = oci_parse($db,$query);
+oci_execute($rs);
+$row = oci_fetch_array($rs, OCI_ASSOC); 
+$fictra_usuario= $row['FICTRA'];
+
+
+//cargo y departamento
+$query="select b.descar,c.desdep from nmm001 a, nmt004 b, nmt019 c
+where A.CGO_CAROCU=B.CODCAR and A.DPTO_CODDEP=C.CODDEP and a.fictra like '%".$fictra_usuario."%'
+";
+$rs = oci_parse($db,$query);
+oci_execute($rs);
+$row = oci_fetch_array($rs, OCI_ASSOC); 
+$cargo= $row['descar'];
+$dependencia= $row['desdep'];
+
+
+
 $query=" select fictra from nmm001 where cedula like '%".$cedula."%'";
 $rs = oci_parse($db,$query);
 oci_execute($rs);

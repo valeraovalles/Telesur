@@ -1,22 +1,3 @@
-<script type="text/javascript">
-	function validar(){
-		act=document.getElementById("actual").value
-		nue=document.getElementById("nueva").value
-		con=document.getElementById("conf").value
-
-
-		var datos=new Array;
-		datos[0]=act;
-		datos[1]=nue;
-		datos[2]=con;
-
-		ajax("cambio_clave/valida","valida",datos,"cambio_clave")
-
-	}
-
-	
-</script>
-
 <div class="titulo_modulo">CAMBIO DE CLAVE</div>
 
 

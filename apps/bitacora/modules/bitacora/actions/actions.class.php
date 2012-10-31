@@ -27,14 +27,16 @@ class bitacoraActions extends sfActions
   
   public function executeListado(sfWebRequest $request)
   {
-      
-            
       $idu=$this->getUser()->getGuardUser()->getId();
+      $f=new funciones;
+      $idunidad=$f->SitIdUnidad($idu);
+      $this->unidad=SitUnidadesPeer::retrieveByPK($idunidad);
   	
       $a=new Criteria();
       $a->addJoin(SfGuardUserProfilePeer::USER_ID, BitBitacoraPeer::ID_USUARIO);
       $a->addJoin(BitSubcategoriasPeer::ID_SUBCATEGORIA, BitBitacoraPeer::ID_SUBCATEGORIA);
       $a->addDescendingOrderByColumn("id_bitacora");
+      $a->add(BitBitacoraPeer::ID_UNIDAD,$idunidad);
   	
       $this->form_filter=new BitBitacoraFormFilter();
 	
@@ -67,6 +69,8 @@ class bitacoraActions extends sfActions
   public function executeRegistro(sfWebRequest $request)
   {
       $idu=$this->getUser()->getGuardUser()->getId();
+      $f=new funciones;
+      $idunidad=$f->SitIdUnidad($idu);
       
       $this->form= new BitBitacoraForm;
       
@@ -82,7 +86,7 @@ class bitacoraActions extends sfActions
                 
             if ($this->form->isValid())
             {
-               $sms=  BitBitacoraPeer::guardar($idu,$datos);
+               $sms=  BitBitacoraPeer::guardar($idu,$datos,$idunidad);
                 
                if($sms==false){
                   $this->getUser()->setFlash('sms',sprintf("Operación inválida exitosa."));

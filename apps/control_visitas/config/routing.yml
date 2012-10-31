@@ -1,3 +1,21 @@
+cv_usuarios_usuarios_admin:
+  class: sfPropelRouteCollection
+  options:
+    model:                CvUsuarios
+    module:               usuarios_admin
+    prefix_path:          /usuarios_admin
+    column:               id_usuario
+    with_wildcard_routes: true
+
+cv_usuarios:
+  class: sfPropelRouteCollection
+  options:
+    model:                CvUsuarios
+    module:               usuarios
+    prefix_path:          /usuarios
+    column:               id_usuario
+    with_wildcard_routes: true
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 

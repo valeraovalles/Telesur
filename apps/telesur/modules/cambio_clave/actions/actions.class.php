@@ -64,12 +64,5 @@ class cambio_claveActions extends sfActions
 
   }
   
-    public function executeValida(sfWebRequest $request)
-  {
-  	
-  	
-  	
-  		
-  	
-  }
+
 }

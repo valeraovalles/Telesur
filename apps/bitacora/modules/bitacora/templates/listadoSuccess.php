@@ -1,4 +1,4 @@
-<div class="titulo_modulo">BITACORA</div>
+<div class="titulo_modulo">BITACORA <?php  echo "(".strtoupper($unidad->getDescripcion()).")"; ?></div>
 
 <?php $mas=$pagina+1; $menos=$pagina-1; if($menos<1) $menos=$cantidad_paginas; if($mas>$cantidad_paginas) $mas=1;?>
 
