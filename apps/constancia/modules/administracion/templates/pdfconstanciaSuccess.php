@@ -99,8 +99,8 @@ where A.CGO_CAROCU=B.CODCAR and A.DPTO_CODDEP=C.CODDEP and a.fictra like '%".$fi
 $rs = oci_parse($db,$query);
 oci_execute($rs);
 $row = oci_fetch_array($rs, OCI_ASSOC); 
-$cargo= $row['descar'];
-$dependencia= $row['desdep'];
+$cargo= $row['DESCAR'];
+$dependencia= $row['DESDEP'];
 
 
 
@@ -201,7 +201,7 @@ if($db){
                         
                         
                         
-                        if($tipo_nomina=='CONT'){
+                        if($tnom_tipnom=='CONT'){
                             
                                 $sicont=" bajo la figura de contratado(a)";
                         } else $sicont="";
@@ -305,7 +305,7 @@ if($db){
 
                     <div align='justify' class='interlineado'>
 
-                            Quien suscribe, Director(a) de Recursos Humanos de La Nueva Televisión del Sur, C.A., por medio de la presente hace constar que ".$ciudada." <span class='agregado'>".strtoupper(($nombre))."</span>, titular de la cédula de identidad N° <span class='agregado'>".number_format($perfil[0]->getCedula(),0, ",", ".")."</span> labora en esta empresa desde el <span class='agregado'>".$perfil[0]->getFechaIngreso("d/m/Y")."</span>".$sicont.", desempeñando el cargo de <span class='agregado'>".strtoupper($cargo[0]->getDescripcion())."</span>, devengando un <span class='agregado'>".$tipo_salario."</span> de <span class='agregado'>".str_replace("é","É",strtoupper($fc->ValorEnLetras($sueldox,"BOLÍVARES")))."</span>(Bs. ".$sueldo.").
+                            Quien suscribe, Director(a) de Recursos Humanos de La Nueva Televisión del Sur, C.A., por medio de la presente hace constar que ".$ciudada." <span class='agregado'>".strtoupper(($nombre))."</span>, titular de la cédula de identidad N° <span class='agregado'>".number_format($perfil[0]->getCedula(),0, ",", ".")."</span> labora en esta empresa desde el <span class='agregado'>".$perfil[0]->getFechaIngreso("d/m/Y")."</span>".$sicont.", desempeñando el cargo de <span class='agregado'>".strtoupper($cargo)."</span>, devengando un <span class='agregado'>".$tipo_salario."</span> de <span class='agregado'>".str_replace("é","É",strtoupper($fc->ValorEnLetras($sueldox,"BOLÍVARES")))."</span>(Bs. ".$sueldo.").
 
                     </div>
 
