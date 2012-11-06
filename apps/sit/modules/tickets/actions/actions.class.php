@@ -151,8 +151,8 @@ class ticketsActions extends sfActions
                 if($asignar==''){ $this->getUser()->setFlash('sms',sprintf("Debe elegir un técnico"));return;}
                 
                 $sms=SitTicketsPeer::asigna_ticket($asignar, $this->idtk);
+                
                 if($sms!=false){
-                    
                         //ENVÍO CORREO//
                         $tecnico= SfGuardUserPeer::retrieveByPK($asignar);
                         $solicitante=  SfGuardUserProfilePeer::retrieveByPK($this->SitTicket->getIdSolicitante());                        
