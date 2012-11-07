@@ -53,7 +53,7 @@ class solicitudActions extends sfActions
                 if(!empty($archivo1)){
                     $ext1 = strtolower($archivo1->getExtension($archivo1->getOriginalExtension()));
    
-                    if($ext1!='.jpg' && $ext1!='.jpeg' && $ext1!='.doc' && $ext1!='.odp' && $ext1!='.gif' && $ext1!='.png' && $ext1!='.xls' && $ext1!='.docx' && $ext1!='.xlsx' && $ext1!='.pdf' && $ext1!='.txt' && $ext1!='.rar')
+                    if($ext1!='.jpg' && $ext1!='.jpeg' && $ext1!='.doc' && $ext1!='.odt' && $ext1!='.gif' && $ext1!='.png' && $ext1!='.xls' && $ext1!='.docx' && $ext1!='.xlsx' && $ext1!='.pdf' && $ext1!='.txt' && $ext1!='.rar')
                         {$this->getUser()->setFlash('sms',sprintf("Formato de archivo no válido"));return;}
                     else if($archivo1->getSize()>3000000)
                         {$this->getUser()->setFlash('sms',sprintf("El archivo no debe ser mayor a 1mb"));return;}
@@ -61,7 +61,7 @@ class solicitudActions extends sfActions
                 
                 if(!empty($archivo2)){
                     $ext1 = strtolower($archivo2->getExtension($archivo2->getOriginalExtension()));
-                    if($ext1!='.jpg' && $ext1!='.jpeg' && $ext1!='.doc' && $ext1!='.odp' && $ext1!='.gif' && $ext1!='.png' && $ext1!='.xls' && $ext1!='.docx' && $ext1!='.xlsx' && $ext1!='.pdf' && $ext1!='.txt' && $ext1!='.rar')
+                    if($ext1!='.jpg' && $ext1!='.jpeg' && $ext1!='.doc' && $ext1!='.odt' && $ext1!='.gif' && $ext1!='.png' && $ext1!='.xls' && $ext1!='.docx' && $ext1!='.xlsx' && $ext1!='.pdf' && $ext1!='.txt' && $ext1!='.rar')
                         {$this->getUser()->setFlash('sms',sprintf("Formato de archivo no válido"));return; }
                      else if($archivo2->getSize()>3000000)
                         {$this->getUser()->setFlash('sms',sprintf("El archivo no debe ser mayor a 1mb"));return;}
