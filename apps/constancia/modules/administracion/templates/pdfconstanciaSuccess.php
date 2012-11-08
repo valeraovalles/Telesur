@@ -85,7 +85,7 @@ $ora=new ConexionDirecta();
 $db=$ora->oracle();
 
 //fictra
-$query=" select fictra from nmm001 where cedula like '%".$cedula."%'";
+$query=" select fictra from nmm001 where cedula like '%".$cedula."%' and fecret is null";
 $rs = oci_parse($db,$query);
 oci_execute($rs);
 $row = oci_fetch_array($rs, OCI_ASSOC); 
@@ -101,14 +101,6 @@ oci_execute($rs);
 $row = oci_fetch_array($rs, OCI_ASSOC); 
 $cargo= $row['DESCAR'];
 $dependencia= $row['DESDEP'];
-
-
-
-$query=" select fictra from nmm001 where cedula like '%".$cedula."%'";
-$rs = oci_parse($db,$query);
-oci_execute($rs);
-$row = oci_fetch_array($rs, OCI_ASSOC); 
-$fictra_usuario= $row['FICTRA'];
 
 $concepto=0;
 
@@ -130,6 +122,7 @@ if($db){
         break;
        }
    }
+
 
    if($existe==1){
    
@@ -174,24 +167,23 @@ if($db){
 
         ";
    }
-    
+
    $rs = oci_parse($db,$query);
-   
+
+
    if ( oci_execute($rs) ){
+       
                 $suma_conceptos=0;
    		while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
                             
-                    
                           //dueldo diario
                           $sueld=$row['SUELDO'];
 			  $sueldo=str_replace(",", ".", $sueld);
                           $suma_conceptos += $row['MMCONCEPTO'];
                           $tnom_tipnom = $row['TNOM_TIPNOM'];
-                          
-
-              
                 }   
 
+        
                         $s_basico=$sueldo;
                         $s_normal=$sueldo+$suma_conceptos;
                         $s_integral=($s_normal/30)*41.25;   
@@ -199,8 +191,7 @@ if($db){
 			$s_anual_basico=$s_basico*12;
 			$s_anual_normal=$s_normal * 12;
                         
-                        
-                        
+               
                         if($tnom_tipnom=='CONT'){
                             
                                 $sicont=" bajo la figura de contratado(a)";
