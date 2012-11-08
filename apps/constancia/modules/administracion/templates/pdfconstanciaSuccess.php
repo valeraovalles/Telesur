@@ -146,7 +146,7 @@ if($db){
             nmm024.trab_fictra  = nmm001.fictra and
             nmm024.fpro_anocal  = (select max(nmm024.fpro_anocal) from nmm024) and
             nmm024.mescal  = (select max(nmm024.mescal) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024) and proc_tippro=1) and
-            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024) and proc_tippro=1) and
             nmm024.proc_tippro  = 1 and
             nmm024.cto_codcto < 1000 and  nmm024.cto_codcto <> 20 and
             nmm002.trab_fictra = nmm024.trab_fictra and
@@ -167,7 +167,7 @@ if($db){
             nmm024.trab_fictra  = nmm001.fictra and
             nmm024.fpro_anocal  = (select max(nmm024.fpro_anocal) from nmm024) and
             nmm024.mescal  = (select max(nmm024.mescal) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024) and proc_tippro=1) and
-            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024)) and
+            nmm024.fpro_numper  = ( select max(nmm024.fpro_numper) from nmm024 where fpro_anocal = (select max(nmm024.fpro_anocal) from nmm024) and proc_tippro=1) and
             nmm024.cto_codcto < 1000 and
             nmm024.proc_tippro  = 1
 
