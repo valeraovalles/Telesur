@@ -63,7 +63,7 @@ $html="<table>
         
                 <tr>
                 
-                    <td><img src='http://10.10.7.234/Telesur/web/images/telesur_ig.jpg' width='100px'></td>
+                    <td><img src='http://10.10.0.149/Telesur/web/images/telesur_ig.jpg' width='100px'></td>
                     <td class=titulo valign=middle>DIRECCIÓN DE SISTEMAS INFORMÁTICOS<BR>INFORME DE GESTIÓN ".$desdehasta."<BR>UNIDAD DE ".strtoupper($unidad->getDescripcion())."</td>
                     
                 </tr>
@@ -179,7 +179,7 @@ foreach ($categorias as $cat) {
           $this->grafico->Add($this->p1);
           $this->grafico->Stroke("images/graficos/informe_gestion_".  strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg");
           
-          $html .= "<br><br><div align='center'><img width='250px' src='http://10.10.7.234/Telesur/web/images/graficos/informe_gestion_".strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg"."'></div>";
+          $html .= "<br><br><div align='center'><img width='250px' src='http://10.10.0.149/Telesur/web/images/graficos/informe_gestion_".strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg"."'></div>";
           
 
           $html .= "<br><br><div align='center' class='negrita_solicitud'>TICKETS ATENDIDOS: ".$cont."</div>";
