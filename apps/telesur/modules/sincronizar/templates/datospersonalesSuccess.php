@@ -1,5 +1,7 @@
 <div class="titulo_modulo">SINCRONIZAR SIGEFIRRHH CON TELESUR</div>
 
+
+
 <form action="<?php echo url_for('sincronizar/datospersonales')?>"  method="post" name="form">
 <table class="input150">
     <tr>
@@ -11,7 +13,6 @@
 </table>
     <input type="hidden" value="" name="accion" id="accion">
 </form>
-
 
 
 <?php

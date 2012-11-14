@@ -31,6 +31,7 @@
 
 <br>
 
+<form method="post" action="<?php?>">
 <table class="tabla_list" style="width: 850px;">
     <tr>
         <th>Fecha</th>
@@ -48,12 +49,16 @@
 	<td><?php echo ucwords($subcategoria[$cont]->getDescripcion())?></td>
         <td><?php echo "<a style='color:black;font-weight: bold;cursor:pointer;' title='".ucfirst($cs->getDescripcion())."' cursor='hand'>".substr($cs->getDescripcion(),0,28).'...</a>';?></td>
         <td><?php echo ucwords($perfiles[$cont]->getNombre1().' '.$perfiles[$cont]->getNombre2())?></td>
-	<td><a href="<?php echo url_for('administracion/editar?idc='.$cs->getIdBitacora())?>"><?php echo image_tag("edit.png",array('size' => '20x20'))?></a>&nbsp;<a href="<?php echo url_for('administracion/pdfconstancia?idc='.$cs->getIdBitacora())?>"><?php echo image_tag("pdf.gif",array('size' => '20x20'))?></a></td>
+	<td>
+            <a href="<?php echo url_for('administracion/editar?idc='.$cs->getIdBitacora())?>"><?php echo image_tag("edit.png",array('size' => '20x20'))?></a>&nbsp;
+            <a href="javascript:void(0);" onclick="elimina(<?php echo $cs->getIdBitacora();?>)" value="Eliminar"><?php echo image_tag("delete.png")?></a>
     </tr>
 	
     <?php $cont++; }?>
     
 </table>
+    <input type="hidden" name="eliminar" id="eliminar">
+</form>
 
 <table class="crud_pagina" style="width: 850px;">
     <tr>

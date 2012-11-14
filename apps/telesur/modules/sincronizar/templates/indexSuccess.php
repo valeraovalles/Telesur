@@ -2,7 +2,9 @@
 
 <?php
 
-//CONEXIONES A BASE DER DATOS///////////////////////////////////////////////////
+
+
+//CONEXIONES A BASEDE DATOS///////////////////////////////////////////////////
 $conexion=new ConexionDirecta();
 $postgresql_local=$conexion->postgresql_local();
 $postgresql_sigefirrhh=$conexion->postgresql_sigefirrhh();
@@ -17,6 +19,7 @@ function buscar_usuario($usr){
        
         if(isset($usuario[0]))
             return true;
+        
         else return false;
         
 }
@@ -28,7 +31,7 @@ function BuscaUID($cedula){
 	$ds = ldap_connect("192.168.3.5") or die ("No se pudo establecer coneccion con el servidor");
 	ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
 	$sr=ldap_search($ds,"ou=Personas, dc=telesur", "telephonenumber=".$cedula);	
-        $info = ldap_get_entries($ds, $sr);
+    $info = ldap_get_entries($ds, $sr);
 
         if (isset($info[0]['uid'][0]))
          return strtolower(trim($info[0]['uid'][0]));
@@ -144,6 +147,9 @@ echo "Dependencias actualizadas: ".$dependencias_actualizadas."<br>";
 $query="select * from trabajador t,personal p where t.id_personal=p.id_personal and t.estatus='A' order by t.fecha_ingreso ASC";
 $rs = pg_query($postgresql_sigefirrhh,$query);
 		  
+
+
+
 $cont=0;
 $trabajadores_ldapUser_insertados=0;
 $trabajadores_ldapProfile_insertados=0;
@@ -181,7 +187,7 @@ while( $row = pg_fetch_array($rs)){
                     $profile->setNombre2(strtolower($row['segundo_nombre']));
                     $profile->setApellido1(strtolower($row['primer_apellido']));
                     $profile->setApellido2(strtolower($row['segundo_apellido']));
-                    $profile->setCedula($cedula);
+                    //$profile->setCedula($cedula);
                     $profile->setIdCargo($row['id_cargo']);
                     $profile->setIdDependencia($row['id_dependencia']);
                     $profile->setFechaNacimiento($row['fecha_nacimiento']);

@@ -40,8 +40,12 @@ class bitacoraActions extends sfActions
   	
       $this->form_filter=new BitBitacoraFormFilter();
 	
+      
+    
+      
     if ($request->isMethod('post')){
   	  	$bitacora=$request->getParameter("bit_bitacora_filters");
+                $eliminar=$request->getParameter("eliminar");
   	  	$this->form_filter->setDatos($bitacora);
   	  	
   	  	if($bitacora['fecha']!='')
