@@ -12,6 +12,11 @@
                             <li><a href="<?php echo url_for('@sf_guard_permission')?>"><span>Permisos</span></a></li>
                         </ul></div>
                     </li>
+                    <li><a href="#" class="parent"><span>Reportes</span></a>
+                        <div><ul>
+                            <li><a href="<?php echo url_for('reportes/index')?>"><span>Usuarios</span></a></li>
+                        </ul></div>
+                    </li>
                     <li><a href="<?php echo url_for('sincronizar/index')?>"><span>Sincronizar BD</span></a></li>
                     <li><a href="<?php echo url_for('sincronizar/datospersonales')?>"><span>Datos Personales</span></a></li>
                  </ul></div>

@@ -213,17 +213,17 @@
 //////////////////////////////////////////////////////////////////////
 //TXT DE ALIMENTACION
 //////////////////////////////////////////////////////////////////////
-$tipo='JUBP';
+$tipo='OBR';
 $query="
     select nmm001.nactra, TRIM(nmm001.cedula) as cedula, sum(nmm024.moncto) as moncto  from nmm001, nmm024 
     where
     nmm001.fictra = nmm024.trab_fictra and
         
-    nmm024.proc_tippro = 54 and
+    nmm024.proc_tippro = 2 and
     nmm024.fpro_anocal =  2012 and
     nmm024.tnom_tipnom = '".$tipo."' and
          
-    nmm024.fpro_numper = 10
+    nmm024.fpro_numper = 8
     
     
     group by nmm001.nactra, cedula order by nmm001.nactra DESC
@@ -320,7 +320,7 @@ if($cant!=0){
     $total = $ceros.$total_monto;
 }
    
-$encabezado="ATMCCBDE900061".$empleados.$total."20121030\r\n";
+$encabezado="ATMCCBDE900061".$empleados.$total."20121130\r\n";
 
 $cadena_final =$encabezado.$cadena;
 

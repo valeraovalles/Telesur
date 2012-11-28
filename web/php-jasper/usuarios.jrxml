@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="usuarios" language="groovy" pageWidth="792" pageHeight="612" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="1.4641000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="titulo" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select u.username, p.nombre1, p.nombre2, p.apellido1, p.apellido2, p.cedula, d.descripcion as dependencia, c.descripcion as cargo
+from sf_guard_user u, sf_guard_user_profile p, tsur_dependencias d, tsur_cargos c
+where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_cargo]]>
+	</queryString>
+	<field name="username" class="java.lang.String"/>
+	<field name="nombre1" class="java.lang.String"/>
+	<field name="nombre2" class="java.lang.String"/>
+	<field name="apellido1" class="java.lang.String"/>
+	<field name="apellido2" class="java.lang.String"/>
+	<field name="cedula" class="java.lang.String"/>
+	<field name="dependencia" class="java.lang.String"/>
+	<field name="cargo" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="112" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="71" width="752" height="20"/>
+				<textElement textAlignment="Center">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{titulo}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="0" y="0" width="105" height="95"/>
+				<imageExpression><![CDATA["/home/jhoan/www/Telesur/web/images/telesur.jpeg"]]></imageExpression>
+			</image>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement x="619" y="35" width="131" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="582" y="35" width="37" height="20"/>
+				<textElement/>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="560" y="15" width="80" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="640" y="15" width="40" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="5" y="105" width="747" height="1" forecolor="#001AFF"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="11" width="79" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[USUARIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="79" y="11" width="100" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRIMER NOMBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="179" y="11" width="100" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEGUNDO NOMBRE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="279" y="11" width="100" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PRIMER APELLIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="379" y="11" width="100" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEGUNDO APELLIDO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="479" y="11" width="72" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CEDULA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="551" y="11" width="100" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEPENDENCIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="651" y="11" width="99" height="20"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement>
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CARGO]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="79" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{username}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="79" y="0" width="100" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="179" y="0" width="100" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nombre2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="279" y="0" width="100" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{apellido1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="379" y="0" width="100" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{apellido2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="479" y="0" width="72" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cedula}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement x="551" y="0" width="100" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dependencia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="651" y="0" width="99" height="25"/>
+				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
+					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
+					<rightPen lineWidth="1.0" lineColor="#B0ADAD"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cargo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,9 +1,6 @@
 <div class="titulo_modulo">SINCRONIZAR SIGEFIRRHH CON TELESUR</div>
 
 <?php
-
-
-
 //CONEXIONES A BASEDE DATOS///////////////////////////////////////////////////
 $conexion=new ConexionDirecta();
 $postgresql_local=$conexion->postgresql_local();
