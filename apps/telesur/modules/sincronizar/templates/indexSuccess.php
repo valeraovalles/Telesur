@@ -184,7 +184,7 @@ while( $row = pg_fetch_array($rs)){
                     $profile->setNombre2(strtolower($row['segundo_nombre']));
                     $profile->setApellido1(strtolower($row['primer_apellido']));
                     $profile->setApellido2(strtolower($row['segundo_apellido']));
-                    //$profile->setCedula($cedula);
+                    $profile->setCedula($cedula);
                     $profile->setIdCargo($row['id_cargo']);
                     $profile->setIdDependencia($row['id_dependencia']);
                     $profile->setFechaNacimiento($row['fecha_nacimiento']);

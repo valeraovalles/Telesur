@@ -5,6 +5,8 @@ class JasperReport{
 
 	public function generar($reporte,$parametros,$formato,$nombre){
 
+            //print_r($parametros);
+            //exit(0);
        		require_once("http://localhost:8080/PHPJRU/java/Java.inc");
 
 		try {
@@ -37,7 +39,7 @@ class JasperReport{
 		$driverManager = new JavaClass("java.sql.DriverManager");
 
 		//db username and password
-		$conn = $driverManager->getConnection("jdbc:postgresql://localhost/Telesur","postgres", "postgres");
+        	$conn = $driverManager->getConnection("jdbc:postgresql://localhost/Telesur","postgres", "..*t3l35ur*..");
 		$jasperPrint = $fillManager->fillReport($report, $params, $conn);
 
 		$exporter = new java("net.sf.jasperreports.engine.JRExporter");
