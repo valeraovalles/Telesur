@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUPOL0026</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ A LA CAZA DE CHAVEZ]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 POLITICOS - A LA CAZA DE CHAVEZ</SegTitle>
+                    <MediaID>DOCUPOL002601</MediaID>
+                    <Duration>00:11:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 POLITICOS - A LA CAZA DE CHAVEZ</SegTitle>
+                    <MediaID>DOCUPOL002602</MediaID>
+                    <Duration>00:11:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 POLITICOS - A LA CAZA DE CHAVEZ</SegTitle>
+                    <MediaID>DOCUPOL002603</MediaID>
+                    <Duration>00:11:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 POLITICOS - A LA CAZA DE CHAVEZ</SegTitle>
+                    <MediaID>DOCUPOL002604</MediaID>
+                    <Duration>00:11:00.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 POLITICOS - A LA CAZA DE CHAVEZ</SegTitle>
+                    <MediaID>DOCUPOL002605</MediaID>
+                    <Duration>00:11:00.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

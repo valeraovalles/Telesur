@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUPOL0019</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ DE LA BARBARIE A LA ESPERANZA]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 POLITICOS - DE LA BARBARIE A LA ESPERANZA</SegTitle>
+                    <MediaID>DOCUPOL001901</MediaID>
+                    <Duration>00:08:43.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>ESTRENA EL 24-06-2012
+De la Barbarie a la Esperanza , es un documental que expone el periodo de gobiernos neoliberales y entreguistas vividos en Mexico  desde finales de la decada de los 80 hasta nuestros dias y el nacimiento de la esperanza representada </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 POLITICOS - DE LA BARBARIE A LA ESPERANZA</SegTitle>
+                    <MediaID>DOCUPOL001902</MediaID>
+                    <Duration>00:09:17.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>ESTRENA EL 24-06-2012
+De la Barbarie a la Esperanza , es un documental que expone el periodo de gobiernos neoliberales y entreguistas vividos en Mexico  desde finales de la decada de los 80 hasta nuestros dias y el nacimiento de la esperanza representada </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 POLITICOS - DE LA BARBARIE A LA ESPERANZA</SegTitle>
+                    <MediaID>DOCUPOL001903</MediaID>
+                    <Duration>00:11:42.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>ESTRENA EL 24-06-2012
+De la Barbarie a la Esperanza , es un documental que expone el periodo de gobiernos neoliberales y entreguistas vividos en Mexico  desde finales de la decada de los 80 hasta nuestros dias y el nacimiento de la esperanza representada </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 POLITICOS - DE LA BARBARIE A LA ESPERANZA</SegTitle>
+                    <MediaID>DOCUPOL001904</MediaID>
+                    <Duration>00:08:24.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>ESTRENA EL 24-06-2012
+De la Barbarie a la Esperanza , es un documental que expone el periodo de gobiernos neoliberales y entreguistas vividos en Mexico  desde finales de la decada de los 80 hasta nuestros dias y el nacimiento de la esperanza representada </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 POLITICOS - DE LA BARBARIE A LA ESPERANZA</SegTitle>
+                    <MediaID>DOCUPOL001905</MediaID>
+                    <Duration>00:07:58.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>ESTRENA EL 24-06-2012
+De la Barbarie a la Esperanza , es un documental que expone el periodo de gobiernos neoliberales y entreguistas vividos en Mexico  desde finales de la decada de los 80 hasta nuestros dias y el nacimiento de la esperanza representada </Description>
+                </Segment>
+            </Segments></Clip></XML>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUBIO0013</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ TRAS LOS PASOS DE MANDELA]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>2-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001302</MediaID>
+                    <Duration>00:08:40.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001303</MediaID>
+                    <Duration>00:07:59.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001305</MediaID>
+                    <Duration>00:06:24.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>6-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001306</MediaID>
+                    <Duration>00:08:11.00</Duration>
+                    <SegNumber>6</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>7-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001307</MediaID>
+                    <Duration>00:09:19.00</Duration>
+                    <SegNumber>7</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>1-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001301</MediaID>
+                    <Duration>00:08:11.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-7 BIOGRAFICOS - TRAS LOS PASOS DE MANDELA</SegTitle>
+                    <MediaID>DOCUBIO001304</MediaID>
+                    <Duration>00:07:23.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Explora la vida y pensamiento de Nelson Mandela, icono mundial de la lucha contra el regimen racista del Apartheid, haciendo enfasis en los pequeños detalles, recorre los lugares mas importantes en la vida del ex presidente sudafricano desde su infancia h</Description>
+                </Segment>
+            </Segments></Clip></XML>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERIILS0012</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ IMPERIO VS DDHH CAP. 1 (VERSION 30MIN)]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 INJERENCIA LA INVASION SILENCIOSA - IMPERIO VS DDHH CAP. 1 (VERSION 30MIN)</SegTitle>
+                    <MediaID>SERIILS001201</MediaID>
+                    <Duration>00:09:16.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>1-2 INJERENCIA LA INVASION SILENCIOSA - IMPERIO VS DDHH CAP. 1 (VERSION 30MIN)</SegTitle>
+                    <MediaID>SERIILS001202</MediaID>
+                    <Duration>00:08:53.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 INJERENCIA LA INVASION SILENCIOSA - IMPERIO VS DDHH CAP. 1 (VERSION 30MIN)</SegTitle>
+                    <MediaID>SERIILS001203</MediaID>
+                    <Duration>00:07:33.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

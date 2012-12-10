@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERIILS0010</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ INJERENCIA. LA CIA CONTRA LA REVOLUCION]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 INJERENCIA LA INVASION SILENCIOSA - INJERENCIA. LA CIA CONTRA LA REVOLUCION</SegTitle>
+                    <MediaID>SERIILS001001</MediaID>
+                    <Duration>00:15:15.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>1-2 INJERENCIA LA INVASION SILENCIOSA - INJERENCIA. LA CIA CONTRA LA REVOLUCION</SegTitle>
+                    <MediaID>SERIILS001002</MediaID>
+                    <Duration>00:20:14.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 INJERENCIA LA INVASION SILENCIOSA - INJERENCIA. LA CIA CONTRA LA REVOLUCION</SegTitle>
+                    <MediaID>SERIILS001003</MediaID>
+                    <Duration>00:13:03.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

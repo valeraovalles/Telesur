@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>PRCPCIN0004</ClipName>
+                <TipoContenido>PROMOS CAPITULARES</TipoContenido>
+                <Contenido><![CDATA[ NIÑAS MADRES HOY MAR 18 SEP 21:00 Hrs CCs]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 CRONICAS INVISIBLES - NIÑAS MADRES HOY MAR 18 SEP 21:00 Hrs CCs</SegTitle>
+                    <MediaID>PRCPCIN0004</MediaID>
+                    <Duration>00:00:40.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROMO</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

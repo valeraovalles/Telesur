@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUCUL0001</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ EL DIA DE LOS MUERTOS]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 CULTURALES - EL DIA DE LOS MUERTOS</SegTitle>
+                    <MediaID>DOCUCUL000101</MediaID>
+                    <Duration>00:08:02.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Colorido documental que muestra las festividades del dia de los difuntos, donde se dejan entrever una serie de expresiones culturales (alfareria, artesania, gastronomia, religiosidad, musica) que renueva la tradicion milenaria del culto a la muerte. Tales</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 CULTURALES - EL DIA DE LOS MUERTOS</SegTitle>
+                    <MediaID>DOCUCUL000102</MediaID>
+                    <Duration>00:09:32.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Colorido documental que muestra las festividades del dia de los difuntos, donde se dejan entrever una serie de expresiones culturales (alfareria, artesania, gastronomia, religiosidad, musica) que renueva la tradicion milenaria del culto a la muerte. Tales</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 CULTURALES - EL DIA DE LOS MUERTOS</SegTitle>
+                    <MediaID>DOCUCUL000103</MediaID>
+                    <Duration>00:09:06.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Colorido documental que muestra las festividades del dia de los difuntos, donde se dejan entrever una serie de expresiones culturales (alfareria, artesania, gastronomia, religiosidad, musica) que renueva la tradicion milenaria del culto a la muerte. Tales</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 CULTURALES - EL DIA DE LOS MUERTOS</SegTitle>
+                    <MediaID>DOCUCUL000104</MediaID>
+                    <Duration>00:09:44.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Colorido documental que muestra las festividades del dia de los difuntos, donde se dejan entrever una serie de expresiones culturales (alfareria, artesania, gastronomia, religiosidad, musica) que renueva la tradicion milenaria del culto a la muerte. Tales</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 CULTURALES - EL DIA DE LOS MUERTOS</SegTitle>
+                    <MediaID>DOCUCUL000105</MediaID>
+                    <Duration>00:10:35.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Colorido documental que muestra las festividades del dia de los difuntos, donde se dejan entrever una serie de expresiones culturales (alfareria, artesania, gastronomia, religiosidad, musica) que renueva la tradicion milenaria del culto a la muerte. Tales</Description>
+                </Segment>
+            </Segments></Clip></XML>

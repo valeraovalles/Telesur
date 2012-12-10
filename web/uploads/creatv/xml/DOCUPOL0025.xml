@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUPOL0025</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ LA PAGINA SE PASO]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 POLITICOS - LA PAGINA SE PASO</SegTitle>
+                    <MediaID>DOCUPOL002501</MediaID>
+                    <Duration>00:14:02.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>De 1958 a nuestros dias, Venezuela ha vivido uno de los momentos mas significativos de su historia: el transito de una dictadura militar, pasando por una democracia signada por bipartidismo puntofijista, hasta llegar a la Revolucion Bolivariana. ¿Como se </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 POLITICOS - LA PAGINA SE PASO</SegTitle>
+                    <MediaID>DOCUPOL002502</MediaID>
+                    <Duration>00:12:57.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>De 1958 a nuestros dias, Venezuela ha vivido uno de los momentos mas significativos de su historia: el transito de una dictadura militar, pasando por una democracia signada por bipartidismo puntofijista, hasta llegar a la Revolucion Bolivariana. ¿Como se </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 POLITICOS - LA PAGINA SE PASO</SegTitle>
+                    <MediaID>DOCUPOL002503</MediaID>
+                    <Duration>00:13:56.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>De 1958 a nuestros dias, Venezuela ha vivido uno de los momentos mas significativos de su historia: el transito de una dictadura militar, pasando por una democracia signada por bipartidismo puntofijista, hasta llegar a la Revolucion Bolivariana. ¿Como se </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 POLITICOS - LA PAGINA SE PASO</SegTitle>
+                    <MediaID>DOCUPOL002504</MediaID>
+                    <Duration>00:10:36.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>De 1958 a nuestros dias, Venezuela ha vivido uno de los momentos mas significativos de su historia: el transito de una dictadura militar, pasando por una democracia signada por bipartidismo puntofijista, hasta llegar a la Revolucion Bolivariana. ¿Como se </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 POLITICOS - LA PAGINA SE PASO</SegTitle>
+                    <MediaID>DOCUPOL002505</MediaID>
+                    <Duration>00:16:05.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>De 1958 a nuestros dias, Venezuela ha vivido uno de los momentos mas significativos de su historia: el transito de una dictadura militar, pasando por una democracia signada por bipartidismo puntofijista, hasta llegar a la Revolucion Bolivariana. ¿Como se </Description>
+                </Segment>
+            </Segments></Clip></XML>

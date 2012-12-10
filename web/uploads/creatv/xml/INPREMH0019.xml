@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>INPREMH0019</ClipName>
+                <TipoContenido>INFORMATIVOS PROGRAMAS</TipoContenido>
+                <Contenido><![CDATA[ 07SEP12]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001901</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001902</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001903</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001904</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001905</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>6-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001906</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>6</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>7-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001907</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>7</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>8-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001908</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>8</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>9-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001909</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>9</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>10-10 EL MUNDO HOY - 07SEP12</SegTitle>
+                    <MediaID>INPREMH001910</MediaID>
+                    <Duration>00:10:00.00</Duration>
+                    <SegNumber>10</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

@@ -40,8 +40,8 @@ class ConexionDirecta {
         }
         
         public function postgresql_sigefirrhh(){
-            
-                $conexion=pg_connect("host=192.168.3.43 dbname=sgf_tsur user=postgres password=postgres");
+
+                $conexion=pg_connect("host=192.168.3.43 dbname=sigefirrhh user=postgres password=postgres");
                 pg_query("SET NAMES 'utf8'");
                 
                 return $conexion;

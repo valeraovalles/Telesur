@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERICIA0002</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ CAP. 2 ¿UN DIARIO PERONISTA?]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 CLARIN UN INVENTO ARGENTINO - CAP. 2 ¿UN DIARIO PERONISTA?</SegTitle>
+                    <MediaID>SERICIA000201</MediaID>
+                    <Duration>00:13:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 CLARIN UN INVENTO ARGENTINO - CAP. 2 ¿UN DIARIO PERONISTA?</SegTitle>
+                    <MediaID>SERICIA000202</MediaID>
+                    <Duration>00:12:50.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

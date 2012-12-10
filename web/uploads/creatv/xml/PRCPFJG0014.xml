@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>PRCPFJG0014</ClipName>
+                <TipoContenido>PROMOS CAPITULARES</TipoContenido>
+                <Contenido><![CDATA[ DE FRENTE CON JG CAP. 8 PRODUCCION  HOY SAB 27 OCT 23:00 Hrs CCs]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 DE FRENTE CON JORGE GESTOSO - DE FRENTE CON JG CAP. 8 PRODUCCION  HOY SAB 27 OCT 23:00 Hrs CCs</SegTitle>
+                    <MediaID>PRCPFJG0014</MediaID>
+                    <Duration>00:00:46.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROMO</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

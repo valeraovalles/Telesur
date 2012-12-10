@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>NOTICOG0091</ClipName>
+                <TipoContenido>NOTICIEROS</TipoContenido>
+                <Contenido><![CDATA[ 21NOV12]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-4 CONEXION GLOBAL - 21NOV12</SegTitle>
+                    <MediaID>NOTICOG009101</MediaID>
+                    <Duration>00:13:30.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-4 CONEXION GLOBAL - 21NOV12</SegTitle>
+                    <MediaID>NOTICOG009102</MediaID>
+                    <Duration>00:13:30.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-4 CONEXION GLOBAL - 21NOV12</SegTitle>
+                    <MediaID>NOTICOG009103</MediaID>
+                    <Duration>00:13:30.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-4 CONEXION GLOBAL - 21NOV12</SegTitle>
+                    <MediaID>NOTICOG009104</MediaID>
+                    <Duration>00:13:30.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>
