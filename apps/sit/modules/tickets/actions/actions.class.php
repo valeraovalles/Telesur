@@ -233,10 +233,6 @@ class ticketsActions extends sfActions
   public function executeGeneral(sfWebRequest $request)
   { 
         $this->setLayout("layout_general");
-
-        if(!$this->getUser()->addCredential("sit_general")){
-        $this->getUser()->setFlash('sms',sprintf("No tienes permisos para acceder a este modulo"));
-        $this->redirect("tickets/index"); return;}
         
         $a=new Criteria();
         $a->add(SitTicketsPeer::ESTATUS,'c',Criteria::NOT_EQUAL);
