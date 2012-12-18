@@ -3,4 +3,4 @@
 
 all:
   is_secure: on
-  credentials: [constancia_admin]
+  credentials: [sit_admin]
