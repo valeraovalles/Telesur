@@ -3,4 +3,4 @@
 
 all:
   is_secure: on
-  credentials: [sit_admin]
+  credentials: [[sit_admin, sit_general]]
