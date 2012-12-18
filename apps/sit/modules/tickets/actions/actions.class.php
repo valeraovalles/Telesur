@@ -234,7 +234,7 @@ class ticketsActions extends sfActions
   { 
         $this->setLayout("layout_general");
 
-        if(!$this->getUser()->addCredential("sit_general") || !$this->getUser()->isSuperAdmin()){
+        if(!$this->getUser()->addCredential("sit_general")){
         $this->getUser()->setFlash('sms',sprintf("No tienes permisos para acceder a este modulo"));
         $this->redirect("tickets/index"); return;}
         
