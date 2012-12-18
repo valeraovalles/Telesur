@@ -17,9 +17,6 @@ class reportesActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-      $a=new JasperReport;
-      
-      $a->generar("php-jasper/usuarios.jrxml", array('titulo'=>'USUARIOS TELESUR'), "pdf","usuarios");
-      exit(0);
+
   }
 }

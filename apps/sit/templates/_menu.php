@@ -16,9 +16,6 @@
                         <li><a href="<?php echo url_for('tickets/index')?>"><span>Gestionar Tikets</span></a></li>
                         <li><a href="<?php echo url_for('tickets_asignados/index')?>"><span>Tikets Asignados</span></a></li>
                         <li><a href="<?php echo url_for('tickets/mixtos')?>"><span>Mixtos</span></a></li>
-                        <?php if($sf_user->hasCredential('sit_general')){?>
-                        <li><a href="<?php echo url_for('tickets/general')?>"><span>General</span></a></li>
-                        <?php }?>
 
                     </ul>
                 </div>
@@ -33,6 +30,10 @@
                 </div>
         </li>
         <?php }}?>
+        
+        <?php if($sf_user->hasCredential('sit_general')){?>
+        <li><a href="<?php echo url_for('tickets/general')?>"><span>GENERAL</span></a></li>
+        <?php }?>
         
         <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
