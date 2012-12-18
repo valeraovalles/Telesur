@@ -234,6 +234,10 @@ class ticketsActions extends sfActions
   { 
         $this->setLayout("layout_general");
 
+        if(!$this->getUser()->addCredential("membre")){
+        $this->getUser()->setFlash('sms',sprintf("No tienes permisos para acceder a este modulo"));
+        $this->redirect("tickets/index"); return;}
+        
         $a=new Criteria();
         $a->add(SitTicketsPeer::ESTATUS,'c',Criteria::NOT_EQUAL);
 	$a->addJoin(SfGuardUserProfilePeer::USER_ID, SitTicketsPeer::ID_SOLICITANTE);	
