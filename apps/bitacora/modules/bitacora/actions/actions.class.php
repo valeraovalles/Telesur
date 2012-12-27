@@ -20,6 +20,23 @@ class bitacoraActions extends sfActions
       
   }
   
+  public function executeConsultar(sfWebRequest $request)
+  {
+        $id_bitacora=$this->getRequestParameter('id');
+  	
+  	$a=new Criteria();
+  	$a->add(BitBitacoraPeer::ID_BITACORA,$id_bitacora);
+  	$a->addJoin(SfGuardUserProfilePeer::USER_ID,BitBitacoraPeer::ID_USUARIO);
+        $a->addJoin(BitSubcategoriasPeer::ID_SUBCATEGORIA,BitBitacoraPeer::ID_BITACORA);
+        $a->addJoin(BitCategoriasPeer::ID_CATEGORIA,BitSubcategoriasPeer::ID_CATEGORIA);
+  	
+  	$this->bitacora=BitBitacoraPeer::doSelect($a);
+  	$this->usuario=SfGuardUserProfilePeer::doSelect($a);
+        $this->categoria=BitCategoriasPeer::doSelect($a);
+  	$this->subcategoria=BitSubcategoriasPeer::doSelect($a);
+      
+  }
+  
   public function executeReportes(sfWebRequest $request)
   {
       
@@ -46,13 +63,24 @@ class bitacoraActions extends sfActions
     if ($request->isMethod('post')){
   	  	$bitacora=$request->getParameter("bit_bitacora_filters");
                 $eliminar=$request->getParameter("eliminar");
+                $accion=$request->getParameter("accion");
   	  	$this->form_filter->setDatos($bitacora);
-  	  	
+  
   	  	if($bitacora['fecha']!='')
   	  	$a->add(BitBitacoraPeer::FECHA,$bitacora['fecha']);
   	  	
   	  	if($bitacora['id_subcategoria']!='')
   	  	$a->add(BitBitacoraPeer::ID_SUBCATEGORIA,$bitacora['id_subcategoria']);
+                
+                if($accion=='Eliminar'){
+                    $sms=BitBitacoraPeer::eliminar_bitacora($eliminar);      
+
+                    if($sms!=false){
+                        $this->getUser()->setFlash('sms',sprintf($sms));
+                        $this->redirect("bitacora/listado"); 
+                    } else {$this->getUser()->setFlash('sms',sprintf("Ha ocurrido un error"));return;}
+		
+                }
   	  	
   	}
   	
