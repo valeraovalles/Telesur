@@ -5,11 +5,11 @@
         
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
                 <div><ul>
-                    <?php if($sf_user->isSuperAdmin()){ ?>
+                    
                     <li><a href="<?php echo url_for('categorias/index')?>"><span>Categorias</span></a></li>                    
                     <!--<li><a href="<?php echo url_for('bitacora/reportes')?>"><span>Reportes</span></a></li>-->
                     <li><a href="<?php echo url_for('bitacora/listado')?>"><span>Bitacora</span></a></li>
-                    <?php }?>
+                   
                  </ul></div>
             </li>
         <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
