@@ -17,7 +17,8 @@ abstract class BaseBitBitacoraFormFilter extends BaseFormFilterPropel
       'descripcion'     => new sfWidgetFormFilterInput(),
       'id_subcategoria' => new sfWidgetFormPropelChoice(array('model' => 'BitSubcategorias', 'add_empty' => true)),
       'id_usuario'      => new sfWidgetFormPropelChoice(array('model' => 'SfGuardUserProfile', 'add_empty' => true)),
-      'id_unidad'       => new sfWidgetFormPropelChoice(array('model' => 'SitUnidades', 'add_empty' => true)),
+      'id_unidad'       => new sfWidgetFormFilterInput(),
+      'id_categoria'    => new sfWidgetFormPropelChoice(array('model' => 'BitCategorias', 'add_empty' => true)),
     ));
 
     $this->setValidators(array(
@@ -26,7 +27,8 @@ abstract class BaseBitBitacoraFormFilter extends BaseFormFilterPropel
       'descripcion'     => new sfValidatorPass(array('required' => false)),
       'id_subcategoria' => new sfValidatorPropelChoice(array('required' => false, 'model' => 'BitSubcategorias', 'column' => 'id_subcategoria')),
       'id_usuario'      => new sfValidatorPropelChoice(array('required' => false, 'model' => 'SfGuardUserProfile', 'column' => 'user_id')),
-      'id_unidad'       => new sfValidatorPropelChoice(array('required' => false, 'model' => 'SitUnidades', 'column' => 'id_unidad')),
+      'id_unidad'       => new sfValidatorSchemaFilter('text', new sfValidatorInteger(array('required' => false))),
+      'id_categoria'    => new sfValidatorPropelChoice(array('required' => false, 'model' => 'BitCategorias', 'column' => 'id_categoria')),
     ));
 
     $this->widgetSchema->setNameFormat('bit_bitacora_filters[%s]');
@@ -50,7 +52,8 @@ abstract class BaseBitBitacoraFormFilter extends BaseFormFilterPropel
       'descripcion'     => 'Text',
       'id_subcategoria' => 'ForeignKey',
       'id_usuario'      => 'ForeignKey',
-      'id_unidad'       => 'ForeignKey',
+      'id_unidad'       => 'Number',
+      'id_categoria'    => 'ForeignKey',
     );
   }
 }

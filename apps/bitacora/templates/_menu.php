@@ -3,7 +3,6 @@
         <li><a href="<?php echo url_for('bitacora/index')?>"><span>INICIO</span></a></li>
         <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
         
-        <?php if($sf_user->hasCredential('transporte_gestion_tr') || $sf_user->hasCredential('transporte_gestion_co') || $sf_user->isSuperAdmin()){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
                 <div><ul>
                     <?php if($sf_user->isSuperAdmin()){ ?>
@@ -13,7 +12,6 @@
                     <?php }?>
                  </ul></div>
             </li>
-        <?php }?>
         <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
 </div>

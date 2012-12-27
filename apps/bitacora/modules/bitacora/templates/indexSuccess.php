@@ -1,4 +1,4 @@
-<div class="titulo_modulo">SELECCIONE UUNA OPCIÓN</div>
+<div class="titulo_modulo">SELECCIONE UNA OPCIÓN</div>
 
 
 <table cellpadding="15px">

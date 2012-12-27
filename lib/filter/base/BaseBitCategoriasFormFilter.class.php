@@ -12,7 +12,7 @@ abstract class BaseBitCategoriasFormFilter extends BaseFormFilterPropel
   public function setup()
   {
     $this->setWidgets(array(
-      'descripcion'  => new sfWidgetFormFilterInput(),
+      'descripcion'  => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(

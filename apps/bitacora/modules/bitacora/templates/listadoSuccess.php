@@ -75,13 +75,10 @@
 
 <?php if(isset($bitacora[0])){?>
     <div class="leyenda">
-        <table width="600px" border="0">
+        <table width="300px" border="0">
 		<tr align="center">
-			<td width="150px"><a title="Indica que la constancia esta nueva"><?php echo image_tag("nuevo.gif")?>&nbsp;Nueva</a></td>
-			<td width="160px"><a title="Indica que la constancia fue revisada"><?php echo image_tag("busca.png",array('size' => '20x20'))?>&nbsp;En proceso</a></td>
-                        <td width="150px"><a title="Editar la constancia"><?php echo image_tag("edit.png",array('size' => '20x20'))?>&nbsp;Editar</a></td>
-                        <td width="150px"><a title="Generar pdf de la constancia"><?php echo image_tag("pdf.gif",array('size' => '20x20'))?>&nbsp;Pdf</a></td>
-			<td width="150px"><a title="La constancia ya fue generada"><?php echo image_tag("cerrado.png")?>&nbsp;Culminada</a></td>
+                        <td width="150px"><a title="Editar la constancia"><?php echo image_tag("list.png",array('size' => '20x20'))?>&nbsp;Consultar</a></td>
+                        <td width="150px"><a title="Editar la constancia"><?php echo image_tag("delete.png",array('size' => '20x20'))?>&nbsp;Eliminar</a></td>
 		</tr>
 	</table>
     </div>

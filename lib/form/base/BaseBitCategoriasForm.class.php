@@ -20,7 +20,7 @@ abstract class BaseBitCategoriasForm extends BaseFormPropel
 
     $this->setValidators(array(
       'id_categoria' => new sfValidatorChoice(array('choices' => array($this->getObject()->getIdCategoria()), 'empty_value' => $this->getObject()->getIdCategoria(), 'required' => false)),
-      'descripcion'  => new sfValidatorString(array('max_length' => 100, 'required' => false)),
+      'descripcion'  => new sfValidatorString(array('max_length' => 100)),
     ));
 
     $this->widgetSchema->setNameFormat('bit_categorias[%s]');
