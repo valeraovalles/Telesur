@@ -23,12 +23,11 @@ class bitacoraActions extends sfActions
   public function executeConsultar(sfWebRequest $request)
   {
         $id_bitacora=$this->getRequestParameter('id');
-  	
   	$a=new Criteria();
   	$a->add(BitBitacoraPeer::ID_BITACORA,$id_bitacora);
   	$a->addJoin(SfGuardUserProfilePeer::USER_ID,BitBitacoraPeer::ID_USUARIO);
-        $a->addJoin(BitSubcategoriasPeer::ID_SUBCATEGORIA,BitBitacoraPeer::ID_BITACORA);
-        $a->addJoin(BitCategoriasPeer::ID_CATEGORIA,BitSubcategoriasPeer::ID_CATEGORIA);
+        $a->addJoin(BitSubcategoriasPeer::ID_SUBCATEGORIA,BitBitacoraPeer::ID_SUBCATEGORIA);
+        $a->addJoin(BitCategoriasPeer::ID_CATEGORIA,BitBitacoraPeer::ID_CATEGORIA);
   	
   	$this->bitacora=BitBitacoraPeer::doSelect($a);
   	$this->usuario=SfGuardUserProfilePeer::doSelect($a);
