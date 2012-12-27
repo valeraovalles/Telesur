@@ -5,6 +5,8 @@ class JasperReport{
 
 	public function generar($reporte,$parametros,$formato,$nombre){
 
+            //print_r($parametros);
+            //exit(0);
        		require_once("http://localhost:8080/PHPJRU/java/Java.inc");
 
 		try {

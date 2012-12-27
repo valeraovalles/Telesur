@@ -3,7 +3,7 @@
 class JasperReport{
 
 
-	public function generar($reporte,$parametros,$formato){
+	public function generar($reporte,$parametros,$formato,$nombre){
 
 		require_once("http://localhost:8080/PHPJRU/java/Java.inc");
 

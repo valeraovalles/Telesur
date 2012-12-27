@@ -32,4 +32,14 @@ class BitBitacoraPeer extends BaseBitBitacoraPeer {
         
     }
     
+    static public function eliminar_bitacora($id){
+        
+        $a=new Criteria();
+        $a->add(BitBitacoraPeer::ID_BITACORA,$id);
+      
+        if(BitBitacoraPeer::doDelete($a)) return "Registro eliminado Exitosamente.";
+        else return false;
+        
+    }
+    
 } // BitBitacoraPeer

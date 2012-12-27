@@ -1,0 +1,11 @@
+*.php~
+*.yml~
+config/*
+log/*
+cache/*
+lib/misclases/ConexionDirecta.php
+web/images/graficos/*
+web/jpgraph
+web/E-MAIL
+web/MPDF
+web/uploads

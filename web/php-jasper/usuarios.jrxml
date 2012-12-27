@@ -4,6 +4,7 @@
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
 	<parameter name="titulo" class="java.lang.String"/>
+	<parameter name="ruta" class="java.lang.String"/>
 	<queryString>
 		<![CDATA[select u.username, p.nombre1, p.nombre2, p.apellido1, p.apellido2, p.cedula, d.descripcion as dependencia, c.descripcion as cargo
 from sf_guard_user u, sf_guard_user_profile p, tsur_dependencias d, tsur_cargos c
@@ -27,16 +28,16 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement textAlignment="Center">
 					<font size="16" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$P{titulo}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{titulo}]]></textFieldExpression>
 			</textField>
 			<image>
 				<reportElement x="0" y="0" width="105" height="95"/>
-				<imageExpression><![CDATA["/home/jhoan/www/Telesur/web/images/telesur.jpeg"]]></imageExpression>
+				<imageExpression class="java.lang.String"><![CDATA[$P{ruta}]]></imageExpression>
 			</image>
 			<textField pattern="dd/MM/yyyy">
 				<reportElement x="619" y="35" width="131" height="20"/>
 				<textElement/>
-				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="582" y="35" width="37" height="20"/>
@@ -46,15 +47,15 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 			<textField>
 				<reportElement x="560" y="15" width="80" height="20"/>
 				<textElement textAlignment="Right"/>
-				<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
 			</textField>
 			<textField evaluationTime="Report">
 				<reportElement x="640" y="15" width="40" height="20"/>
 				<textElement/>
-				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement x="5" y="105" width="747" height="1" forecolor="#001AFF"/>
+				<reportElement x="0" y="105" width="752" height="1" forecolor="#010101"/>
 			</line>
 		</band>
 	</pageHeader>
@@ -167,9 +168,9 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 		</band>
 	</columnHeader>
 	<detail>
-		<band height="25" splitType="Stretch">
+		<band height="25" splitType="Prevent">
 			<textField>
-				<reportElement x="0" y="0" width="79" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="0" y="0" width="79" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -178,10 +179,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{username}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{username}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="79" y="0" width="100" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="79" y="0" width="100" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -190,10 +191,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{nombre1}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombre1}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="179" y="0" width="100" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="179" y="0" width="100" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -202,10 +203,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{nombre2}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{nombre2}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="279" y="0" width="100" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="279" y="0" width="100" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -214,10 +215,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{apellido1}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{apellido1}]]></textFieldExpression>
 			</textField>
 			<textField isStretchWithOverflow="true">
-				<reportElement x="379" y="0" width="100" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="379" y="0" width="100" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -226,10 +227,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{apellido2}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{apellido2}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="479" y="0" width="72" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="479" y="0" width="72" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -238,10 +239,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{cedula}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{cedula}]]></textFieldExpression>
 			</textField>
 			<textField isStretchWithOverflow="true">
-				<reportElement x="551" y="0" width="100" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="551" y="0" width="100" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -250,10 +251,10 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{dependencia}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{dependencia}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="651" y="0" width="99" height="25"/>
+				<reportElement stretchType="RelativeToBandHeight" x="651" y="0" width="99" height="25"/>
 				<box topPadding="2" leftPadding="2" bottomPadding="2" rightPadding="2">
 					<leftPen lineWidth="1.0" lineColor="#B0ADAD"/>
 					<bottomPen lineWidth="1.0" lineColor="#B0ADAD"/>
@@ -262,7 +263,7 @@ where u.id=p.user_id and p.id_dependencia=d.id_dependencia and c.id_cargo=p.id_c
 				<textElement verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{cargo}]]></textFieldExpression>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{cargo}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

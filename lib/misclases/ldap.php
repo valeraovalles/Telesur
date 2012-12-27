@@ -3,8 +3,6 @@ class ldap
 {
 	public static function checkPassword($username, $password)
 	{
-
-		
 		$ds = ldap_connect("192.168.3.5") or die ("No se pudo establecer coneccion con el servidor");
 		
 		ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3);
