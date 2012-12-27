@@ -34,8 +34,8 @@ abstract class BaseBitCategoriasUnidadesFormFilter extends BaseFormFilterPropel
   public function getFields()
   {
     return array(
-      'id_unidad'    => 'ForeignKey',
       'id_categoria' => 'ForeignKey',
+      'id_unidad'    => 'ForeignKey',
     );
   }
 }

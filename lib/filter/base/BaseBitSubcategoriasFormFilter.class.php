@@ -13,7 +13,7 @@ abstract class BaseBitSubcategoriasFormFilter extends BaseFormFilterPropel
   {
     $this->setWidgets(array(
       'id_categoria'    => new sfWidgetFormPropelChoice(array('model' => 'BitCategorias', 'add_empty' => true)),
-      'descripcion'     => new sfWidgetFormFilterInput(),
+      'descripcion'     => new sfWidgetFormFilterInput(array('with_empty' => false)),
     ));
 
     $this->setValidators(array(

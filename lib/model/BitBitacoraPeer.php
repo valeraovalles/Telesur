@@ -22,6 +22,7 @@ class BitBitacoraPeer extends BaseBitBitacoraPeer {
         
         $a=new BitBitacora;
         $a->setIdUsuario($idu);
+        $a->setIdCategoria($datos['id_categoria']);
         $a->setIdSubcategoria($datos['id_subcategoria']);
         $a->setDescripcion($datos['observaciones']);
         $a->setFecha($datos['fecha']);
@@ -36,7 +37,6 @@ class BitBitacoraPeer extends BaseBitBitacoraPeer {
         
         $a=new Criteria();
         $a->add(BitBitacoraPeer::ID_BITACORA,$id);
-      
         if(BitBitacoraPeer::doDelete($a)) return "Registro eliminado Exitosamente.";
         else return false;
         
