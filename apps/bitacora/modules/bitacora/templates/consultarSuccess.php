@@ -4,7 +4,7 @@
 
 <tr>
 	<th width="150px">Fecha</th>
-	<td width="250px"><?php echo $bitacora[0]->getFecha();?></td>
+	<td width="250px"><?php echo $bitacora[0]->getFecha("d-m-Y");?></td>
 </tr>
 
 <tr>
