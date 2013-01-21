@@ -284,7 +284,7 @@ if($db){
             <div align=left>
                     <div class='agregado' style='margin-left:-20px'>".$img_telesur."</div>
                     <div class='agregado'>RIF. G-20004500-0</div>
-                    <div class='agregado'>DRH-2012</div>
+                    <div class='agregado'>DRH-2013</div>
 
                     <br><br>
 
