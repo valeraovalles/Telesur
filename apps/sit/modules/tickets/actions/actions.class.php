@@ -73,7 +73,7 @@ class ticketsActions extends sfActions
 	$a->addJoin(SfGuardUserProfilePeer::USER_ID, SitTicketsPeer::ID_SOLICITANTE);	
         $a->addDescendingOrderByColumn("id_ticket");
         $a->addDescendingOrderByColumn("fecha_solicitud");
-        $a->addDescendingOrderByColumn("estatus");
+        //$a->addDescendingOrderByColumn("estatus");
         
 	if ($request->isMethod('post'))
 	{
