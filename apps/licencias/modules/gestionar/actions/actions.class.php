@@ -344,15 +344,16 @@ public function executeConsultar(sfWebRequest $request)
                     $email9="promero@telesurtv.net";
                     $email10="ssubero@telesurtv.net";
                     $email11="vcastellanos@telesurtv.net";
+                    $email11="kbruzual@telesurtv.net";
                     
       	if($envia==1){
  
-            $f->correo(utf8_decode($cuerpo), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8,$email9,$email10,$email11), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
+            $f->correo(utf8_decode($cuerpo), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8,$email9,$email10,$email11,$email12), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
             //$f->correo(utf8_decode($cuerpo), array($email1), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
      	}
      	
         if($enviax==2){
-     		$f->correo(utf8_decode($cuerpo2), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8,$email9,$email10), 'Licencias vencidas', 'Licencias <jvalera@telesurtv.net>');
+     		$f->correo(utf8_decode($cuerpo2), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8,$email9,$email10,$email11,$email12), 'Licencias vencidas', 'Licencias <jvalera@telesurtv.net>');
      	}
         
   }
