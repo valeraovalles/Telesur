@@ -143,7 +143,7 @@ if($db){
             nmm024.proc_tippro  = 1 and
             nmm024.cto_codcto < 1000 and  nmm024.cto_codcto <> 20 and
             nmm002.trab_fictra = nmm024.trab_fictra and
-            nmm002.cto_codcto = nmm024.cto_codcto 
+            nmm002.cto_codcto = nmm024.cto_codcto and
             nmm002.tnom_tipnom = nmm024.tnom_tipnom 
 
         ";
