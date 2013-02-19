@@ -10,6 +10,7 @@
 class BitBitacoraForm extends BaseBitBitacoraForm
 {
   protected $datos = null;
+  protected $unidad = null;
 
   public function setDatos($c)
   {
@@ -17,9 +18,14 @@ class BitBitacoraForm extends BaseBitBitacoraForm
       $this->configure();
   }
   
+    public function setUnidad($idu)
+  {
+      $this->unidad= $idu;
+      $this->configure();
+  }
+  
   public function configure()
   {
-
     if($this->datos['id_categoria']==''){
         $id_categoria=0;
     } else{
@@ -30,10 +36,14 @@ class BitBitacoraForm extends BaseBitBitacoraForm
     $a->add(BitCategoriasPeer::ID_CATEGORIA,$id_categoria);
     $a->addJoin(BitSubcategoriasPeer::ID_CATEGORIA, BitCategoriasPeer::ID_CATEGORIA);
           
+    $b=new Criteria();
+    $b->add(BitCategoriasUnidadesPeer::ID_UNIDAD,$this->unidad);
+    $b->addJoin(BitCategoriasUnidadesPeer::ID_CATEGORIA, BitCategoriasPeer::ID_CATEGORIA);
+    
     $this->disableLocalCSRFProtection();
 
     $this->setWidgets(array(
-        'id_categoria'       => new sfWidgetFormPropelChoice(array('model' => 'BitCategorias', 'add_empty' => true),array('onchange'=>'enviar_formulario_sa(\'Buscar Subcategorias\')')),
+        'id_categoria'       => new sfWidgetFormPropelChoice(array('model' => 'BitCategorias', 'add_empty' => true, 'criteria'=>$b),array('onchange'=>'enviar_formulario_sa(\'Buscar Subcategorias\')')),
         'id_subcategoria'       => new sfWidgetFormPropelChoice(array('model' => 'BitSubcategorias', 'add_empty' => true, 'criteria'=>$a)),
         'fecha'   => new sfWidgetFormInputText(array(),array('class'=>'tcal')),
         'hora'   => new sfWidgetFormTime(array(),array('style'=>'width:50px;')),
