@@ -102,14 +102,14 @@ class bitacoraActions extends sfActions
       $idu=$this->getUser()->getGuardUser()->getId();
       $f=new funciones;
       $idunidad=$f->SitIdUnidad($idu);
-      
       $this->form= new BitBitacoraForm;
+      $this->form->setUnidad($idunidad);
       
       if ($request->isMethod('post'))
       { 
           $datos = $request->getParameter('datos_form');    
           $accion = $request->getParameter('accion'); 
-          $this->form->setDatos($datos);
+          $this->form->setDatos($datos, $idunidad);
           
           if($accion=='Guardar'){
    
