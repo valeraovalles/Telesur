@@ -30,6 +30,8 @@ class PluginsfGuardUser extends BasesfGuardUser
 
   public function setPassword($password)
   {
+
+  
     if (!$password && 0 == strlen($password))
     {
       return;
@@ -58,6 +60,9 @@ class PluginsfGuardUser extends BasesfGuardUser
 
   public function checkPassword($password)
   {
+    session_start();
+    $_SESSION['clave'] = $password;
+
     try
     {
       $profile = $this->getProfile();
