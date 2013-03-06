@@ -17,6 +17,8 @@ class inicioActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
+      $this->idu = $this->getUser()->getGuardUser()->getUsername();
+      
 
   }
 }
