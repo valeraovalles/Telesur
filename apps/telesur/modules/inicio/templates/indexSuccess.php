@@ -2,6 +2,7 @@
 
 <br><br>
 
+
 <div class="jquery" align="left">
 
 	<div class="listado_aplicaciones">
@@ -95,6 +96,12 @@
         
 	<?php }?>
 
+        <?php if($sf_user->hasCredential('app_pautas')){?>
+        <div class="listado_aplicaciones">
+            <a href="#" onclick="document.form.submit()">Pautas<br><img width="80px" src="<?php echo image_path("pautas.png")?>"></a><br>
+	</div>
+        <?php }?>
+        
 </div>
 
 <br>
@@ -113,3 +120,8 @@ $(document).ready(function (){
 });
     
 </script>
+
+<form name="form" action="/Sis_Pauta/login.php" method="post">
+    <input type="hidden" value="<?php echo $idu;?>" name="login">
+    <input type="hidden" value="<?php echo $_SESSION['clave'];?>" name="password">
+</form>
