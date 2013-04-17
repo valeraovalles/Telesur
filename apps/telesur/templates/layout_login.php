@@ -15,7 +15,7 @@
                     		
   			<div style="color: #494949;font-weight: bold;">
                                 <marquee>
-                                    Ingresa con el mismo usuario y clave de tu correo electronico Zimbra &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Se recomienda el uso de Mozilla Firefox
+                                    Si tienes problemas para ingresar escribenos a aplicaciones@telesurtv.net enviándonos tu nombre completo y número de cédula || Ingresa con el mismo usuario y clave de tu correo electronico Zimbra &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;Se recomienda el uso de Mozilla Firefox
                                 </marquee>
                         </div>
   			

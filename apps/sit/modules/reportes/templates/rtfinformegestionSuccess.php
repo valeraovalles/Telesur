@@ -1,7 +1,11 @@
 <?php 
+/*header("Content-type: application/vnd.oasis.opendocument.text");
+header("Content-Disposition: attachment; filename=output.odt");*/
 header("Content-Description: File Transfer");
 header("Content-Type: text/rtf");
 header("Content-Disposition: attachment; filename=informe.rtf");
+
+
 ?>
 <style>
 body{
@@ -166,7 +170,7 @@ foreach ($categorias as $cat) {
           $leyenda = $array_categorias;
 
           //Se define el grafico
-          $this->grafico = new PieGraph(450,300);
+          $this->grafico = new PieGraph(700,600);
 
           //Definimos el titulo
           $this->grafico->title->Set("Informe de Gestion (".$unidad->getDescripcion().")");
@@ -179,7 +183,7 @@ foreach ($categorias as $cat) {
           $this->grafico->Add($this->p1);
           $this->grafico->Stroke("images/graficos/informe_gestion_".  strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg");
           
-          $html .= "<br><br><div align='center'><img width='250px' src='http://10.10.0.149/Telesur/web/images/graficos/informe_gestion_".strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg"."'></div>";
+          $html .= "<br><br><div align='center'><img width='700px' src='http://10.10.0.149/Telesur/web/images/graficos/informe_gestion_".strtolower(str_replace(" ","_",$unidad->getDescripcion())).".jpg"."'></div>";
           
 
           $html .= "<br><br><div align='center' class='negrita_solicitud'>TICKETS ATENDIDOS: ".$cont."</div>";
