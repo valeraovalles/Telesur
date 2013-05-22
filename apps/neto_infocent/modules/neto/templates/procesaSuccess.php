@@ -53,7 +53,7 @@
 		 nmt027.codcto = nmm024.cto_codcto and 
 		 nmm024.functo<>3 and
 		  
-		 nmm023.cgo_codca = nmt004.codcar and 
+		 nmm023.cgo_codcar = nmt004.codcar and 
 		 nmm001.dpto_coddep = nmt019.coddep and 
 		 
 		 nmm023.proc_tippro = 1 and 
@@ -107,6 +107,7 @@
 		 order by nmm024.cto_codcto
 	  	";
 	  }
+
 
     	$rs = oci_parse($db,$query);
 		oci_execute($rs);
