@@ -346,7 +346,7 @@ public function executeConsultar(sfWebRequest $request)
                     
       	if($envia==1){
  
-            $f->correo(utf8_decode($cuerpo), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
+            $f->correo(utf8_decode($cuerpo), array($email1,$email2,$email3,$email4,$email5,$email6,$email7,$email8,$email9), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
             //$f->correo(utf8_decode($cuerpo), array($email1), 'Licencias por vencer', 'Licencias <jvalera@telesurtv.net>');
      	}
      	
