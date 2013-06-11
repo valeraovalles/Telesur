@@ -1,0 +1,227 @@
+propel:
+  _attributes:
+    package: lib.model
+    defaultIdMethod: native
+  bit_bitacora:
+    _attributes: { phpName: BitBitacora }
+    id_bitacora: { phpName: IdBitacora, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    fecha: { phpName: Fecha, type: DATE, required: false }
+    hora: { phpName: Hora, type: TIME, required: false }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '1000', required: false }
+    id_subcategoria: { phpName: IdSubcategoria, type: INTEGER, required: false, foreignTable: bit_subcategorias, foreignReference: id_subcategoria }
+    id_usuario: { phpName: IdUsuario, type: INTEGER, required: false, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, required: false }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, required: false, foreignTable: bit_categorias, foreignReference: id_categoria }
+  bit_categorias:
+    _attributes: { phpName: BitCategorias }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+  bit_categorias_unidades:
+    _attributes: { phpName: BitCategoriasUnidades }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, primaryKey: true, required: true, foreignTable: bit_categorias, foreignReference: id_categoria }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, required: true, foreignTable: sit_unidades, foreignReference: id_unidad }
+  bit_subcategorias:
+    _attributes: { phpName: BitSubcategorias }
+    id_subcategoria: { phpName: IdSubcategoria, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, required: false, foreignTable: bit_categorias, foreignReference: id_categoria }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '50', required: true }
+  cp_controldepersonal:
+    _attributes: { phpName: CpControldepersonal }
+    id_control: { phpName: IdControl, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { phpName: IdUsuario, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    fecha_entrada: { phpName: FechaEntrada, type: DATE, required: true }
+    hora_entrada: { phpName: HoraEntrada, type: TIME, required: true }
+    observacion_entrada: { phpName: ObservacionEntrada, type: VARCHAR, size: '300', required: true }
+    fecha_salida: { phpName: FechaSalida, type: DATE, required: true }
+    hora_salida: { phpName: HoraSalida, type: TIME, required: true }
+    observacion_salida: { phpName: ObservacionSalida, type: VARCHAR, size: '300', required: true }
+    ip_entrada: { phpName: IpEntrada, type: VARCHAR, size: '15', required: true }
+    ip_salida: { phpName: IpSalida, type: VARCHAR, size: '15', required: true }
+  ct_constancias:
+    _attributes: { phpName: CtConstancias }
+    id_constancia: { phpName: IdConstancia, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: true }
+    tipo_constancia: { phpName: TipoConstancia, type: VARCHAR, size: '3', required: true }
+    bono_alimentacion: { phpName: BonoAlimentacion, type: BOOLEAN, required: true }
+    motivo: { phpName: Motivo, type: VARCHAR, size: '500', required: true }
+    dirigido_a: { phpName: DirigidoA, type: VARCHAR, size: '100', required: true }
+    estatus: { phpName: Estatus, type: VARCHAR, size: '1', required: true }
+  est_horas:
+    _attributes: { phpName: EstHoras }
+    hora: { phpName: Hora, type: TIME, required: true }
+    id_hora: { phpName: IdHora, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+  est_productos:
+    _attributes: { phpName: EstProductos }
+    id_producto: { phpName: IdProducto, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '200', required: false }
+  est_solicitudes:
+    _attributes: { phpName: EstSolicitudes }
+    id_solicitud: { phpName: IdSolicitud, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    hora_desde: { phpName: HoraDesde, type: TIME, required: true }
+    hora_hasta: { phpName: HoraHasta, type: TIME, required: true }
+    estudio: { phpName: Estudio, type: VARCHAR, size: '5', required: true }
+    fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: false }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: false, foreignTable: est_productos, foreignReference: id_producto }
+    observaciones: { phpName: Observaciones, type: VARCHAR, size: '500', required: false }
+    estatus: { phpName: Estatus, type: CHAR, size: '1', required: false }
+    dia_transmision: { phpName: DiaTransmision, type: VARCHAR, required: false }
+  lc_licencias:
+    _attributes: { phpName: LcLicencias }
+    id_licencia: { phpName: IdLicencia, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_responsable: { phpName: IdResponsable, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    nombre_licencia: { phpName: NombreLicencia, type: VARCHAR, size: '500', required: true }
+    numero: { phpName: Numero, type: VARCHAR, size: '20', required: true }
+    fecha_compra: { phpName: FechaCompra, type: DATE, required: true }
+    fecha_vencimiento: { phpName: FechaVencimiento, type: DATE, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+    bandera_correo: { phpName: BanderaCorreo, type: INTEGER, required: true, defaultValue: '0' }
+    tipo: { phpName: Tipo, type: VARCHAR, size: '1', required: true }
+  mm_equipos_transmision:
+    _attributes: { phpName: MmEquiposTransmision }
+    id_equipo_transmision: { phpName: IdEquipoTransmision, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion_equipo_transmision: { phpName: DescripcionEquipoTransmision, type: VARCHAR, size: '100', required: false }
+  mm_paises:
+    _attributes: { phpName: MmPaises }
+    id_pais: { phpName: IdPais, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    pais: { phpName: Pais, type: VARCHAR, size: '100', required: false }
+  mm_ubicaciones:
+    _attributes: { phpName: MmUbicaciones }
+    id_ubicacion: { phpName: IdUbicacion, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_pais: { phpName: IdPais, type: INTEGER, required: false, foreignTable: mm_paises, foreignReference: id_pais }
+    id_producto: { phpName: IdProducto, type: INTEGER, required: false }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '500', required: false }
+    tipo_producto: { phpName: TipoProducto, type: VARCHAR, size: '10', required: false }
+    cantidad: { phpName: Cantidad, type: INTEGER, required: false }
+  sf_guard_user_profile:
+    _attributes: { phpName: SfGuardUserProfile }
+    user_id: { phpName: UserId, type: INTEGER, primaryKey: true, required: true, foreignTable: sf_guard_user, foreignReference: id }
+    id_dependencia: { phpName: IdDependencia, type: INTEGER, required: true, foreignTable: tsur_dependencias, foreignReference: id_dependencia }
+    id_cargo: { phpName: IdCargo, type: INTEGER, required: true, foreignTable: tsur_cargos, foreignReference: id_cargo }
+    nombre1: { phpName: Nombre1, type: VARCHAR, size: '100', required: true }
+    nombre2: { phpName: Nombre2, type: VARCHAR, size: '100', required: false }
+    apellido1: { phpName: Apellido1, type: VARCHAR, size: '100', required: true }
+    apellido2: { phpName: Apellido2, type: VARCHAR, size: '100', required: false }
+    cedula: { phpName: Cedula, type: VARCHAR, size: '15', required: true }
+    sexo: { phpName: Sexo, type: CHAR, size: '1', required: true }
+    nacionalidad: { phpName: Nacionalidad, type: CHAR, size: '5', required: true }
+    fecha_nacimiento: { phpName: FechaNacimiento, type: DATE, required: false }
+    extension: { phpName: Extension, type: INTEGER, required: false, defaultValue: '0' }
+    fecha_ingreso: { phpName: FechaIngreso, type: DATE, required: false }
+    hora_entrada: { phpName: HoraEntrada, type: TIME, required: false }
+    hora_salida: { phpName: HoraSalida, type: TIME, required: false }
+    _uniques: { user_id: [user_id] }
+  sit_categorias:
+    _attributes: { phpName: SitCategorias }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+  sit_categorias_unidades:
+    _attributes: { phpName: SitCategoriasUnidades }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, primaryKey: true, required: true, foreignTable: sit_categorias, foreignReference: id_categoria }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, required: true, foreignTable: sit_unidades, foreignReference: id_unidad }
+  sit_comentarios:
+    _attributes: { phpName: SitComentarios }
+    id_comentario: { phpName: IdComentario, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_usuario: { phpName: IdUsuario, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    id_ticket: { phpName: IdTicket, type: INTEGER, required: true, foreignTable: sit_tickets, foreignReference: id_ticket }
+    comentario: { phpName: Comentario, type: VARCHAR, size: '500', required: true }
+    fecha: { phpName: Fecha, type: DATE, required: true }
+    hora: { phpName: Hora, type: TIME, required: true }
+    _indexes: { id_ticket: [id_ticket] }
+  sit_subcategorias:
+    _attributes: { phpName: SitSubcategorias }
+    id_subcategoria: { phpName: IdSubcategoria, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, required: false, foreignTable: sit_categorias, foreignReference: id_categoria }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '50', required: true }
+  sit_tickets:
+    _attributes: { phpName: SitTickets }
+    id_ticket: { phpName: IdTicket, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, required: true, foreignTable: sit_unidades, foreignReference: id_unidad }
+    id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    id_categoria: { phpName: IdCategoria, type: INTEGER, required: false, foreignTable: sit_categorias, foreignReference: id_categoria }
+    id_subcategoria: { phpName: IdSubcategoria, type: INTEGER, required: false, foreignTable: sit_subcategorias, foreignReference: id_subcategoria }
+    fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: true }
+    hora_solicitud: { phpName: HoraSolicitud, type: TIME, required: true }
+    fecha_solucion: { phpName: FechaSolucion, type: DATE, required: false }
+    hora_solucion: { phpName: HoraSolucion, type: TIME, required: false }
+    solicitud: { phpName: Solicitud, type: VARCHAR, size: '1000', required: true }
+    solucion: { phpName: Solucion, type: VARCHAR, size: '500', required: false }
+    reasignado: { phpName: Reasignado, type: BOOLEAN, required: true, defaultValue: false }
+    estatus: { phpName: Estatus, type: VARCHAR, size: '2', required: true }
+    archivos: { phpName: Archivos, type: VARCHAR, size: '500', required: false }
+    _indexes: { id_categoria: [id_subcategoria] }
+  sit_tickets_reasignados:
+    _attributes: { phpName: SitTicketsReasignados }
+    id_ticket: { phpName: IdTicket, type: INTEGER, primaryKey: true, required: true, foreignTable: sit_tickets, foreignReference: id_ticket }
+    user_id: { phpName: UserId, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+  sit_tickets_usuarios:
+    _attributes: { phpName: SitTicketsUsuarios }
+    id_ticket: { phpName: IdTicket, type: INTEGER, primaryKey: true, required: true, foreignTable: sit_tickets, foreignReference: id_ticket }
+    id_usuario: { phpName: IdUsuario, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+  sit_unidades:
+    _attributes: { phpName: SitUnidades }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+    correo: { phpName: Correo, type: VARCHAR, size: '50', required: true }
+  sit_usuarios_unidades:
+    _attributes: { phpName: SitUsuariosUnidades }
+    id_usuario: { phpName: IdUsuario, type: INTEGER, primaryKey: true, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, required: true, foreignTable: sit_unidades, foreignReference: id_unidad }
+  tra_asignaciones:
+    _attributes: { phpName: TraAsignaciones }
+    id_solicitud: { phpName: IdSolicitud, type: INTEGER, primaryKey: true, required: true, foreignTable: tra_solicitudes, foreignReference: id_solicitud }
+    id_vehiculo: { phpName: IdVehiculo, type: INTEGER, required: true, foreignTable: tra_vehiculos, foreignReference: id_vehiculo }
+    id_conductor: { phpName: IdConductor, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+  tra_datos_externos:
+    _attributes: { phpName: TraDatosExternos }
+    id_externo: { phpName: IdExterno, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    cedula: { phpName: Cedula, type: VARCHAR, size: '15', required: true }
+    nombre: { phpName: Nombre, type: VARCHAR, size: '50', required: true }
+    apellido: { phpName: Apellido, type: VARCHAR, size: '50', required: true }
+  tra_solicitudes:
+    _attributes: { phpName: TraSolicitudes }
+    id_solicitud: { phpName: IdSolicitud, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    id_solicitante: { phpName: IdSolicitante, type: INTEGER, required: true, foreignTable: sf_guard_user_profile, foreignReference: user_id }
+    asistentes: { phpName: Asistentes, type: VARCHAR, size: '100', required: false }
+    fecha_solicitud: { phpName: FechaSolicitud, type: DATE, required: false }
+    fecha_salida: { phpName: FechaSalida, type: DATE, required: false }
+    hora_salida: { phpName: HoraSalida, type: TIME, required: false }
+    direccion_traslado: { phpName: DireccionTraslado, type: VARCHAR, size: '500', required: true }
+    descripcion_equipos: { phpName: DescripcionEquipos, type: VARCHAR, size: '500', required: false }
+    datos_interes_razon: { phpName: DatosInteresRazon, type: VARCHAR, size: '500', required: false }
+    tipo_transporte: { phpName: TipoTransporte, type: VARCHAR, size: '1', required: true }
+    tipo_solicitud: { phpName: TipoSolicitud, type: VARCHAR, size: '1', required: true }
+    estatus: { phpName: Estatus, type: VARCHAR, size: '2', required: true, defaultValue: '0' }
+    justificacion_rechazo: { phpName: JustificacionRechazo, type: VARCHAR, size: '500', required: false }
+    _indexes: { tra_datos_externos_tra_solicitud: [asistentes] }
+  tra_vehiculos:
+    _attributes: { phpName: TraVehiculos }
+    id_vehiculo: { phpName: IdVehiculo, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    modelo: { phpName: Modelo, type: VARCHAR, size: '50', required: true }
+    ano: { phpName: Ano, type: INTEGER, required: true }
+    placa: { phpName: Placa, type: VARCHAR, size: '20', required: true }
+    color: { phpName: Color, type: VARCHAR, size: '50', required: true }
+    carro: { phpName: Carro, type: BOOLEAN, required: true, defaultValue: true }
+  tsur_cargos:
+    _attributes: { phpName: TsurCargos }
+    id_cargo: { phpName: IdCargo, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+  tsur_dependencias:
+    _attributes: { phpName: TsurDependencias }
+    id_dependencia: { phpName: IdDependencia, type: INTEGER, primaryKey: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+  tsur_direcciones:
+    _attributes: { phpName: TsurDirecciones }
+    id_direccion: { phpName: IdDireccion, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+    id_vcepresidencia: { phpName: IdVcepresidencia, type: INTEGER, required: false, foreignTable: tsur_vicepresidencias, foreignReference: id_vcepresidencia }
+  tsur_unidades:
+    _attributes: { phpName: TsurUnidades }
+    id_unidad: { phpName: IdUnidad, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }
+    id_direccion: { phpName: IdDireccion, type: INTEGER, required: true, foreignTable: tsur_direcciones, foreignReference: id_direccion }
+  tsur_vicepresidencias:
+    _attributes: { phpName: TsurVicepresidencias }
+    id_vcepresidencia: { phpName: IdVcepresidencia, type: INTEGER, primaryKey: true, autoIncrement: true, required: true }
+    descripcion: { phpName: Descripcion, type: VARCHAR, size: '100', required: true }

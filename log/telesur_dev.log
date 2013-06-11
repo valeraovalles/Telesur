@@ -1,0 +1,43 @@
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user" (/sf_guard_user.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_new" (/sf_guard_user/new.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_create" (/sf_guard_user.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_edit" (/sf_guard_user/:id/edit.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_update" (/sf_guard_user/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_delete" (/sf_guard_user/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_show" (/sf_guard_user/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_object" (/sf_guard_user/:id/:action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_user_collection" (/sf_guard_user/:action/action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group" (/sf_guard_group.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_new" (/sf_guard_group/new.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_create" (/sf_guard_group.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_edit" (/sf_guard_group/:id/edit.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_update" (/sf_guard_group/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_delete" (/sf_guard_group/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_show" (/sf_guard_group/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_object" (/sf_guard_group/:id/:action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_group_collection" (/sf_guard_group/:action/action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission" (/sf_guard_permission.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_new" (/sf_guard_permission/new.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_create" (/sf_guard_permission.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_edit" (/sf_guard_permission/:id/edit.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_update" (/sf_guard_permission/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_delete" (/sf_guard_permission/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_show" (/sf_guard_permission/:id.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_object" (/sf_guard_permission/:id/:action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Connect sfPropelRoute "sf_guard_permission_collection" (/sf_guard_permission/:action/action.:sf_format)
+May 30 12:02:31 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /reportes with parameters array (  'module' => 'reportes',  'action' => 'index',)
+may 30 12:02:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+may 30 12:02:31 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+may 30 12:02:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+may 30 12:02:31 symfony [info] {reportesActions} Call "reportesActions->executeIndex()"
+may 30 12:02:31 symfony [info] {sfPHPView} Render "/home/jhoan/www/Telesur/apps/telesur/modules/reportes/templates/indexSuccess.php"
+may 30 12:02:32 symfony [err] {java_InternalException} 
+may 30 12:02:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+may 30 12:02:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+may 30 12:02:32 symfony [info] {sfWebDebugLogger} Configuration 1619.31 ms (9)
+may 30 12:02:32 symfony [info] {sfWebDebugLogger} Factories 297.89 ms (1)
+may 30 12:02:32 symfony [info] {sfWebDebugLogger} Action "reportes/index" 0.12 ms (1)
+may 30 12:02:32 symfony [info] {sfWebDebugLogger} View "Success" for "reportes/index" 706.79 ms (1)
