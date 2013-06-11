@@ -274,7 +274,7 @@ if($db){
 
     $img_telesur = image_tag("telesur.jpeg",array('size' => '150x130'));
 
-    $monto_cesta_ticket=1350;
+    $monto_cesta_ticket=1605;
     
     if($constancia[0]->getBonoALimentacion()==1)
     $nota="<br><br><div align='justify' class='letra'><span class='agregado'>Nota:</span> ".ucwords($ciudada)." recibe adicional un monto de Bs. ".$monto_cesta_ticket." por concepto de Beneficio de Alimentación.</div>";
@@ -309,9 +309,9 @@ if($db){
 
                     <div class='letra'>Atentamente,</div>
 
-                    <br>
+                    <br><br><br>
 
-                    <div><span class='agregado' style='font-size:14px;'>Elaine Gonzalez</span><br>Directora General de Recursos Humanos<br><br>EG/ay</div>
+                    <div><span class='agregado' style='font-size:14px;'>Abg. Anais Salazar</span><br>Directora General de Recursos Humanos (E)<br><br>AS/ay</div>
 
 
                     ".$nota."
