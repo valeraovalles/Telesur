@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERIJGS0033</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ JORGE GESTOSO 18 MAYO 2012]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-3 JORGE GESTOSO SHOW - JORGE GESTOSO 18 MAYO 2012</SegTitle>
+                    <MediaID>SERIJGS003301</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Desde Ecuador Jorge Gestoso conversa con el  Hector Sanchez sobre la situacion de Laboral de los trabajadores latinos en Estados Unidos caracterizada por el racismo, bajos salarios por ser hispano, el poco acceso a la salud, educacion y el ataque directo </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-3 JORGE GESTOSO SHOW - JORGE GESTOSO 18 MAYO 2012</SegTitle>
+                    <MediaID>SERIJGS003302</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Desde Ecuador Jorge Gestoso conversa con el  Hector Sanchez sobre la situacion de Laboral de los trabajadores latinos en Estados Unidos caracterizada por el racismo, bajos salarios por ser hispano, el poco acceso a la salud, educacion y el ataque directo </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-3 JORGE GESTOSO SHOW - JORGE GESTOSO 18 MAYO 2012</SegTitle>
+                    <MediaID>SERIJGS003303</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Desde Ecuador Jorge Gestoso conversa con el  Hector Sanchez sobre la situacion de Laboral de los trabajadores latinos en Estados Unidos caracterizada por el racismo, bajos salarios por ser hispano, el poco acceso a la salud, educacion y el ataque directo </Description>
+                </Segment>
+            </Segments></Clip></XML>

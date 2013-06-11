@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>ESPEPRO0076</ClipName>
+                <TipoContenido>ESPECIALES</TipoContenido>
+                <Contenido><![CDATA[ PARAGUAY DECIDE]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007601</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007602</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007603</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007604</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007605</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>6-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007606</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>6</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>7-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007607</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>7</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>8-8 PROGRAMA - PARAGUAY DECIDE</SegTitle>
+                    <MediaID>ESPEPRO007608</MediaID>
+                    <Duration>00:12:30.00</Duration>
+                    <SegNumber>8</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERICIA0005</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ CAP. 5 ESTRIDENTE SONO 1976 A 1983]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 CLARIN UN INVENTO ARGENTINO - CAP. 5 ESTRIDENTE SONO 1976 A 1983</SegTitle>
+                    <MediaID>SERICIA000501</MediaID>
+                    <Duration>00:13:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>En plena dictadura militar, Clarin no solo acompaño la censura dictatorial, sino que fue parte de una de las operaciones mas turbulentas vinculadas a la prensa y a los delitos de lesa humanidad. Sello un pacto con el gobierno militar y los diarios La Naci</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 CLARIN UN INVENTO ARGENTINO - CAP. 5 ESTRIDENTE SONO 1976 A 1983</SegTitle>
+                    <MediaID>SERICIA000502</MediaID>
+                    <Duration>00:12:55.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>En plena dictadura militar, Clarin no solo acompaño la censura dictatorial, sino que fue parte de una de las operaciones mas turbulentas vinculadas a la prensa y a los delitos de lesa humanidad. Sello un pacto con el gobierno militar y los diarios La Naci</Description>
+                </Segment>
+            </Segments></Clip></XML>

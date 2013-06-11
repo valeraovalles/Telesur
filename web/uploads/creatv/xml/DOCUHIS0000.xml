@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUHIS0000</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ HISTORICOS]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 HISTORICOS - HISTORICOS</SegTitle>
+                    <MediaID>DOCUHIS000001</MediaID>
+                    <Duration>00:09:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 HISTORICOS - HISTORICOS</SegTitle>
+                    <MediaID>DOCUHIS000002</MediaID>
+                    <Duration>00:09:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 HISTORICOS - HISTORICOS</SegTitle>
+                    <MediaID>DOCUHIS000003</MediaID>
+                    <Duration>00:09:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 HISTORICOS - HISTORICOS</SegTitle>
+                    <MediaID>DOCUHIS000004</MediaID>
+                    <Duration>00:09:00.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 HISTORICOS - HISTORICOS</SegTitle>
+                    <MediaID>DOCUHIS000005</MediaID>
+                    <Duration>00:09:00.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

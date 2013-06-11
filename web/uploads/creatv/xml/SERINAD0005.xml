@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERINAD0005</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ NAD MUNDO CAP. 5 30-06-2012]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-3 NAD EN EL MUNDO - NAD MUNDO CAP. 5 30-06-2012</SegTitle>
+                    <MediaID>SERINAD000501</MediaID>
+                    <Duration>00:08:44.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-3 NAD EN EL MUNDO - NAD MUNDO CAP. 5 30-06-2012</SegTitle>
+                    <MediaID>SERINAD000502</MediaID>
+                    <Duration>00:08:14.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-3 NAD EN EL MUNDO - NAD MUNDO CAP. 5 30-06-2012</SegTitle>
+                    <MediaID>SERINAD000503</MediaID>
+                    <Duration>00:09:13.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

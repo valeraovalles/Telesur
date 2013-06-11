@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUSOL0010</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ LA CANTUTA EN LA BOCA DEL DIABLO]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 SOCIAL - LA CANTUTA EN LA BOCA DEL DIABLO</SegTitle>
+                    <MediaID>DOCUSOL001001</MediaID>
+                    <Duration>00:09:41.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>DOCUMENTAL QUE ABORDA LA DESAPARICION DE NUEVE ALUMNOS Y UN PROFESOR DE LA UNIVERSIDAD, ENRIQUE GUZMAN Y VALLE "LA CANTUTA" POR PARTE DE CUERPOS DE SEGURIDAD DE ESTADO, DURANTE EL GOBIERNO DEL EX PRESIDENTE PERUANO, ALBERTO FUJIMORI, CASO POR EL CUAL FUE </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 SOCIAL - LA CANTUTA EN LA BOCA DEL DIABLO</SegTitle>
+                    <MediaID>DOCUSOL001002</MediaID>
+                    <Duration>00:10:42.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>DOCUMENTAL QUE ABORDA LA DESAPARICION DE NUEVE ALUMNOS Y UN PROFESOR DE LA UNIVERSIDAD, ENRIQUE GUZMAN Y VALLE "LA CANTUTA" POR PARTE DE CUERPOS DE SEGURIDAD DE ESTADO, DURANTE EL GOBIERNO DEL EX PRESIDENTE PERUANO, ALBERTO FUJIMORI, CASO POR EL CUAL FUE </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 SOCIAL - LA CANTUTA EN LA BOCA DEL DIABLO</SegTitle>
+                    <MediaID>DOCUSOL001003</MediaID>
+                    <Duration>00:11:24.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>DOCUMENTAL QUE ABORDA LA DESAPARICION DE NUEVE ALUMNOS Y UN PROFESOR DE LA UNIVERSIDAD, ENRIQUE GUZMAN Y VALLE "LA CANTUTA" POR PARTE DE CUERPOS DE SEGURIDAD DE ESTADO, DURANTE EL GOBIERNO DEL EX PRESIDENTE PERUANO, ALBERTO FUJIMORI, CASO POR EL CUAL FUE </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 SOCIAL - LA CANTUTA EN LA BOCA DEL DIABLO</SegTitle>
+                    <MediaID>DOCUSOL001004</MediaID>
+                    <Duration>00:11:07.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>DOCUMENTAL QUE ABORDA LA DESAPARICION DE NUEVE ALUMNOS Y UN PROFESOR DE LA UNIVERSIDAD, ENRIQUE GUZMAN Y VALLE "LA CANTUTA" POR PARTE DE CUERPOS DE SEGURIDAD DE ESTADO, DURANTE EL GOBIERNO DEL EX PRESIDENTE PERUANO, ALBERTO FUJIMORI, CASO POR EL CUAL FUE </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 SOCIAL - LA CANTUTA EN LA BOCA DEL DIABLO</SegTitle>
+                    <MediaID>DOCUSOL001005</MediaID>
+                    <Duration>00:11:45.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>DOCUMENTAL QUE ABORDA LA DESAPARICION DE NUEVE ALUMNOS Y UN PROFESOR DE LA UNIVERSIDAD, ENRIQUE GUZMAN Y VALLE "LA CANTUTA" POR PARTE DE CUERPOS DE SEGURIDAD DE ESTADO, DURANTE EL GOBIERNO DEL EX PRESIDENTE PERUANO, ALBERTO FUJIMORI, CASO POR EL CUAL FUE </Description>
+                </Segment>
+            </Segments></Clip></XML>

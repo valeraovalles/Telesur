@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>PRCPINF0267</ClipName>
+                <TipoContenido>PROMOS CAPITULARES</TipoContenido>
+                <Contenido><![CDATA[ PROGRAMA ESPECIAL VENEZUELA CHAVEZ UN PUEBLO HOY DOM 06ENE13 18:00 H]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 INFORMATIVO - PROGRAMA ESPECIAL VENEZUELA CHAVEZ UN PUEBLO HOY DOM 06ENE13 18:00 H</SegTitle>
+                    <MediaID>PRCPINF0267</MediaID>
+                    <Duration>00:00:30.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROMO</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

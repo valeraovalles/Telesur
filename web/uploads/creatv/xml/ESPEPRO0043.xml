@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>ESPEPRO0043</ClipName>
+                <TipoContenido>ESPECIALES</TipoContenido>
+                <Contenido><![CDATA[ MEDIOS SIN VERGUENZA]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004301</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004302</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004303</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004304</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004305</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>6-6 PROGRAMA - MEDIOS SIN VERGUENZA</SegTitle>
+                    <MediaID>ESPEPRO004306</MediaID>
+                    <Duration>00:08:00.00</Duration>
+                    <SegNumber>6</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

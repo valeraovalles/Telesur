@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERICJU0006</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ CAUSA JUSTA CAP. 6]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 CAUSA JUSTA - CAUSA JUSTA CAP. 6</SegTitle>
+                    <MediaID>SERICJU000601</MediaID>
+                    <Duration>00:27:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>Aborda el tema de las mujeres y el conflicto armado en Colombia.
+Si bien en el conflicto colombiano los hombres ponen la mayoria de los muertos, las mujeres conforman la mayoria de victimas vivas. Sonas viudas, huerfanas, desplazadas y despojadas de una g</Description>
+                </Segment>
+            </Segments></Clip></XML>

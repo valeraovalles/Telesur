@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUPOL0009</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ LIBANO, TRAS LA HUELLAS DEL IMPERIO]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-4 POLITICOS - LIBANO, TRAS LA HUELLAS DEL IMPERIO</SegTitle>
+                    <MediaID>DOCUPOL000901</MediaID>
+                    <Duration>00:10:13.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-4 POLITICOS - LIBANO, TRAS LA HUELLAS DEL IMPERIO</SegTitle>
+                    <MediaID>DOCUPOL000902</MediaID>
+                    <Duration>00:09:42.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-4 POLITICOS - LIBANO, TRAS LA HUELLAS DEL IMPERIO</SegTitle>
+                    <MediaID>DOCUPOL000903</MediaID>
+                    <Duration>00:10:25.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-4 POLITICOS - LIBANO, TRAS LA HUELLAS DEL IMPERIO</SegTitle>
+                    <MediaID>DOCUPOL000904</MediaID>
+                    <Duration>00:11:34.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

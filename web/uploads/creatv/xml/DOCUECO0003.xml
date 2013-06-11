@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUECO0003</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ HOGAR PARTE 1]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 ECOLOGICOS - HOGAR PARTE 1</SegTitle>
+                    <MediaID>DOCUECO000301</MediaID>
+                    <Duration>00:08:17.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 ECOLOGICOS - HOGAR PARTE 1</SegTitle>
+                    <MediaID>DOCUECO000302</MediaID>
+                    <Duration>00:08:28.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 ECOLOGICOS - HOGAR PARTE 1</SegTitle>
+                    <MediaID>DOCUECO000303</MediaID>
+                    <Duration>00:11:46.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 ECOLOGICOS - HOGAR PARTE 1</SegTitle>
+                    <MediaID>DOCUECO000304</MediaID>
+                    <Duration>00:07:46.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 ECOLOGICOS - HOGAR PARTE 1</SegTitle>
+                    <MediaID>DOCUECO000305</MediaID>
+                    <Duration>00:07:18.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

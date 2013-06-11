@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERICIA0004</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ CAP. 4 LA ERA FRIGERIO]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 CLARIN UN INVENTO ARGENTINO - CAP. 4 LA ERA FRIGERIO</SegTitle>
+                    <MediaID>SERICIA000401</MediaID>
+                    <Duration>00:12:59.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>A partir de la muerte de Noble en 1969, Clarin quedo en manos de Ernestina Herrera de Noble. Pero el poder real en la conduccion periodistica y empresarial de Clarin recayo en manos de Frigerio, que ocupo los lugares clave de la empresa con militantes des</Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 CLARIN UN INVENTO ARGENTINO - CAP. 4 LA ERA FRIGERIO</SegTitle>
+                    <MediaID>SERICIA000402</MediaID>
+                    <Duration>00:12:56.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description>A partir de la muerte de Noble en 1969, Clarin quedo en manos de Ernestina Herrera de Noble. Pero el poder real en la conduccion periodistica y empresarial de Clarin recayo en manos de Frigerio, que ocupo los lugares clave de la empresa con militantes des</Description>
+                </Segment>
+            </Segments></Clip></XML>

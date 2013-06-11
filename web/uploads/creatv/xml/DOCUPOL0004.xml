@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUPOL0004</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-5 POLITICOS - ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)</SegTitle>
+                    <MediaID>DOCUPOL000401</MediaID>
+                    <Duration>00:11:42.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-5 POLITICOS - ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)</SegTitle>
+                    <MediaID>DOCUPOL000402</MediaID>
+                    <Duration>00:11:56.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-5 POLITICOS - ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)</SegTitle>
+                    <MediaID>DOCUPOL000403</MediaID>
+                    <Duration>00:09:45.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-5 POLITICOS - ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)</SegTitle>
+                    <MediaID>DOCUPOL000404</MediaID>
+                    <Duration>00:11:20.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-5 POLITICOS - ORWELL SE RETUERCE EN SU TUMBA (PARTE 2)</SegTitle>
+                    <MediaID>DOCUPOL000405</MediaID>
+                    <Duration>00:09:25.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

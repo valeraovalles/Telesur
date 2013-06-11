@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>COINDOV0129</ClipName>
+                <TipoContenido>INFORMATIVOS PROGRAMAS</TipoContenido>
+                <Contenido><![CDATA[ DV 18-06-2012]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 DOSSIER VESPERTINO - DV 18-06-2012</SegTitle>
+                    <MediaID>COINDOV012901</MediaID>
+                    <Duration>00:26:00.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 DOSSIER VESPERTINO - DV 18-06-2012</SegTitle>
+                    <MediaID>COINDOV012902</MediaID>
+                    <Duration>00:26:00.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

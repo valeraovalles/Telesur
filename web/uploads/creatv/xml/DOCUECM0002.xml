@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>DOCUECM0002</ClipName>
+                <TipoContenido>DOCUMENTALES</TipoContenido>
+                <Contenido><![CDATA[ DEUDOCRACIA ]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000201</MediaID>
+                    <Duration>00:09:03.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000202</MediaID>
+                    <Duration>00:08:50.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>3-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000203</MediaID>
+                    <Duration>00:08:24.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>4-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000204</MediaID>
+                    <Duration>00:07:14.00</Duration>
+                    <SegNumber>4</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>5-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000205</MediaID>
+                    <Duration>00:08:15.00</Duration>
+                    <SegNumber>5</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>6-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000206</MediaID>
+                    <Duration>00:10:49.00</Duration>
+                    <SegNumber>6</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>7-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000207</MediaID>
+                    <Duration>00:09:13.00</Duration>
+                    <SegNumber>7</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>8-8 ECONOMICO - DEUDOCRACIA </SegTitle>
+                    <MediaID>DOCUECM000208</MediaID>
+                    <Duration>00:10:42.00</Duration>
+                    <SegNumber>8</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

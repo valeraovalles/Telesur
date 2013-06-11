@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>PREFEME0121</ClipName>
+                <TipoContenido>PROMOS EFEMERIDES</TipoContenido>
+                <Contenido><![CDATA[  NACE  AUGUSTO SANDINO 18 MAYO 1895]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 EFEMERIDES -  NACE  AUGUSTO SANDINO 18 MAYO 1895</SegTitle>
+                    <MediaID>PREFEME0121</MediaID>
+                    <Duration>00:00:44.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROMO</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>PRGEIMP0004</ClipName>
+                <TipoContenido>PROMOS GENERICAS</TipoContenido>
+                <Contenido><![CDATA[ IMPACTO ECONOMICO (14 FEB 2012)]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-1 IMPACTO ECONOMICO  - IMPACTO ECONOMICO (14 FEB 2012)</SegTitle>
+                    <MediaID>PRGEIMP0004</MediaID>
+                    <Duration>00:00:25.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROMO</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

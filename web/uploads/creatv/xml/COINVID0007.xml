@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>COINVID0007</ClipName>
+                <TipoContenido>INFORMATIVOS PROGRAMAS</TipoContenido>
+                <Contenido><![CDATA[ VIDAS 23-10-2011]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 VIDAS - VIDAS 23-10-2011</SegTitle>
+                    <MediaID>COINVID000701</MediaID>
+                    <Duration>00:15:10.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 VIDAS - VIDAS 23-10-2011</SegTitle>
+                    <MediaID>COINVID000702</MediaID>
+                    <Duration>00:09:13.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup></ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>

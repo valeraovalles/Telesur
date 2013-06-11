@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+        <XML>
+            <Content>UPDATE</Content>
+            <Clip>
+                <ClipName>SERICAS0021</ClipName>
+                <TipoContenido>SERIES</TipoContenido>
+                <Contenido><![CDATA[ CAMINOS AL SUR. FIESTA DEL HIELO DE CALAFATE 16-03-2012]]></Contenido>
+                <OriginalTitle></OriginalTitle>
+                <Description> </Description>
+                <Notes>a</Notes>
+                <DurPrev></DurPrev>
+                <Chapter></Chapter>
+                <EndDate></EndDate>
+                <EPG></EPG>
+                <EPG_Content> </EPG_Content>
+                <Segments>
+            
+                <Segment>
+                    <SegTitle>1-2 CAMINOS AL SUR - CAMINOS AL SUR. FIESTA DEL HIELO DE CALAFATE 16-03-2012</SegTitle>
+                    <MediaID>SERICAS002101</MediaID>
+                    <Duration>00:12:36.00</Duration>
+                    <SegNumber>1</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-2 CAMINOS AL SUR - CAMINOS AL SUR. FIESTA DEL HIELO DE CALAFATE 16-03-2012</SegTitle>
+                    <MediaID>SERICAS002102</MediaID>
+                    <Duration>00:11:29.00</Duration>
+                    <SegNumber>2</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            </Segments></Clip></XML>
