@@ -108,6 +108,8 @@
 	  	";
 	  }
 
+echo $query;
+die;
 
     	$rs = oci_parse($db,$query);
 		oci_execute($rs);

@@ -4,42 +4,67 @@ $ora=new ConexionDirecta();
 $db=$ora->oracle();
         
     $cadena_ni_ced=array(
-                0=>'10348813',1=>'21376923',2=>'84413731',
-                3=>'9702473',4=>'16902660',5=>'32650031N',
-                6=>'16590723',7=>'16889679',8=>'14197652',
-                9=>'6475057',10=>'19272929',11=>'17958061',
-                12=>'17125191',13=>'6749734',14=>'11200050',
-                15=>'20068563',16=>'12688195',17=>'11182945',
-                18=>'18327569',19=>'6119327',20=>'18368009',
-                21=>'17753184',22=>'18914751',23=>'10489722',
-                24=>'12960427',25=>'5842224',26=>'208606',
-                27=>'30745400',28=>'12715290'
+
+
+0=>'13536047',
+1=>'14427465',
+2=>'10471042',
+3=>'14398793',
+4=>'6891171',
+5=>'16542700',
+6=>'18043031',
+7=>'18172990',
+8=>'6039095',
+9=>'17401131',
+10=>'20792446',
+11=>'18877793',
+12=>'16331139',
+13=>'19562252',
+14=>'18002672',
+15=>'14892054',
+16=>'15166644',
+17=>'16907315',
+18=>'11676423',
+19=>'12552513',
+20=>'12529340',
+21=>'14427583',
+22=>'19195919',
+23=>'16795225',
+24=>'18248849',
+25=>'18871137',
+26=>'19397128',
+27=>'20594310',
+28=>'18219669',
+29=>'14500360',
+30=>'18676365',
+31=>'18952460',
+32=>'19339661',
+33=>'10345681',
+34=>'585255',
+35=>'934512',
+36=>'466453025',
+37=>'6420020153'
+
+
     );
     
+
     $query="
-        select 
+        
+       select 
             nmm001.tnom_tipnom, nmm001.nombr1, nmm001.nombr2, nmm001.apell1, nmm001.apell2,
             nmm001.nactra, nmm001.cedula, sum(nmm024.moncto) as SUMA         
         from 
-            nmm001, nmm023, nmm024 
+            nmm001, nmm024 
         where
-            --nmm001.fictra like '%17312612%' and
-            nmm001.fictra = nmm023.trab_fictra and
             nmm001.fictra = nmm024.trab_fictra and
-           
-            nmm023.proc_tippro = 51 and
-            nmm024.proc_tippro=nmm023.proc_tippro and
-
-            nmm023.fpro_anocal = ".$anio." and
-            nmm024.fpro_anocal = nmm023.fpro_anocal and
-
-            nmm023.tnom_tipnom = '".$nomina."' and
-            nmm024.tnom_tipnom = nmm023.tnom_tipnom and
-
-            nmm023.fpro_numper in (".$periodo.") and 
-            nmm023.fpro_numper = nmm024.fpro_numper
-
-        group by nmm001.nactra, nmm001.cedula,nmm001.tnom_tipnom, nmm001.nombr1, nmm001.nombr2, nmm001.apell1, nmm001.apell2 order by nmm001.cedula
+            nmm024.proc_tippro = 51 and
+            nmm024.fpro_anocal = ".$anio." and
+            nmm024.tnom_tipnom = '".$nomina."' and
+            nmm024.fpro_numper in (".$periodo.") AND NMM001.FECRET is null
+        group by nmm001.tnom_tipnom, nmm001.nombr1, nmm001.nombr2, nmm001.apell1, nmm001.apell2, nmm001.nactra, nmm001.cedula order by nmm001.cedula
+        
+    
     ";
 
     $rs = oci_parse($db,$query);
@@ -151,9 +176,12 @@ $db=$ora->oracle();
             //exit(0);
         }				
     }
+    
+    //echo $totalmonto;
+    //exit(0);
 
     //echo $totalmonto;
-    $periodo=  str_replace(",", "", $periodo);    
+    $periodo=  "0204";    
     if ($nomina=='OBR'){ $nombre_archivo='APO'.$periodo.$anio; $nombre_archivo_ni='NIO'.$periodo.$anio;}
     else if ($nomina=='CONT'){ $nombre_archivo='APC'.$periodo.$anio; $nombre_archivo_ni='NIC'.$periodo.$anio;}
     else if ($nomina=='EMP'){ $nombre_archivo='APE'.$periodo.$anio; $nombre_archivo_ni='NIE'.$periodo.$anio;}

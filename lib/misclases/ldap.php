@@ -26,6 +26,7 @@ class ldap
 		}
 		
 		else return true;
+            #return true;
 
 	}
 }

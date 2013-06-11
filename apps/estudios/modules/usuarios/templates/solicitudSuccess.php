@@ -59,7 +59,7 @@
 <div style="font-weight: bold;width: 700px;text-align: left;"> FECHA: <?php $s=  strtotime($fecha); echo date("d-m-Y",$s);?></div>
 <br>
 
-<table class="tablaapartado" cellpadding="5px" cellspacing="1">
+<table class="tablaapartado" cellpadding="5px" cellspacing="2">
     
     
     <tr>
