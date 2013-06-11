@@ -4,24 +4,36 @@
     <?php echo $form ?>
         <tr>
             <td colspan="2" style="text-align: center;">
-                <input type="submit" class="boton" value="Ingresar" style="width: 120px;"/>
+                <input id="submit" type="submit" class="boton" value="Ingresar" style="width: 120px;"/>
             </td>
         </tr>
   </table> 
-
-<br>
-<div style="height: 150px;text-align: top;">
-
-	
-	
-</div>
-
+  <br>
+  <div style="height: 150px;text-align: top;"></div>
 </form>
 
+    <input type="hidden" id="usuario" value="<?php echo $_GET['u']?>">
+    <!--<input type="hidden" id="clave" value="<?php echo str_replace("qwerty", "#", $_GET['c'])?>">-->
+
+    
 <script>
+    
+        //document.getElementById('signin_username').value=document.getElementById('usuario').value
+        /*document.getElementById('signin_password').value=document.getElementById('clave').value*/
+        /*alert(document.getElementById('signin_username').value)
+       var submitBtn = document.getElementById('submit');
+        if(submitBtn){
+           submitBtn.click();
+        }*/
+   
+        
         $(document).ready(function () {
             //$('input#signin_username').gips({ 'theme': 'yellow', autoHide: true, placement: 'right' });
             $('table#notif').gips({ 'theme': 'yellow', autoHide: false, placement: 'right' });
             
         });
 </script>
+
+<form name="a" action="http://google.com.ve" method="post">
+    
+</form>

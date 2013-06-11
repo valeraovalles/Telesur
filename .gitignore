@@ -1,9 +1,8 @@
 *.php~
 *.yml~
-config/*
+config/databases.yml
 log/*
 cache/*
-lib/misclases/ConexionDirecta.php
 web/images/graficos/*
 web/jpgraph
 web/E-MAIL

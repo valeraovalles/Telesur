@@ -37,7 +37,7 @@ class JasperReport{
 		$driverManager = new JavaClass("java.sql.DriverManager");
 
 		//db username and password
-		$conn = $driverManager->getConnection("jdbc:postgresql://localhost/Telesur","postgres", "..*t3l35ur*..");
+		$conn = $driverManager->getConnection("jdbc:postgresql://localhost/Telesur","postgres", "postgres");
 		$jasperPrint = $fillManager->fillReport($report, $params, $conn);
 
 		$exporter = new java("net.sf.jasperreports.engine.JRExporter");

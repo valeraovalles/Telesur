@@ -56,7 +56,7 @@ class netoActions extends sfActions
 
   	$this->cedula= $this->getUser()->getGuardUser()->getProfile()->getCedula();
     
-        $query=" select fictra from nmm001 where cedula like '%".$this->cedula."%' and fecret is null";
+        $query=" select fictra from nmm001 where cedula like '%".$this->cedula."%'";
         $rs = oci_parse($db,$query);
 	oci_execute($rs);
 	$row = oci_fetch_array($rs, OCI_ASSOC); 

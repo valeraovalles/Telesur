@@ -1,0 +1,19 @@
+<form action="<?php echo url_for('@sf_guard_signin') ?>" method="post">
+  <table class="login" cellpadding=5 cellspacing=1 width="250px">
+   	<tr><td colspan="2" align="center" class="titulo">INGRESE USUARIO Y CLAVE</td></tr>
+    <?php echo $form ?>
+    <tr><td colspan="2" align="center"><input type="submit" value="Acceder" style="width: 120px;"/></td></tr>
+  </table> 
+
+<br>
+<div style="height: 100px;text-align: top;">
+
+	<a style="color: #494949;font-size: 11px;" href="/principal/web/ManualDeUsuario.pdf" TARGET="_new">DESCARGA EL MANUAL DE USUARIO AQUI</a><br>
+	<a style="color: #494949;font-size: 11px;" href="http://192.168.3.61:8080/" TARGET="_new">PUEDES INGRESAR AL SISTEMA ANTERIOR AQUI</a>
+	
+	
+	
+	
+</div>
+
+</form>
