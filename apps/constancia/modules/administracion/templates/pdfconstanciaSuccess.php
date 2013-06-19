@@ -305,18 +305,18 @@ if($db){
 
                     <div align='justify'>Constancia que se expide en Caracas, a los ".strtolower($fc->ValorEnLetras(date('d'),""))." (".date('d').") día(s) del mes de ".$fc->mes($mes = date("n"))." del año ".strtolower($fc->ValorEnLetras(date('Y'),""))." (".date('Y').").</div>
 
-                    <br><br><br>
+                    <br><br>
 
                     <div class='letra'>Atentamente,</div>
 
-                    <br><br><br>
+                    <br><br>
 
                     <div><span class='agregado' style='font-size:14px;'>Abg. Anais Salazar</span><br>Directora General de Recursos Humanos (E)<br><br>AS/ay</div>
 
 
                     ".$nota."
 
-                    <br><br>
+                    <br>
                     <div style='font-size:10px;' align='center'>Calle Vargas con calle Santa Clara, edificio Telesur, Boleita Norte, Caracas-Venezuela - Teléfono : 0212-6000202 -Ext . 303/306</div>
             </div>
     ";
