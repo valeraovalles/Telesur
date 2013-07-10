@@ -311,7 +311,7 @@ if($db){
 
                     <br><br>
 
-                    <div><span class='agregado' style='font-size:14px;'>Abg. Anais Salazar</span><br>Directora General de Recursos Humanos (E)<br><br>AS/ay</div>
+                    <div><span class='agregado' style='font-size:14px;'>Abg. Anais Salazar</span><br>Directora General de Recursos Humanos (E)<br><br>ZR/ap</div>
 
 
                     ".$nota."
