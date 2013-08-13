@@ -7,5 +7,5 @@ web/images/graficos/*
 web/jpgraph
 web/E-MAIL
 web/MPDF
-web/uploads
+web/uploads/*
 plugins

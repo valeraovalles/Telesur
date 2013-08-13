@@ -144,7 +144,7 @@ foreach ($categorias as $cat) {
 
         include("../../Telesur/web/MPDF/mpdf.php");
 
-        $mpdf=new mPDF('c'); 
+        $mpdf=new mPDF('','', 0, '', 0, 0, 0, 0, 0, 0, 'L');
 
         $mpdf->SetDisplayMode('fullpage');
 

@@ -51,7 +51,8 @@
 
         for($i=0;$i<7;$i++){
                if($numerodiadelasemana==$i){$calendario[$dias_semana[$i]][$cont]=$dia;break;}
-               else if(!isset($calendario[$dias_semana[$i]][$cont]))$calendario[$dias_semana[$i]][$cont]='';        
+               else if(!isset($calendario[$dias_semana[$i]][$cont]))$calendario[$dias_semana[$i]][$cont]=''; 
+                      
         }
         
         if($dia==$nro){

@@ -285,7 +285,7 @@ while ( $row = oci_fetch_array($rs, OCI_ASSOC) ){
     }
     else $monto_x = $monto;
 		
-    $cadena .= $nac.$cedula.$monto_x."\r\n";
+    $cadena .= $cedula."\r\n";
     
     $cont++;
 }					
