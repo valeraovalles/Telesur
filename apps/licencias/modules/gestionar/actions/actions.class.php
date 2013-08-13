@@ -341,7 +341,8 @@ public function executeConsultar(sfWebRequest $request)
             $email6="iquiroz@telesurtv.net";
             $email7="promero@telesurtv.net";
             $email8="ssubero@telesurtv.net";
-              $email9="vcastellanos@telesurtv.net";
+              $email9="npizzella@telesurtv.net";
+
 
                     
       	if($envia==1){
