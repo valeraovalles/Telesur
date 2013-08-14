@@ -18,7 +18,7 @@ $html="
 		      <th width='300'>CEDULA DE IDENTIDAD</th>
 		    </tr> 
 		    <tr>
-		      <td align='center'>".$nomape."</td>
+		      <td align='center'>".strtoupper($nomape)."</td>
 		      <td align='center'>".$cedula."</td>
 		    </tr>
 		</table>

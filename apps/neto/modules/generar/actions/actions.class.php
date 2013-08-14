@@ -167,9 +167,9 @@ class generarActions extends sfActions
             //
             //GENERO EL TITULO
             if($datos['periodo']==1)
-            $this->titulo="Lapso: 1era Quincena de ".$this->mes." <br> Nómina: ".$tipo_nomina;
+            $this->titulo="LAPSO: PRIMERA QUINCENA DE ".strtoupper($this->mes)." <br> NÓMINA: ".strtoupper($tipo_nomina);
             else if($datos['periodo']==2)
-            $this->titulo="Lapso: 2da Quincena de ".$this->mes." <br> Nómina: ".$tipo_nomina;
+            $this->titulo="LAPSO: SEGUNDA QUINCENA DE ".strtoupper($this->mes)." <br> NÓMINA: ".strtoupper($tipo_nomina);
             //
         }
   }

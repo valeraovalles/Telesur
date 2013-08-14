@@ -6,7 +6,7 @@ class NetoformularioForm extends sfForm
   protected static $proceso= array(''=>'','n'=>'Nomina','a'=>'Aguinaldos');
   protected static $periodo= array(''=>'','1'=>'1era Quincena','2'=>'2da Quincena');
   protected static $mes= array(''=>'','1'=>'Enero','2'=>'Febrero','3'=>'Marzo','4'=>'Abril','5'=>'Mayo','6'=>'Junio','7'=>'Julio','8'=>'Agosto','9'=>'Septiembre','10'=>'Octubre','11'=>'Nobiembre','12'=>'Diciembre');
-  protected static $ano= array(''=>'','2010'=>'2010','2011'=>'2011','2012'=>'2012');
+  protected static $ano= array(''=>'','2010'=>'2010','2011'=>'2011','2012'=>'2012','2013'=>'2013');
 	
   public function setDatos($c)
   {

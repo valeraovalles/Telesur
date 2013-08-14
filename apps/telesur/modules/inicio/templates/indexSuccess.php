@@ -6,7 +6,7 @@
 <div class="jquery" align="left">
 
 	<div class="listado_aplicaciones">
-            <a title="Permite consultar tus recibos de pago" href="/Telesur/web/neto_infocent.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
+            <a title="Permite consultar tus recibos de pago" href="/Telesur/web/neto.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
 	</div>
 	
 	
