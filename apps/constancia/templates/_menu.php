@@ -13,7 +13,6 @@
         </li>
         <?php }?>
         
-        <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
 </div>
         

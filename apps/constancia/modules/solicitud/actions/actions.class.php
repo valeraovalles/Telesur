@@ -23,6 +23,8 @@ class solicitudActions extends sfActions
 	if(date('N')==1 || date('N')==2){
 		$this->bloquea=1;
 	}
+
+  $this->bloquea=1;
         //        
   }
   
@@ -35,7 +37,7 @@ class solicitudActions extends sfActions
             $bloquea=1;
         }
         
-        if($bloquea==0) $this->redirect ("solicitud/index");
+        if($bloquea!=0) $this->redirect ("solicitud/index");
         //
         
         //obtengo el id del usuario actual

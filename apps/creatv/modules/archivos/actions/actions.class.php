@@ -22,10 +22,17 @@ class archivosActions extends sfActions
   
   public function executeTxt(sfWebRequest $request)
   {
+
+
       $this->fecha_escaleta='';
       $f=new funciones;
       if ($request->isMethod('post'))
-      {                  
+      {                 
+
+        if($request->getParameter('enviomanual')==''){
+          return;
+        }
+
           $this->fecha_escaleta = $request->getParameter('fecha');    
           
           $link = mssql_connect('192.168.70.7', 'sa', '') or die("Could not connect !");

@@ -12,9 +12,8 @@
 
 </div>
 
-<a href="/principal/web/index.php">Volver&nbsp;<?php echo image_tag("volver.jpg")?></a>
 
-<br><br><br>
+<br>
 
 
 <script type="text/javascript">

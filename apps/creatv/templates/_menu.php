@@ -1,9 +1,8 @@
 <div id="menu">
     <ul class="menu">
         <li><a href="<?php echo url_for('archivos/txt')?>"><span>INICIO</span></a></li>
-        <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
+        <li><a href="/sait/web/app.php/usuario/inicio"><span>APLICACIONES</span></a></li>
 
-        <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
 </div>
         

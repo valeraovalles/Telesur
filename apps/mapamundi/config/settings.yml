@@ -32,7 +32,7 @@ all:
     secure_action:        secure
     
     # Form security secret (CSRF protection)
-    csrf_secret:            62413ce2cba6a4b6eeb8495e5652e9a4766bf9d3
+    csrf_secret:            false
 
     # Output escaping settings
     escaping_strategy:      true

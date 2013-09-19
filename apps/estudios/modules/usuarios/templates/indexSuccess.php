@@ -24,6 +24,11 @@
     }
 </style>
 <?php
+
+   
+    $mes=date("n");
+    $anio=date("Y");
+
     function numerodiasdelmes($mes,$anio){
          
         $numero = cal_days_in_month(CAL_GREGORIAN, $mes, $anio);

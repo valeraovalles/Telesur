@@ -15,9 +15,11 @@
         </tr>
     </table>    
     <input type="hidden" name="accion" id="accion">
+    <input type="hidden" name="enviomanual" value="exito">
 </form>
 
 <?php
+
     $f=new funciones;
 
     if($fecha_escaleta!=''){

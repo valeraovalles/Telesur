@@ -33,10 +33,10 @@ class usuariosActions extends sfActions
   }
   public function executeIndex(sfWebRequest $request)
   {
-      $this->mes=date("n");
-      $this->anio=date("Y");
-      
-      
+
+
+
+     
       if ($request->isMethod('post'))
       {                  
           $this->mes = $request->getParameter('mes');    

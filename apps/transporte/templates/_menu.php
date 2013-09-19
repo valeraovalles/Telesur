@@ -1,7 +1,7 @@
 <div id="menu">
     <ul class="menu">
         <li><a href="<?php echo url_for('solicitud/index')?>"><span>INICIO</span></a></li>
-        <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
+        <li><a href="/sait/web/app.php/usuario/inicio"><span>APLICACIONES</span></a></li>
         
         <?php if($sf_user->hasCredential('transporte_gestion_tr') || $sf_user->hasCredential('transporte_gestion_co') || $sf_user->isSuperAdmin()){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
@@ -20,7 +20,6 @@
                  </ul></div>
             </li>
         <?php }?>
-        <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
 </div>
         

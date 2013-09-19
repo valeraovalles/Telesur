@@ -1,7 +1,7 @@
 <div id="menu">
     <ul class="menu">
         <li><a href="<?php echo url_for('mapa/inicio')?>"><span>INICIO</span></a></li>
-        <li><a href="/Telesur/web"><span>APLICACIONES</span></a></li>
+        <li><a href="/sait/web/app.php/usuario/inicio"><span>APLICACIONES</span></a></li>
         
         <?php if($sf_user->hasCredential('mapa_admin')){?>
         <li><a href="#" class="parent"><span>ADMINISTRACION</span></a>
@@ -15,7 +15,6 @@
                  </ul></div>
             </li>
         <?php }?>
-        <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>
     </ul>
 </div>
         
