@@ -216,9 +216,9 @@ class CorreoCuerpo {
          
          $f=new funciones();
          
-         /*if($datos['tipo_transporte']=='c')
-         $f->correo($cuerpo, array('transporte@telesurtv.net'),"Transporte-Solicitud","Transporte <transporte@telesurtv.net>");
-         
+         if($datos['tipo_transporte']=='c')
+         $f->correo($cuerpo, array('jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
+         /*
          else
          $f->correo($cuerpo, array('rbencomo@telesurtv.net','jlinero@telesurtv.net'),"Transporte-Solicitud","Transporte <transporte@telesurtv.net>");*/
     }    

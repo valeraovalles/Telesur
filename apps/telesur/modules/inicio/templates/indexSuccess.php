@@ -4,25 +4,31 @@
 
 
 <div class="jquery" align="left">
-
+	<!--
 	<div class="listado_aplicaciones">
             <a title="Permite consultar tus recibos de pago" href="/Telesur/web/neto.php">Neto Online<br><img src="<?php echo image_path("neto/bsf.jpeg")?>"></a><br>
 	</div>
+	-->
 	
-	
+	<!--
 	<div class="listado_aplicaciones">
 		<a title="Permite solicitar constancias de trabajo" href="/Telesur/web/constancia.php">Constancia de Trabajo<br><img src="<?php echo image_path("constancia/constancia.jpeg")?>"></a><br>
 	</div>
+	-->
 
+	<!--
 	<div class="listado_aplicaciones">
 		<a title="Permite enviar solicitudes a la direccion de sistemas informáticos" href="/Telesur/web/sit.php">SIT<br><img src="<?php echo image_path("sit/sit.jpg")?>"></a><br>
 	</div>
+	-->
     
+    <!--
         <?php if($sf_user->hasCredential('app_nomina')){?>
     	<div class="listado_aplicaciones">
 		<a href="/Telesur/web/nomina.php">Nomina<br><img src="<?php echo image_path("nomina/nomina.jpeg")?>"></a><br>
 	</div>
         <?php }?>
+
     
         <?php if($sf_user->hasCredential('app_transportexxx')){?>
 	<div class="listado_aplicaciones">
@@ -49,7 +55,8 @@
 		<a href="/Telesur/web/convenios.php">Convenios<br><img src="<?php echo image_path("convenios/convenio.jpg")?>"></a><br>
 	</div>
 	<?php }?>
-    
+    -->
+
 	<?php if($sf_user->hasCredential('app_creatv')){?>
 	<div class="listado_aplicaciones">
 		<a href="/Telesur/web/creatv.php">Creatv<br><img src="<?php echo image_path("creatv/creatv.jpg")?>"></a><br>
@@ -64,13 +71,14 @@
 		<a href="/Telesur/web/mapamundi.php">MapaMundi<br><img src="<?php echo image_path("mapamundi/mapamundi.jpg")?>"></a><br>
 	</div>
     
+    <!--
         <?php if($sf_user->hasCredential('app_bitacora')){?>
         <div class="listado_aplicaciones">
 		<a title="Permite mantener un control de eventos" href="/Telesur/web/bitacora.php">Bitacora<br><img src="<?php echo image_path("bitacora/bitacora.jpg")?>"></a><br>
 	</div>
         <?php }?>
     
-        <!--
+        
         <?php //if($sf_user->hasCredential('app_personal')){?>
 	<div class="listado_aplicaciones">
 		<a href="/principal/web/personal.php">Entrada y Salida<br><img src="<?php //echo image_path("reloj.jpeg")?>"></a><br>
@@ -83,7 +91,7 @@
 	</div>
         <?php //}?>
 	-->
-    
+    <!--
 	<?php if($sf_user->hasCredential('app_txt')){?>
 	<div class="listado_aplicaciones">
 		<a href="/principal/web/faov.php">Archivos FAOV<br><img src="<?php echo image_path("txt.jpg")?>"></a><br>
@@ -101,7 +109,7 @@
             <a href="#" onclick="document.form.submit()">Pautas<br><img width="80px" src="<?php echo image_path("pautas.png")?>"></a><br>
 	</div>
         <?php }?>
-        
+      -->
 </div>
 
 <br>
