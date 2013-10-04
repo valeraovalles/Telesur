@@ -113,7 +113,6 @@ class TraSolicitudesPeer extends BaseTraSolicitudesPeer {
             $a->setIdConductor($idconductor);
             $a->setIdVehiculo($idvehiculo);
             if($a->save()){
-
                 $a=new Criteria();
                 $a->add(TraSolicitudesPeer::ID_SOLICITUD,$ids);
                 $a->add(TraSolicitudesPeer::ESTATUS,'a');
@@ -121,12 +120,17 @@ class TraSolicitudesPeer extends BaseTraSolicitudesPeer {
                 else return false;
             } else return false;
         } else {
-            
                 $a=new Criteria();
                 $a->add(TraAsignacionesPeer::ID_SOLICITUD,$ids);
                 $a->add(TraAsignacionesPeer::ID_CONDUCTOR,$idconductor);
                 $a->add(TraAsignacionesPeer::ID_VEHICULO,$idvehiculo);
-                if(TraAsignacionesPeer::doUpdate($a))return "Transporte cambiado";
+                if(TraAsignacionesPeer::doUpdate($a)){
+                  $a=new Criteria();
+                  $a->add(TraSolicitudesPeer::ID_SOLICITUD,$ids);
+                  $a->add(TraSolicitudesPeer::ESTATUS,'a');
+                  TraSolicitudesPeer::doUpdate($a);
+                  return "Transporte cambiado";
+                }
                 else return false;                
         }
         

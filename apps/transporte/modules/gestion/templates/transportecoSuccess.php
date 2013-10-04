@@ -60,7 +60,7 @@
             <td width="140px"><?php echo image_tag("nuevo.gif")?>&nbsp;Nuevo</td>
             <td width="140px"><?php echo image_tag("aprobado.jpg",array('size' => '30x30'))?>&nbsp;Aprobado</td>
             <td width="140px"><?php echo image_tag("moto.jpeg",array('size' => '30x30'))?>&nbsp;Asignado</td>
-            <td width="140px"><?php echo image_tag("rechazo.png")?>&nbsp;Rechazado</td>
+            <td width="140px"><?php echo image_tag("rechazo.png")?>&nbsp;Cancelado</td>
             <td width="140px"><?php echo image_tag("cerrado.png")?>&nbsp;Finalizado</td>       
         </tr>
     </table>

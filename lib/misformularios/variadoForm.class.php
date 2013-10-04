@@ -8,8 +8,8 @@ class SelectAsignarTransportetrForm extends sfForm
                                     'asignar'=>'Asignar transporte y conductor',
                                     'aprobar'=>'Aprobar solicitud',
                                     'cerrar'=>'Cerrar solicitud',
-                                    'rechazar'=>'Rechazar Solicitud',
-                                    'cerrar_justificar'=>'Cierre con justificación');
+                                    'rechazar'=>'Cancelar Solicitud'/*,
+                                    /*'cerrar_justificar'=>'Cierre con justificación'*/);
 	
   public function setDatos($c)
   {

@@ -25,7 +25,7 @@
         
         <?php if($sf_user->getGuardUser()->getPassword()!=''){?>
             <li class="top"><a href="<?php echo url_for('cambio_clave/index')?>"  id="privacy" class="top_link"><span>CAMBIAR CLAVE</span></a></li>
-	<?php }?>
+	    <?php }?>
           
         
         <li><a href="<?php echo url_for("sfGuardAuth/signout")?>"><span>SALIR</span></a></li>

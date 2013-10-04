@@ -122,7 +122,7 @@ class gestionActions extends sfActions
       
       $this->form=new SelectAsignarTransportetrForm;
       
-       //hago un select de todas las solicitudes
+      //hago un select de todas las solicitudes
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ID_SOLICITUD,$this->ids);
       $a->addJoin(SfGuardUserProfilePeer::USER_ID, TraSolicitudesPeer::ID_SOLICITANTE);
@@ -137,7 +137,7 @@ class gestionActions extends sfActions
 
       //busco todos los conductores
       $a=new Criteria();          
-      $a->add(SfGuardUserProfilePeer::ID_CARGO,array('145','312','363','339','310','678'),  Criteria::IN);
+      $a->add(SfGuardUserProfilePeer::ID_CARGO,array('145','312','363','339','310','678','983','644'),  Criteria::IN);
       $a->addAscendingOrderByColumn("nombre1");
       $this->conductores=SfGuardUserProfilePeer::doSelect($a);
       //////////////////////////////////////////////////////////////////////////

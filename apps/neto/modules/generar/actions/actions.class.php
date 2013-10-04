@@ -139,7 +139,41 @@ class generarActions extends sfActions
 
             $cont++;
         }
-        
+
+        //valido la fecha de activación del neto
+        if($anio==date('Y')){
+            //mes
+            if($mes==date('n'))
+                //quicena
+                if($quincena==1){
+
+                    $diasemana=date("w", mktime(0, 0, 0, $mes, 14, $anio));
+
+                    //dia de la semana
+                    if($diasemana==0)$diaactivacion=12;
+                    else if($diasemana==1)$diaactivacion=11;
+                    else if($diasemana==6)$diaactivacion=13;
+
+                    if(date('j')>=$diaactivacion)$cont=$cont; else $cont=0;
+
+                }
+
+                else if($quincena==2){
+
+                    $ultimodia=date('t');
+                    if($ultimodia==31)$ultimodia=30;
+                    $diasemana=date("w", mktime(0, 0, 0, $mes, $ultimodia, $anio));
+
+                    //dia de la semana
+                    if($diasemana==0)$diaactivacion=$ultimodia-2;
+                    else if($diasemana==1)$diaactivacion=$ultimodia-3;
+                    else if($diasemana==6)$diaactivacion=$ultimodia-1;
+
+                    if(date('j')>=$diaactivacion)$cont=$cont; else $cont=0;
+                }
+        }
+
+
         //SI NO HAY DATOS EN NOMINA
         if($cont==0){
             $this->getUser()->setFlash('sms',sprintf("No existen datos para esta consulta"));

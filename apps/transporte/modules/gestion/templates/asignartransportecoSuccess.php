@@ -45,7 +45,7 @@
             
             else if ($solicitud->getEstatus()=='r'){
                 
-                echo "<br><h1 style='color:red;width:500px;'>SOLICITUD RECHAZADA: <br>".$solicitud->getJustificacionRechazo()."<h1>";
+                echo "<br><h1 style='color:red;width:500px;'>SOLICITUD CANCELADA: <br>".$solicitud->getJustificacionRechazo()."<h1>";
                 
             }
             
@@ -278,7 +278,7 @@
         <br><br>
         <table class="crud_form" cellpadding="5px" style="width: 450px;">
             <tr><th>Justifique</th><td><textarea name="justificacion"></textarea></td></tr>
-            <tr><td colspan="2" style="text-align: center;"><input type="button" value="Rechazar" id="boton" onclick="enviar_formulario('Rechazar solicitud')"></td></tr>
+            <tr><td colspan="2" style="text-align: center;"><input type="button" value="Cancelar" id="boton" onclick="enviar_formulario('Rechazar solicitud')"></td></tr>
         </table>
     
     <?php } else if ($opcion=='aprobar'){?>

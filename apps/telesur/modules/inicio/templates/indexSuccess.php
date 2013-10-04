@@ -16,11 +16,11 @@
 	</div>
 	-->
 
-	<!--
+
 	<div class="listado_aplicaciones">
 		<a title="Permite enviar solicitudes a la direccion de sistemas informáticos" href="/Telesur/web/sit.php">SIT<br><img src="<?php echo image_path("sit/sit.jpg")?>"></a><br>
 	</div>
-	-->
+
     
     <!--
         <?php if($sf_user->hasCredential('app_nomina')){?>
@@ -30,11 +30,7 @@
         <?php }?>
 
     
-        <?php if($sf_user->hasCredential('app_transportexxx')){?>
-	<div class="listado_aplicaciones">
-		<a href="/Telesur/web/transporte.php">Transporte<br><img src="<?php echo image_path("transporte/transporte.jpg")?>"></a><br>
-	</div>    
-        <?php }?>
+
     
         <?php if($sf_user->hasCredential('app_transportexxx')){?>
 	<div class="listado_aplicaciones">
@@ -56,7 +52,11 @@
 	</div>
 	<?php }?>
     -->
-
+        <?php if($sf_user->hasCredential('app_transporte')){?>
+		<div class="listado_aplicaciones">
+			<a href="/Telesur/web/transporte.php">Transporte<br><img src="<?php echo image_path("transporte/transporte.jpg")?>"></a><br>
+		</div>    
+        <?php }?>
 	<?php if($sf_user->hasCredential('app_creatv')){?>
 	<div class="listado_aplicaciones">
 		<a href="/Telesur/web/creatv.php">Creatv<br><img src="<?php echo image_path("creatv/creatv.jpg")?>"></a><br>
