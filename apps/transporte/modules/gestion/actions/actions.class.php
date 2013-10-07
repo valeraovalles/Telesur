@@ -289,7 +289,7 @@ class gestionActions extends sfActions
 
       //busco todos los conductores
       $a=new Criteria();          
-      $a->add(SfGuardUserProfilePeer::ID_CARGO,array('257','313'),  Criteria::IN);
+      $a->add(SfGuardUserProfilePeer::ID_CARGO,array('679','642','671'),  Criteria::IN);
       $this->conductores=SfGuardUserProfilePeer::doSelect($a);
       //////////////////////////////////////////////////////////////////////////
       
