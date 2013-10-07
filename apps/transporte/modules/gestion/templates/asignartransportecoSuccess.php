@@ -258,7 +258,7 @@
                         <option value=""></option>
                     <?php foreach ($transportes as $tp) {?>
 
-                        <option value="<?php echo $tp->getIdVehiculo()?>"><?php echo $tp->getModelo()?></option>
+                        <option value="<?php echo $tp->getIdVehiculo()?>"><?php echo $tp->getModelo().' | '.$tp->getPlaca()?></option>
 
                     <?php }?>
 
