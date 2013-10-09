@@ -24,17 +24,15 @@
         <th>Nueva</th>
         <th>Aprobada</th>
         <th>Asignada</th>
-        <th>Rechazada</th>
+        <th>cancelada</th>
         <th>Cerrada</th>
-        <th>Justificada</th>
     </tr>
     <tr>
         <td><?php echo $cantidad_nuevas;?></td>
         <td><?php echo $cantidad_aprobadas;?></td>
         <td><?php echo $cantidad_asignadas;?></td>
         <td><?php echo $cantidad_rechazadas;?></td>
-        <td><?php echo $cantidad_cerradas;?></td>
-        <td><?php echo $cantidad_justificadas;?></td>
+        <td><?php echo $cantidad_cerradas;?></td>        
     </tr>
 </table>
 

@@ -50,32 +50,32 @@ class gestionActions extends sfActions
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'n');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_nuevas=TraSolicitudesPeer::doCount($a);
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'a');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_asignadas=TraSolicitudesPeer::doCount($a);
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'ap');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_aprobadas=TraSolicitudesPeer::doCount($a);
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'c');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_cerradas=TraSolicitudesPeer::doCount($a);
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'cj');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_justificadas=TraSolicitudesPeer::doCount($a);
       
       $a = new Criteria();
       $a->add(TraSolicitudesPeer::ESTATUS,'r');
-      $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'c');
       $this->cantidad_rechazadas=TraSolicitudesPeer::doCount($a);
   
   }
@@ -83,6 +83,36 @@ class gestionActions extends sfActions
   public function executeTransporteco(sfWebRequest $request)
   {
       
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'n');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_nuevas=TraSolicitudesPeer::doCount($a);
+      
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'a');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_asignadas=TraSolicitudesPeer::doCount($a);
+      
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'ap');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_aprobadas=TraSolicitudesPeer::doCount($a);
+      
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'c');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_cerradas=TraSolicitudesPeer::doCount($a);
+      
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'cj');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_justificadas=TraSolicitudesPeer::doCount($a);
+      
+      $a = new Criteria();
+      $a->add(TraSolicitudesPeer::ESTATUS,'r');
+      $a->add(TraSolicitudesPeer::TIPO_TRANSPORTE,'m');
+      $this->cantidad_rechazadas=TraSolicitudesPeer::doCount($a);
+
       $a = new Criteria();
       $a->addDescendingOrderByColumn('id_solicitud');
       $a->add(TraSolicitudesPeer::TIPO_SOLICITUD,'t');
