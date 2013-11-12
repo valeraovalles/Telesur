@@ -20,7 +20,7 @@
                     <MediaID>INPRATO004101</MediaID>
                     <Duration>00:08:47.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPRATO004102</MediaID>
                     <Duration>00:08:08.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>INPRATO004103</MediaID>
                     <Duration>00:09:52.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

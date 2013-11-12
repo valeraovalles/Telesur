@@ -6,6 +6,28 @@
 <div class="sms"><?php echo $sf_user->getFlash('sms')?></div>
 <?php }?>	
 
+
+<br><br>
+
+<table class="tabla_list">
+    <tr>
+        <th>Nueva</th>
+        <th>Aprobada</th>
+        <th>Asignada</th>
+        <th>cancelada</th>
+        <th>Cerrada</th>
+    </tr>
+    <tr>
+        <td><?php echo $cantidad_nuevas;?></td>
+        <td><?php echo $cantidad_aprobadas;?></td>
+        <td><?php echo $cantidad_asignadas;?></td>
+        <td><?php echo $cantidad_rechazadas;?></td>
+        <td><?php echo $cantidad_cerradas;?></td>        
+    </tr>
+</table>
+
+<br>
+
     <table cellpadding="5px" class="tabla_list">
         <tr>
             <th>Id</th>

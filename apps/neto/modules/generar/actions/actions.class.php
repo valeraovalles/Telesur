@@ -42,6 +42,8 @@ class generarActions extends sfActions
         $conexion = new ConexionDirecta();
         $postgresql_sigefirrhh=$conexion->postgresql_sigefirrhh();
 
+
+
         $query="
             
             SELECT  max(g.nombre) as gruponomina, max(g.periodicidad) as periodicidad,
@@ -140,8 +142,14 @@ class generarActions extends sfActions
             $cont++;
         }
 
+        $quincena=$datos['periodo'];
+        $anio=$datos['ano'];
+        $mes=$datos['mes'];
+
+
         //valido la fecha de activación del neto
         if($anio==date('Y')){
+
             //mes
             if($mes==date('n'))
                 //quicena
@@ -172,6 +180,7 @@ class generarActions extends sfActions
                     if(date('j')>=$diaactivacion)$cont=$cont; else $cont=0;
                 }
         }
+
 
 
         //SI NO HAY DATOS EN NOMINA
