@@ -16,10 +16,11 @@
 	</div>
 	-->
 
-
+	<!--
 	<div class="listado_aplicaciones">
 		<a title="Permite enviar solicitudes a la direccion de sistemas informáticos" href="/Telesur/web/sit.php">SIT<br><img src="<?php echo image_path("sit/sit.jpg")?>"></a><br>
 	</div>
+	-->
 
     
     <!--

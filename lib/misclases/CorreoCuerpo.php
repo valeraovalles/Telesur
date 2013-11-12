@@ -217,10 +217,9 @@ class CorreoCuerpo {
          $f=new funciones();
          
          if($datos['tipo_transporte']=='c')
-         $f->correo($cuerpo, array('jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
-         /*
+         $f->correo($cuerpo, array('transporte@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
          else
-         $f->correo($cuerpo, array('rbencomo@telesurtv.net','jlinero@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");*/
+         $f->correo($cuerpo, array('correspondencia@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
     }    
     
     public function TransporteAsignar($datos,$correo)
@@ -263,7 +262,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Transporte-Asignación"),"Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Transporte-Asignación"),"Transporte <jvalera@telesurtv.net>");
     }
     
     public function TransporteAprobar($datos,$correo)
@@ -305,7 +304,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Transporte-Aprobación"),"Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Transporte-Aprobación"),"Transporte <jvalera@telesurtv.net>");
     }
     
     public function TransporteRechazo($datos,$correo,$justificacion)
@@ -350,7 +349,7 @@ class CorreoCuerpo {
 	";
 
         $f=new funciones();
-        //$f->correo($cuerpo, array($correo),utf8_decode("Transporte-Rechazo"),"Transporte <jvalera@telesurtv.net>");
+        $f->correo($cuerpo, array($correo),utf8_decode("Transporte-Rechazo"),"Transporte <jvalera@telesurtv.net>");
     }
     
      public function TransporteCierreJustificado($datos,$correo,$justificacion)
@@ -397,7 +396,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Transporte-Cierre-Justificado"),"Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Transporte-Cierre-Justificado"),"Transporte <jvalera@telesurtv.net>");
     }
     
     public function TransporteCerrado($datos,$correo)
@@ -439,7 +438,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Transporte-Solicitud-Culminada"),"Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Transporte-Solicitud-Culminada"),"Transporte <jvalera@telesurtv.net>");
     }
     
     public function CorrespondenciaSolicitud($solicitante,$datos)
@@ -476,7 +475,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array('rbencomo@telesurtv.net','jlinero@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array('correspondencia@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
          
     }
     
@@ -509,7 +508,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Asignación"),"Correspondencia <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Asignación"),"Correspondencia <jvalera@telesurtv.net>");
     }
     
     public function CorrespondenciaAprobar($datos,$correo)
@@ -541,7 +540,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Aprobación"),"Correspondencia <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Aprobación"),"Correspondencia <jvalera@telesurtv.net>");
     }
     
     public function CorrespondenciaRechazo($datos,$correo,$justificacion)
@@ -578,7 +577,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Rechazo"),"Correspondencia <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Rechazo"),"Correspondencia <jvalera@telesurtv.net>");
     }
     
     public function CorrespondenciaCerrado($datos,$correo)
@@ -611,7 +610,7 @@ class CorreoCuerpo {
 	";
 
          $f=new funciones();
-         //$f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Solicitud-Culminada"),"Correspondencia <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array($correo),utf8_decode("Correspondencia-Solicitud-Culminada"),"Correspondencia <jvalera@telesurtv.net>");
     }
     
 }
