@@ -208,7 +208,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver esta solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/gestion/".$dir."'>aqu&iacute;</a></div>
+                <div>Para ver esta solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/gestion/".$dir."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -256,7 +256,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver el conductor asignado ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver el conductor asignado ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -298,7 +298,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -390,7 +390,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -432,7 +432,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver los datos de su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver los datos de su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -469,7 +469,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver los datos de la solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/gestion'>aqu&iacute;</a></div>
+                <div>Para ver los datos de la solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/gestion'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -503,7 +503,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver el conductor asignado ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver el conductor asignado ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
 	";
 
@@ -534,7 +534,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -571,7 +571,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
@@ -604,7 +604,7 @@ class CorreoCuerpo {
                 </table>
                 <br><br>
                             
-                <div>Para ver los datos de su solicitud ingrese <a href='http://aplicativos.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
+                <div>Para ver los datos de su solicitud ingrese <a href='http://aplicaciones.telesurtv.net/Telesur/web/transporte.php/solicitud/detalle/ids/".$datos->getIdSolicitud()."'>aqu&iacute;</a></div>
             </div>
                                     
 	";
