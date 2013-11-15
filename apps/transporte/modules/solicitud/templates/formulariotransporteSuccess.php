@@ -31,7 +31,7 @@
     </tr>
 
     <tr>
-        <th><span style="color:red;">*</span>Personal</th>
+        <th><span style="color:red;">*</span>Cédula del Personal</th>
         <td><?php echo $form['asistentes']->renderError(); ?><input autocomplete="off" type="text" id="cpi" onkeyup="ajax('/Telesur/web/transporte.php/ajax/muestrapersonal','contenido',document.getElementById('cpi').value)"></td>
     </tr>
     
