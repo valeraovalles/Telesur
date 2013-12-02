@@ -20,7 +20,7 @@
                     <MediaID>COINREA003501</MediaID>
                     <Duration>00:13:13.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>COINREA003502</MediaID>
                     <Duration>00:10:40.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

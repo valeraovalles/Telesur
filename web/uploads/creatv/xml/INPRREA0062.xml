@@ -20,7 +20,7 @@
                     <MediaID>INPRREA006201</MediaID>
                     <Duration>00:15:42.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPRREA006202</MediaID>
                     <Duration>00:10:03.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

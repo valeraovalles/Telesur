@@ -20,7 +20,7 @@
                     <MediaID>COINRTS001901</MediaID>
                     <Duration>00:09:05.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>COINRTS001902</MediaID>
                     <Duration>00:11:15.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>COINRTS001903</MediaID>
                     <Duration>00:09:43.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

@@ -20,7 +20,7 @@
                     <MediaID>COINDOE008301</MediaID>
                     <Duration>00:26:00.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>COINDOE008302</MediaID>
                     <Duration>00:26:00.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

@@ -20,7 +20,7 @@
                     <MediaID>INPRRTS005401</MediaID>
                     <Duration>00:11:23.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPRRTS005402</MediaID>
                     <Duration>00:07:53.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>INPRRTS005403</MediaID>
                     <Duration>00:09:17.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

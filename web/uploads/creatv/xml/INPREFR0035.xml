@@ -20,7 +20,7 @@
                     <MediaID>INPREFR003501</MediaID>
                     <Duration>00:10:50.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPREFR003502</MediaID>
                     <Duration>00:10:22.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>INPREFR003503</MediaID>
                     <Duration>00:06:16.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             </Segments></Clip></XML>

@@ -20,7 +20,7 @@
                     <MediaID>INPRRTS007501</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>narra la lucha de la familia Couso  en la busqueda de justicia tras el asesinato del periodista español Jose Couso en Irak, el 8 de abril de 2003. Un asesinato que de acuerdos a fuentes como Wikilies y a testimonios de soldados incursos en las operaciones</Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPRRTS007502</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>narra la lucha de la familia Couso  en la busqueda de justicia tras el asesinato del periodista español Jose Couso en Irak, el 8 de abril de 2003. Un asesinato que de acuerdos a fuentes como Wikilies y a testimonios de soldados incursos en las operaciones</Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>INPRRTS007503</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>narra la lucha de la familia Couso  en la busqueda de justicia tras el asesinato del periodista español Jose Couso en Irak, el 8 de abril de 2003. Un asesinato que de acuerdos a fuentes como Wikilies y a testimonios de soldados incursos en las operaciones</Description>
                 </Segment>
             </Segments></Clip></XML>

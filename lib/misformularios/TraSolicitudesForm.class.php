@@ -37,7 +37,7 @@ class TraSolicitudesForm extends BaseTraSolicitudesForm
 
 
     $this->setValidators(array(
-      'asistentes'           => new sfValidatorString(array('max_length' => 50)),
+      'asistentes'           => new sfValidatorString(array('max_length' => 200)),
       'fecha_salida'         => new sfValidatorDate(),
       'hora_salida'          => new sfValidatorTime(),
       'direccion_traslado'   => new sfValidatorString(array('max_length' => 500)),

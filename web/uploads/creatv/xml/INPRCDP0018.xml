@@ -20,7 +20,7 @@
                     <MediaID>INPRCDP001801</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>1</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>El invitado de Cruce de Palabras de este viernes 14 de diciembre sera Alfredo Guevara, Presidente Fundador del Instituto Cubano de Arte e Industrias Cinematograficos (ICAIC) y Presidente del Festival del Nuevo Cine Latinoamericano. El periodista encargado</Description>
                 </Segment>
             
@@ -29,7 +29,7 @@
                     <MediaID>INPRCDP001802</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>2</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>El invitado de Cruce de Palabras de este viernes 14 de diciembre sera Alfredo Guevara, Presidente Fundador del Instituto Cubano de Arte e Industrias Cinematograficos (ICAIC) y Presidente del Festival del Nuevo Cine Latinoamericano. El periodista encargado</Description>
                 </Segment>
             
@@ -38,7 +38,7 @@
                     <MediaID>INPRCDP001803</MediaID>
                     <Duration>00:08:00.00</Duration>
                     <SegNumber>3</SegNumber>
-                    <ClipGroup></ClipGroup>
+                    <ClipGroup>PROGRAMA</ClipGroup>
                     <Description>El invitado de Cruce de Palabras de este viernes 14 de diciembre sera Alfredo Guevara, Presidente Fundador del Instituto Cubano de Arte e Industrias Cinematograficos (ICAIC) y Presidente del Festival del Nuevo Cine Latinoamericano. El periodista encargado</Description>
                 </Segment>
             </Segments></Clip></XML>
