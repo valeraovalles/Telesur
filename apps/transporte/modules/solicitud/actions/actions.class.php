@@ -46,16 +46,15 @@ class solicitudActions extends sfActions
           if($datos['fecha_salida']!=''){
             $dias=$fc->dias_fechas(explode("-",$datos['fecha_salida']));
             if($dias>3){$this->getUser()->setFlash('sms',sprintf("La fecha de búsqueda no puede superar las 48 horas"));return;}
-            else if ($dias==0){
+            /*else if ($dias==0){
                 
                 if($datos['hora_salida']['hour']-(date("G")) < 3){$this->getUser()->setFlash('sms',sprintf("Debe realizar la solicitud con un mínimo de tres hora de antelación"));return;}
                 
-            }
+            }*/
           
           }
           //////////////////////////////////////////////////////////////////////  
           
-         
           if ($this->form->isValid())
           {
                 $this->form->setDatos($datos);
