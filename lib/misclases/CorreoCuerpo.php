@@ -217,9 +217,9 @@ class CorreoCuerpo {
          $f=new funciones();
          
          if($datos['tipo_transporte']=='c')
-         $f->correo($cuerpo, array('transporte@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array('transporte@telesurtv.net'/*,'jvalera@telesurtv.net'*/),"Transporte-Solicitud","Transporte <transporte@telesurtv.net>");
          else
-         $f->correo($cuerpo, array('correspondencia@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <jvalera@telesurtv.net>");
+         $f->correo($cuerpo, array('correspondencia@telesurtv.net','jvalera@telesurtv.net'),"Transporte-Solicitud","Transporte <transporte@telesurtv.net>");
     }    
     
     public function TransporteAsignar($datos,$correo)

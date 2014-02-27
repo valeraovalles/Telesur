@@ -16,28 +16,37 @@
                 <Segments>
             
                 <Segment>
-                    <SegTitle>1-3 EDICION CENTRAL - EDC 15NOV13</SegTitle>
-                    <MediaID>NOTIEDC033601</MediaID>
-                    <Duration>00:17:20.00</Duration>
-                    <SegNumber>1</SegNumber>
+                    <SegTitle>4-4 EDICION CENTRAL - EDC 15NOV13</SegTitle>
+                    <MediaID>NOTIEDC033604</MediaID>
+                    <Duration>00:13:00.00</Duration>
+                    <SegNumber>4</SegNumber>
                     <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
                 <Segment>
-                    <SegTitle>2-3 EDICION CENTRAL - EDC 15NOV13</SegTitle>
+                    <SegTitle>3-4 EDICION CENTRAL - EDC 15NOV13</SegTitle>
+                    <MediaID>NOTIEDC033603</MediaID>
+                    <Duration>00:13:00.00</Duration>
+                    <SegNumber>3</SegNumber>
+                    <ClipGroup>PROGRAMA</ClipGroup>
+                    <Description> </Description>
+                </Segment>
+            
+                <Segment>
+                    <SegTitle>2-4 EDICION CENTRAL - EDC 15NOV13</SegTitle>
                     <MediaID>NOTIEDC033602</MediaID>
-                    <Duration>00:17:20.00</Duration>
+                    <Duration>00:13:00.00</Duration>
                     <SegNumber>2</SegNumber>
                     <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
             
                 <Segment>
-                    <SegTitle>3-3 EDICION CENTRAL - EDC 15NOV13</SegTitle>
-                    <MediaID>NOTIEDC033603</MediaID>
-                    <Duration>00:17:20.00</Duration>
-                    <SegNumber>3</SegNumber>
+                    <SegTitle>1-4 EDICION CENTRAL - EDC 15NOV13</SegTitle>
+                    <MediaID>NOTIEDC033601</MediaID>
+                    <Duration>00:13:00.00</Duration>
+                    <SegNumber>1</SegNumber>
                     <ClipGroup>PROGRAMA</ClipGroup>
                     <Description> </Description>
                 </Segment>
