@@ -54,7 +54,6 @@ class solicitudActions extends sfActions
           
           }
           //////////////////////////////////////////////////////////////////////  
-          
           if ($this->form->isValid())
           {
                 $this->form->setDatos($datos);

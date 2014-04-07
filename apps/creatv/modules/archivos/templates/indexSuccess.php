@@ -58,7 +58,8 @@ $query="
         tc.IdTipoPrograma=c.IdTipusPrograma and
         c.IdPrograma=p.IdPrograma and
         x.IdProduccion=p.IdProduccio and
-        x.Fecha='".date('Y-m-d')."'
+        x.Fecha='".date('Y-m-d')."' and
+        x.Estatus=0
   order by p.IdProduccio ASC
 ";
 
@@ -148,6 +149,14 @@ while($row = mssql_fetch_array($result)){
     //$archivo = fopen ("/home/jhoan/www/Telesur/web/uploads/creatv/xml/".$row["identificador_produccion"].".xml", "w+");
     fwrite($archivo, $xml_final);
     fclose($archivo);
+    
+
+    //actualizar estatus
+    $id=$row['identificador_produccion'];
+
+    
+    $query="update [creatv_data].[dbo].[xml] set Estatus='true' where Identificador='".$id."' and Fecha='".date('Y-m-d')."' and Estatus='false'";
+    mssql_query($query);
     
     SubirArchivo("/var/www/Telesur/web/uploads/creatv/xml/".$row["identificador_produccion"].".xml",$row["identificador_produccion"].".xml");
     //SubirArchivo("/home/jhoan/www/Telesur/web/uploads/creatv/xml/".$row["identificador_produccion"].".xml",$row["identificador_produccion"].".xml");
